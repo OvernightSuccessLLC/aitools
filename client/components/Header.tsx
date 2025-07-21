@@ -5,8 +5,11 @@ export function Header() {
     <header className="bg-brand-black border-b border-brand-black/20 px-3 sm:px-4 py-3">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-4 lg:space-x-8">
-          <Link to="/" className="flex items-center">
-            <div className="text-brand-cream font-bold text-lg sm:text-xl tracking-wide">
+                    <Link to="/" className="flex items-center">
+            <div className="text-brand-cream font-bold text-lg sm:text-xl tracking-wide drop-shadow-lg" style={{
+              fontFamily: "'Georgia', serif",
+              textShadow: "3px 3px 0px #000, -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000"
+            }}>
               Overnight Success
             </div>
           </Link>
