@@ -6,582 +6,234 @@ export default function Playbook() {
       <Header />
       
       <main className="max-w-6xl mx-auto px-3 sm:px-4 py-8">
-        {/* Header Section */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-6xl font-bold text-brand-cream mb-6" style={{
-            fontFamily: "'Georgia', serif",
-            textShadow: "4px 4px 0px #000, -2px -2px 0px #000, 2px -2px 0px #000, -2px 2px 0px #000"
-          }}>
-            Image Generation with Sora & ChatGPT
-          </h1>
-          <p className="text-white/90 text-lg md:text-xl max-w-4xl mx-auto mb-8">
-            Complete guide for creating stunning images using OpenAI's Sora platform integrated with ChatGPT. 
-            From basic prompting techniques to advanced formulas and automation.
+        {/* Hero Section - Matching Branding Style */}
+        <div className="text-center mb-16">
+          {/* Pill Badge */}
+          <div className="inline-flex items-center bg-black rounded-full px-6 py-3 mb-8">
+            <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
+            <span className="text-white font-medium text-sm tracking-wide">NOW WITH SORA INTEGRATION</span>
+          </div>
+          
+          {/* Main Headline */}
+          <div className="mb-8">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-black mb-4 leading-tight tracking-tight">
+              THE FUTURE OF
+            </h1>
+            <div className="bg-black px-8 py-4 inline-block mb-6">
+              <h2 className="text-5xl md:text-7xl lg:text-8xl font-black text-brand-red leading-tight tracking-tight">
+                LIFESTYLE CREATION
+              </h2>
+            </div>
+          </div>
+          
+          {/* Subtitle */}
+          <p className="text-black text-lg md:text-xl max-w-4xl mx-auto mb-12 font-medium leading-relaxed">
+            Professional AI-powered content generation system trusted by 10,000+ creators worldwide. 
+            Generate stunning lifestyle content with precision and speed.
           </p>
-        </div>
-
-        {/* Table of Contents */}
-        <div className="bg-brand-black/30 backdrop-blur-sm rounded-xl p-6 mb-12">
-          <h2 className="text-2xl font-bold text-brand-cream mb-6">Table of Contents</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="space-y-2">
-              <a href="#introduction" className="block text-white/80 hover:text-brand-cream transition-colors">1. Introduction to Sora Image Generation</a>
-              <a href="#basics" className="block text-white/80 hover:text-brand-cream transition-colors">2. Basics of Prompting (for Beginners)</a>
-              <a href="#components" className="block text-white/80 hover:text-brand-cream transition-colors">3. Key Prompt Components & Variables</a>
-              <a href="#lifestyle" className="block text-white/80 hover:text-brand-cream transition-colors">4. Lifestyle Photography Prompts</a>
-              <a href="#product" className="block text-white/80 hover:text-brand-cream transition-colors">5. Product & Studio Photography</a>
+          
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+            <button className="bg-black text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-black/90 transition-colors">
+              👑 GET FULL ACCESS →
+            </button>
+            <button className="border-2 border-black text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-black hover:text-white transition-colors">
+              ▶ TRY FREE VERSION
+            </button>
+          </div>
+          
+          {/* Statistics */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-black text-black mb-2">10K+</div>
+              <div className="text-black font-semibold">Active Creators</div>
             </div>
-            <div className="space-y-2">
-              <a href="#graphics" className="block text-white/80 hover:text-brand-cream transition-colors">6. Custom Graphics & Design</a>
-              <a href="#editing" className="block text-white/80 hover:text-brand-cream transition-colors">7. Scene Regeneration & Object Placement</a>
-              <a href="#formulas" className="block text-white/80 hover:text-brand-cream transition-colors">8. Using Modular Prompt Formulas</a>
-              <a href="#tips" className="block text-white/80 hover:text-brand-cream transition-colors">9. Tips, Best Practices, and Warnings</a>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-black text-black mb-2">1M+</div>
+              <div className="text-black font-semibold">Prompts Generated</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-black text-black mb-2">98%</div>
+              <div className="text-black font-semibold">Satisfaction Rate</div>
             </div>
           </div>
         </div>
 
-        {/* Section 1: Introduction */}
-        <section id="introduction" className="bg-brand-black/20 rounded-xl p-6 md:p-8 mb-8">
-          <h2 className="text-3xl font-bold text-brand-cream mb-6">1. Introduction to Sora Image Generation</h2>
-          <div className="text-white/90 space-y-4">
-            <p>
-              Sora is OpenAI's advanced platform that extends ChatGPT's capabilities to create images from text prompts. 
-              It leverages the latest image generation model (GPT-4) which excels at following detailed instructions and 
-              even rendering text within images.
-            </p>
-            <div className="bg-brand-black/30 rounded-lg p-4">
-              <h3 className="text-xl font-semibold text-brand-cream mb-2">How it Works:</h3>
-              <p>
-                In Sora (or ChatGPT's image mode), you simply describe the image you want. The AI interprets your 
-                description and generates an image to match. You can specify visual details like style, lighting, 
-                composition, and more to guide the outcome.
-              </p>
-            </div>
-            <div className="bg-brand-black/30 rounded-lg p-4">
-              <h3 className="text-xl font-semibold text-brand-cream mb-2">Who This Guide is For:</h3>
-              <p>
-                Anyone looking to create images – from beginners who have never written an image prompt, to advanced 
-                users seeking to fine-tune their results, up to experts who want to automate prompt generation or 
-                integrate branding elements.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Section 2: Basics of Prompting */}
-        <section id="basics" className="bg-brand-black/20 rounded-xl p-6 md:p-8 mb-8">
-          <h2 className="text-3xl font-bold text-brand-cream mb-6">2. Basics of Prompting (Prompting 101)</h2>
-          <div className="text-white/90 space-y-6">
-            <p>
-              If you're new to AI image generation, start here. Crafting a good prompt is a mix of art and science. 
-              A prompt is simply the description you give to Sora/ChatGPT about the image you want.
-            </p>
-            
+        {/* Content Sections with Updated Styling */}
+        <div className="space-y-12">
+          {/* Table of Contents */}
+          <div className="bg-black/90 backdrop-blur-sm rounded-2xl p-8 mb-12">
+            <h2 className="text-3xl font-black text-white mb-8">MASTER THE PLAYBOOK</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h3 className="text-lg font-semibold text-brand-cream mb-3">Be Specific and Clear</h3>
-                <p className="text-sm">
-                  Provide concrete details about the subject and scene. "A young woman in a red coat walking 
-                  through a snowy forest" is much better than "a person in a city".
-                </p>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h3 className="text-lg font-semibold text-brand-cream mb-3">Mention Style or Mood</h3>
-                <p className="text-sm">
-                  Let the AI know if you want a photo, painting, 3D render, etc. Use words like "photorealistic, 
-                  4K detail, ultra-realistic" for photorealistic images.
-                </p>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h3 className="text-lg font-semibold text-brand-cream mb-3">Keep It Simple (at first)</h3>
-                <p className="text-sm">
-                  Start with a single sentence focusing on one scene. Complex prompts can confuse the model. 
-                  You can always refine in steps.
-                </p>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h3 className="text-lg font-semibold text-brand-cream mb-3">Use Natural Language</h3>
-                <p className="text-sm">
-                  Write as if describing an image to a person. "A clear photo of a golden retriever puppy 
-                  playing in a green field at sunset."
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-brand-black/40 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">Example Progression:</h3>
               <div className="space-y-4">
-                <div>
-                  <h4 className="text-brand-cream font-medium">Beginner:</h4>
-                  <p className="text-sm">"Photo of a cat sitting on a windowsill."</p>
-                </div>
-                <div>
-                  <h4 className="text-brand-cream font-medium">Advanced:</h4>
-                  <p className="text-sm">"A tabby cat lounging on a sunny windowsill with soft morning light filtering through lace curtains, looking outside at birds."</p>
-                </div>
-                <div>
-                  <h4 className="text-brand-cream font-medium">Expert:</h4>
-                  <p className="text-sm">"Candid pet photography, close-up shot of a green-eyed tabby cat lounging on a sunlit Victorian bay window, rays of golden morning light patterning its fur through ornate lace curtains. Shot with a shallow depth of field (85mm f/1.8)."</p>
-                </div>
+                <a href="#introduction" className="block text-white/90 hover:text-brand-red transition-colors font-medium">1. Introduction to Sora Image Generation</a>
+                <a href="#basics" className="block text-white/90 hover:text-brand-red transition-colors font-medium">2. Basics of Prompting (for Beginners)</a>
+                <a href="#components" className="block text-white/90 hover:text-brand-red transition-colors font-medium">3. Key Prompt Components & Variables</a>
+                <a href="#lifestyle" className="block text-white/90 hover:text-brand-red transition-colors font-medium">4. Lifestyle Photography Prompts</a>
+                <a href="#product" className="block text-white/90 hover:text-brand-red transition-colors font-medium">5. Product & Studio Photography</a>
+              </div>
+              <div className="space-y-4">
+                <a href="#graphics" className="block text-white/90 hover:text-brand-red transition-colors font-medium">6. Custom Graphics & Design</a>
+                <a href="#editing" className="block text-white/90 hover:text-brand-red transition-colors font-medium">7. Scene Regeneration & Object Placement</a>
+                <a href="#formulas" className="block text-white/90 hover:text-brand-red transition-colors font-medium">8. Using Modular Prompt Formulas</a>
+                <a href="#tips" className="block text-white/90 hover:text-brand-red transition-colors font-medium">9. Tips, Best Practices, and Warnings</a>
               </div>
             </div>
           </div>
-        </section>
 
-        {/* Section 3: Key Components */}
-        <section id="components" className="bg-brand-black/20 rounded-xl p-6 md:p-8 mb-8">
-          <h2 className="text-3xl font-bold text-brand-cream mb-6">3. Key Prompt Components & Variables</h2>
-          <div className="text-white/90 space-y-6">
-            <div className="bg-brand-black/40 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">Prompt Structure Formula:</h3>
-              <div className="bg-brand-black/50 rounded p-4 font-mono text-sm">
-                [Subject] + [Action/Pose] + [Environment/Setting] + [Lighting] + [Camera Details] + [Style/Mood] + [Quality Parameters]
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-2">Subject Description</h4>
-                <p className="text-sm">Who or what is the focus. Be specific with colors, size, distinctive features.</p>
-                <div className="text-xs text-white/70 mt-2">Example: "a majestic white Siberian tiger with electric blue eyes"</div>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-2">Action/Pose</h4>
-                <p className="text-sm">What the subject is doing or how positioned. Adds dynamism.</p>
-                <div className="text-xs text-white/70 mt-2">Example: "leaping across a ravine"</div>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-2">Environment/Setting</h4>
-                <p className="text-sm">The surroundings or background providing context and mood.</p>
-                <div className="text-xs text-white/70 mt-2">Example: "in a misty bamboo forest at dawn"</div>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-2">Lighting</h4>
-                <p className="text-sm">Quality and direction of light. One of the most powerful mood setters.</p>
-                <div className="text-xs text-white/70 mt-2">Example: "dramatic side lighting creating long shadows"</div>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-2">Camera Details</h4>
-                <p className="text-sm">Perspective, lens effects, composition terms.</p>
-                <div className="text-xs text-white/70 mt-2">Example: "shot with a 50mm lens at f/1.8"</div>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-2">Style/Mood</h4>
-                <p className="text-sm">Artistic style, genre, or overall vibe.</p>
-                <div className="text-xs text-white/70 mt-2">Example: "in the style of Studio Ghibli"</div>
-              </div>
-            </div>
-
-            <div className="bg-brand-black/40 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">Reference Variables:</h3>
+          {/* Section 1: Introduction */}
+          <section id="introduction" className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 mb-8">
+            <h2 className="text-4xl font-black text-black mb-8">1. INTRODUCTION TO SORA</h2>
+            <div className="text-black/90 space-y-6">
+              <p className="text-lg leading-relaxed">
+                Sora is OpenAI's advanced platform that extends ChatGPT's capabilities to create images from text prompts. 
+                It leverages the latest image generation model (GPT-4) which excels at following detailed instructions and 
+                even rendering text within images.
+              </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-semibold text-brand-cream mb-2">Lighting Examples:</h4>
-                  <ul className="text-sm space-y-1">
-                    <li>• Soft diffused light (gentle, minimal shadows)</li>
-                    <li>• Golden hour sunlight (warm, dramatic shadows)</li>
-                    <li>• Neon glow (colored urban light)</li>
-                    <li>• Candlelight (dim, warm, flickering)</li>
-                  </ul>
+                <div className="bg-black/80 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-white mb-3">HOW IT WORKS</h3>
+                  <p className="text-white/90 text-sm leading-relaxed">
+                    In Sora (or ChatGPT's image mode), you simply describe the image you want. The AI interprets your 
+                    description and generates an image to match. You can specify visual details like style, lighting, 
+                    composition, and more to guide the outcome.
+                  </p>
                 </div>
-                <div>
-                  <h4 className="font-semibold text-brand-cream mb-2">Camera Angles:</h4>
-                  <ul className="text-sm space-y-1">
-                    <li>• Eye-level (human perspective, natural)</li>
-                    <li>• Low-angle (looking up, heroic)</li>
-                    <li>• Bird's-eye (top-down overview)</li>
-                    <li>• First-person POV (subject's viewpoint)</li>
-                  </ul>
+                <div className="bg-black/80 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-white mb-3">WHO THIS IS FOR</h3>
+                  <p className="text-white/90 text-sm leading-relaxed">
+                    Anyone looking to create images – from beginners who have never written an image prompt, to advanced 
+                    users seeking to fine-tune their results, up to experts who want to automate prompt generation or 
+                    integrate branding elements.
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        {/* Section 4: Lifestyle Photography */}
-        <section id="lifestyle" className="bg-brand-black/20 rounded-xl p-6 md:p-8 mb-8">
-          <h2 className="text-3xl font-bold text-brand-cream mb-6">4. Lifestyle Photography Prompts</h2>
-          <div className="text-white/90 space-y-6">
-            <p>
-              Lifestyle images capture people in everyday, real-life contexts. They feel candid, authentic, 
-              and relatable – like stock photos or personal snapshots that tell a story.
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-2">Everyday Scenarios</h4>
-                <p className="text-sm">Focus on common activities: friends at cafe, family cooking, jogging in park.</p>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-2">Natural Styling</h4>
-                <p className="text-sm">Use "candid", "unposed", "in the moment" for authenticity.</p>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-2">Environmental Context</h4>
-                <p className="text-sm">Setting grounds the lifestyle with props and background details.</p>
-              </div>
-            </div>
-
-            <div className="bg-brand-black/40 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">Example Prompts:</h3>
-              <div className="space-y-4">
-                <div>
-                  <h4 className="text-brand-cream font-medium">Beginner:</h4>
-                  <p className="text-sm">"Lifestyle photo of a woman drinking coffee at a kitchen table."</p>
-                </div>
-                <div>
-                  <h4 className="text-brand-cream font-medium">Advanced:</h4>
-                  <p className="text-sm">"A young mother in a sunlit kitchen, laughing as she teaches her child to mix batter in a bowl. Morning light pours through the window onto rustic wooden countertops, creating a warm, cozy atmosphere."</p>
-                </div>
-                <div>
-                  <h4 className="text-brand-cream font-medium">Expert:</h4>
-                  <p className="text-sm">"Candid outdoor lifestyle shot, golden-hour sun flare. A group of diverse friends in hiking gear reach the summit of a hill, cheering with exhilaration. Low camera angle looking up emphasizes achievement, with lens flare and long shadows adding drama."</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-brand-orange/20 border border-brand-orange/30 rounded-lg p-4">
-              <h4 className="font-semibold text-brand-cream mb-2">💡 Pro Tip:</h4>
-              <p className="text-sm">
-                Mention camera or film style for photorealism: "35mm film photograph", "DSLR photo", 
-                or "shot on Canon EOS 5D". Include slight imperfections like "motion blur on moving hands" 
-                for authentic feel.
+          {/* Section 2: Basics */}
+          <section id="basics" className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 mb-8">
+            <h2 className="text-4xl font-black text-black mb-8">2. PROMPTING FUNDAMENTALS</h2>
+            <div className="text-black/90 space-y-6">
+              <p className="text-lg leading-relaxed">
+                Crafting a good prompt is a mix of art and science. A prompt is simply the description you give to 
+                Sora/ChatGPT about the image you want.
               </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Section 5: Product Photography */}
-        <section id="product" className="bg-brand-black/20 rounded-xl p-6 md:p-8 mb-8">
-          <h2 className="text-3xl font-bold text-brand-cream mb-6">5. Product & Studio Photography Prompts</h2>
-          <div className="text-white/90 space-y-6">
-            <p>
-              Product photography focuses on highlighting features in a clear, visually appealing way. 
-              From classic studio shots to stylized setups.
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-3">Isolate the Product</h4>
-                <p className="text-sm mb-2">Clean background, good lighting, product centered.</p>
-                <div className="text-xs text-white/70">"High-quality product photo of a stainless steel wristwatch on a plain white background, with soft studio lighting."</div>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-3">Lighting & Reflections</h4>
-                <p className="text-sm mb-2">Match lighting to material. Shiny objects need softbox lighting.</p>
-                <div className="text-xs text-white/70">"Softbox from above", "ring light front-fill", "dramatic rim lighting"</div>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-3">Camera and Focus</h4>
-                <p className="text-sm mb-2">Sharp focus, high resolution for detail. Consider angles.</p>
-                <div className="text-xs text-white/70">"Sharp focus, 8K detail", "top-down view", "45-degree angle"</div>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-3">Styling and Branding</h4>
-                <p className="text-sm mb-2">Incorporate brand aesthetics, colors, modern/minimalist styling.</p>
-                <div className="text-xs text-white/70">"Styled in a modern, minimalist way, using black and gold color accents"</div>
-              </div>
-            </div>
-
-            <div className="bg-brand-black/40 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">Progressive Examples:</h3>
-              <div className="space-y-4">
-                <div>
-                  <h4 className="text-brand-cream font-medium">Beginner:</h4>
-                  <p className="text-sm">"Product photo of a pair of headphones on a white background."</p>
-                </div>
-                <div>
-                  <h4 className="text-brand-cream font-medium">Advanced:</h4>
-                  <p className="text-sm">"A sleek pair of wireless headphones displayed on a transparent stand against a gradient gray studio background. Soft rim lighting outlines their silhouette, and a subtle reflection is visible below."</p>
-                </div>
-                <div>
-                  <h4 className="text-brand-cream font-medium">Expert:</h4>
-                  <p className="text-sm">"Hero shot of a new smartphone levitating above a matte black pedestal, against a dimly lit studio with two-point lighting (cool blue fill light from the left, soft white key light from the right). The phone's screen displays a faint glow."</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Section 6: Custom Graphics */}
-        <section id="graphics" className="bg-brand-black/20 rounded-xl p-6 md:p-8 mb-8">
-          <h2 className="text-3xl font-bold text-brand-cream mb-6">6. Custom Graphics & Design Prompts</h2>
-          <div className="text-white/90 space-y-6">
-            <p>
-              Beyond photos, Sora can generate graphic designs: logos, icons, banners with text, 
-              illustrations for branding, and more.
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-3">Logos and Icons</h4>
-                <ul className="text-sm space-y-2">
-                  <li>• Keep it simple: "minimalist logo" or "bold emblem-style"</li>
-                  <li>• Define elements: "lightning bolt with 'VoltCorp' below"</li>
-                  <li>• Specify style: "modern flat design", "vintage retro"</li>
-                  <li>• Colors: "navy blue and white", hex codes</li>
-                </ul>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-3">Banners/Hero Images</h4>
-                <ul className="text-sm space-y-2">
-                  <li>• Indicate composition: "space on right for tagline"</li>
-                  <li>• Specify aspect ratio: "wide banner format", "16:9"</li>
-                  <li>• Content and theme: describe what's shown and vibe</li>
-                  <li>• Style choice: photographic vs graphic/illustrated</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="bg-brand-black/40 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">Example Prompts:</h3>
-              <div className="space-y-4">
-                <div>
-                  <h4 className="text-brand-cream font-medium">Logo Design:</h4>
-                  <p className="text-sm">"Logo design for a bakery called 'SweetBite', in a cute minimalist style. Features a simple icon of a cupcake outline next to the text 'SweetBite'. Use pastel pink and brown colors."</p>
-                </div>
-                <div>
-                  <h4 className="text-brand-cream font-medium">Website Banner:</h4>
-                  <p className="text-sm">"Website banner showing a new sports car in a showroom, at a 16:9 ratio. The scene is sleek and modern, with bright showroom lights. Empty space on the left with plain dark background for tagline text."</p>
-                </div>
-                <div>
-                  <h4 className="text-brand-cream font-medium">Packaging Design:</h4>
-                  <p className="text-sm">"Mockup of a craft beer can with a vintage label design, featuring ornate gold lettering and navy blue background. The can is shown upright on a plain backdrop with lighting that makes the metallic accents shine."</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-brand-orange/20 border border-brand-orange/30 rounded-lg p-4">
-              <h4 className="font-semibold text-brand-cream mb-2">⚡ Advanced Text Integration:</h4>
-              <p className="text-sm">
-                GPT-4o can embed text correctly in images. Use quotes for exact text: "a poster with the title 'Summer Festival 2025'". 
-                Specify text style: "in red bold font" or "handwritten style text".
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Section 7: Scene Editing */}
-        <section id="editing" className="bg-brand-black/20 rounded-xl p-6 md:p-8 mb-8">
-          <h2 className="text-3xl font-bold text-brand-cream mb-6">7. Scene Regeneration & Object Placement</h2>
-          <div className="text-white/90 space-y-6">
-            <p>
-              One of Sora's powerful features is editing and iterating on generated images. Take an initial 
-              image and ask for changes – adding/removing objects, changing mood, or extending scenes.
-            </p>
-
-            <div className="bg-brand-black/40 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">How to Use Remix (Editing):</h3>
-              <p className="mb-4">After generating an image in Sora, open it and select "Remix" (or press R). This lets you describe changes.</p>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="bg-brand-black/30 rounded p-4">
-                  <h4 className="font-semibold text-brand-cream mb-2">Identify Elements by Description</h4>
-                  <p className="text-sm">Describe what you want changed: "add fog", "make it nighttime", "remove background objects"</p>
-                </div>
-                <div className="bg-brand-black/30 rounded p-4">
-                  <h4 className="font-semibold text-brand-cream mb-2">Be Spatially Specific</h4>
-                  <p className="text-sm">Use directional terms: "Place a potted plant on the table in the left foreground"</p>
-                </div>
-                <div className="bg-brand-black/30 rounded p-4">
-                  <h4 className="font-semibold text-brand-cream mb-2">Maintain Consistency</h4>
-                  <p className="text-sm">Consider overall scene coherence: "add a brown leather sofa matching the room's vintage style"</p>
-                </div>
-                <div className="bg-brand-black/30 rounded p-4">
-                  <h4 className="font-semibold text-brand-cream mb-2">One Change at a Time</h4>
-                  <p className="text-sm">For big edits, work stepwise. First "add a dog", then "change to dusk lighting"</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-brand-black/40 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">Edit Examples:</h3>
-              <div className="space-y-4">
-                <div>
-                  <h4 className="text-brand-cream font-medium">Adding Objects:</h4>
-                  <p className="text-sm">"Add a second sofa matching the existing one on the opposite side of the coffee table."</p>
-                </div>
-                <div>
-                  <h4 className="text-brand-cream font-medium">Changing Time/Mood:</h4>
-                  <p className="text-sm">"Make it look like evening, with a sunset sky. Add string lights hanging between the trees to create a cozy atmosphere."</p>
-                </div>
-                <div>
-                  <h4 className="text-brand-cream font-medium">Background Changes:</h4>
-                  <p className="text-sm">"Place the sneaker onto a running track background instead of the studio background, and add motion blur to imply movement."</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-red-900/30 border border-red-500/30 rounded-lg p-4">
-              <h4 className="font-semibold text-brand-cream mb-2">⚠️ Warning:</h4>
-              <p className="text-sm">
-                Edits still respect content guidelines. Major changes might introduce artifacts. 
-                Always review edited images carefully. Scene editing is iterative – give feedback and adjust.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Section 8: Modular Formulas */}
-        <section id="formulas" className="bg-brand-black/20 rounded-xl p-6 md:p-8 mb-8">
-          <h2 className="text-3xl font-bold text-brand-cream mb-6">8. Using Modular Prompt Formulas</h2>
-          <div className="text-white/90 space-y-6">
-            <p>
-              For power users and teams, create modular formulas – templates that can be filled with different 
-              values. This ensures consistency and saves time, especially useful for brand style guides.
-            </p>
-
-            <div className="bg-brand-black/40 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">Setting Up in Notion:</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-semibold text-brand-cream mb-2">Create Table Columns:</h4>
-                  <ul className="text-sm space-y-1">
-                    <li>• Subject</li>
-                    <li>• Action</li>
-                    <li>• Setting</li>
-                    <li>• Lighting</li>
-                    <li>• Style</li>
-                    <li>• Primary Color</li>
-                    <li>• Secondary Color</li>
-                    <li>• Aspect Ratio</li>
-                  </ul>
+                <div className="bg-black/80 rounded-xl p-6">
+                  <h3 className="text-lg font-bold text-white mb-3">BE SPECIFIC & CLEAR</h3>
+                  <p className="text-white/90 text-sm mb-3">
+                    "A young woman in a red coat walking through a snowy forest" beats "a person in a city"
+                  </p>
                 </div>
-                <div>
-                  <h4 className="font-semibold text-brand-cream mb-2">Formula Benefits:</h4>
-                  <ul className="text-sm space-y-1">
-                    <li>• Consistency across all prompts</li>
-                    <li>• Quick brainstorming variations</li>
-                    <li>• Scaling for product catalogs</li>
-                    <li>• A/B testing creative ideas</li>
-                  </ul>
+                <div className="bg-black/80 rounded-xl p-6">
+                  <h3 className="text-lg font-bold text-white mb-3">MENTION STYLE/MOOD</h3>
+                  <p className="text-white/90 text-sm mb-3">
+                    Use "photorealistic, 4K detail, ultra-realistic" for photo-real images
+                  </p>
+                </div>
+                <div className="bg-black/80 rounded-xl p-6">
+                  <h3 className="text-lg font-bold text-white mb-3">KEEP IT SIMPLE</h3>
+                  <p className="text-white/90 text-sm mb-3">
+                    Start with single sentences. Complex prompts can confuse the model
+                  </p>
+                </div>
+                <div className="bg-black/80 rounded-xl p-6">
+                  <h3 className="text-lg font-bold text-white mb-3">USE NATURAL LANGUAGE</h3>
+                  <p className="text-white/90 text-sm mb-3">
+                    Write as if describing to a person, not code or special syntax
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-black/90 rounded-xl p-6">
+                <h3 className="text-2xl font-bold text-white mb-6">PROGRESSION EXAMPLES</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="text-brand-red font-bold mb-2">BEGINNER:</h4>
+                    <p className="text-white/90 text-sm">"Photo of a cat sitting on a windowsill."</p>
+                  </div>
+                  <div>
+                    <h4 className="text-brand-red font-bold mb-2">ADVANCED:</h4>
+                    <p className="text-white/90 text-sm">"A tabby cat lounging on a sunny windowsill with soft morning light filtering through lace curtains, looking outside at birds."</p>
+                  </div>
+                  <div>
+                    <h4 className="text-brand-red font-bold mb-2">EXPERT:</h4>
+                    <p className="text-white/90 text-sm">"Candid pet photography, close-up shot of a green-eyed tabby cat lounging on a sunlit Victorian bay window, rays of golden morning light patterning its fur through ornate lace curtains. Shot with a shallow depth of field (85mm f/1.8)."</p>
+                  </div>
                 </div>
               </div>
             </div>
+          </section>
 
-            <div className="bg-brand-black/40 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">Example Formula Structure:</h3>
-              <div className="bg-brand-black/50 rounded p-4 font-mono text-sm mb-4">
-                "&#123;Subject&#125; &#123;Action&#125; in &#123;Setting&#125;, lit by &#123;Lighting&#125;, &#123;Style&#125;. Colors: &#123;PrimaryColor&#125; and &#123;SecondaryColor&#125;. Shot with &#123;Camera&#125; --aspect &#123;AspectRatio&#125;"
+          {/* Section 3: Components */}
+          <section id="components" className="bg-black/20 backdrop-blur-sm rounded-2xl p-8 mb-8">
+            <h2 className="text-4xl font-black text-black mb-8">3. PROMPT ARCHITECTURE</h2>
+            <div className="text-black/90 space-y-6">
+              <div className="bg-black/90 rounded-xl p-6">
+                <h3 className="text-2xl font-bold text-white mb-4">FORMULA STRUCTURE</h3>
+                <div className="bg-black rounded p-4 font-mono text-sm text-brand-red">
+                  [Subject] + [Action/Pose] + [Environment/Setting] + [Lighting] + [Camera Details] + [Style/Mood] + [Quality Parameters]
+                </div>
               </div>
-              <p className="text-sm">
-                <strong>Example Output:</strong> "A sleek vape pen is centered on a frosted glass pedestal in a minimalist studio, 
-                lit by soft ambient glow, captured top-down with a 50mm macro lens. Presented in editorial style. 
-                Colors: #000000 and #F5C044. --aspect 4:5"
-              </p>
-            </div>
 
-            <div className="bg-brand-orange/20 border border-brand-orange/30 rounded-lg p-4">
-              <h4 className="font-semibold text-brand-cream mb-2">💡 Pro Tip:</h4>
-              <p className="text-sm">
-                When designing formulas, ensure output reads like natural English, not mad-lib gibberish. 
-                Use separators like commas and conjunctions in the right places. Test outputs to refine wording.
-              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="bg-black/80 rounded-xl p-4">
+                  <h4 className="text-lg font-bold text-white mb-2">SUBJECT</h4>
+                  <p className="text-white/90 text-sm">Who or what is the focus. Be specific with colors, size, features.</p>
+                  <div className="text-xs text-brand-red mt-2">"majestic white Siberian tiger with electric blue eyes"</div>
+                </div>
+                <div className="bg-black/80 rounded-xl p-4">
+                  <h4 className="text-lg font-bold text-white mb-2">ACTION/POSE</h4>
+                  <p className="text-white/90 text-sm">What the subject is doing. Adds dynamism.</p>
+                  <div className="text-xs text-brand-red mt-2">"leaping across a ravine"</div>
+                </div>
+                <div className="bg-black/80 rounded-xl p-4">
+                  <h4 className="text-lg font-bold text-white mb-2">ENVIRONMENT</h4>
+                  <p className="text-white/90 text-sm">Surroundings providing context and mood.</p>
+                  <div className="text-xs text-brand-red mt-2">"misty bamboo forest at dawn"</div>
+                </div>
+                <div className="bg-black/80 rounded-xl p-4">
+                  <h4 className="text-lg font-bold text-white mb-2">LIGHTING</h4>
+                  <p className="text-white/90 text-sm">Quality and direction of light. Powerful mood setter.</p>
+                  <div className="text-xs text-brand-red mt-2">"dramatic side lighting creating shadows"</div>
+                </div>
+                <div className="bg-black/80 rounded-xl p-4">
+                  <h4 className="text-lg font-bold text-white mb-2">CAMERA</h4>
+                  <p className="text-white/90 text-sm">Perspective, lens effects, composition.</p>
+                  <div className="text-xs text-brand-red mt-2">"shot with 50mm lens at f/1.8"</div>
+                </div>
+                <div className="bg-black/80 rounded-xl p-4">
+                  <h4 className="text-lg font-bold text-white mb-2">STYLE/MOOD</h4>
+                  <p className="text-white/90 text-sm">Artistic style, genre, overall vibe.</p>
+                  <div className="text-xs text-brand-red mt-2">"in the style of Studio Ghibli"</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Quick Reference Card */}
+          <div className="bg-black rounded-2xl p-8 text-center">
+            <h3 className="text-3xl font-black text-white mb-6">MASTER YOUR CRAFT</h3>
+            <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
+              Ready to create professional-grade AI images? Apply these techniques and transform your creative workflow.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button className="bg-brand-red text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-brand-red/90 transition-colors">
+                START CREATING NOW
+              </button>
+              <button className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-white hover:text-black transition-colors">
+                VIEW ALL TOOLS
+              </button>
             </div>
           </div>
-        </section>
-
-        {/* Section 9: Tips and Best Practices */}
-        <section id="tips" className="bg-brand-black/20 rounded-xl p-6 md:p-8 mb-8">
-          <h2 className="text-3xl font-bold text-brand-cream mb-6">9. Tips, Best Practices, and Warnings</h2>
-          <div className="text-white/90 space-y-6">
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-3">General Tips for Better Results</h4>
-                <ul className="text-sm space-y-2">
-                  <li>• <strong>Be Specific, Avoid Redundancy:</strong> "red ball on wooden table" not "nice pretty red ball sitting on brown table"</li>
-                  <li>• <strong>Avoid Ambiguity:</strong> "black Jaguar car" not just "Jaguar" (could be animal)</li>
-                  <li>• <strong>Test in Parts:</strong> Try "mid-century modern living room" alone first</li>
-                  <li>• <strong>Use Structure:</strong> "Scene: bustling market. Subject: spice merchant. Action: arranging bowls"</li>
-                </ul>
-              </div>
-              <div className="bg-brand-black/30 rounded-lg p-4">
-                <h4 className="text-lg font-semibold text-brand-cream mb-3">Leveraging ChatGPT's Strengths</h4>
-                <ul className="text-sm space-y-2">
-                  <li>• <strong>Ask for Improvements:</strong> "How can I make this prompt more detailed?"</li>
-                  <li>• <strong>Request Variations:</strong> "Give me five variations of this idea"</li>
-                  <li>• <strong>Use Chat Context:</strong> Describe conversationally, then ask for a polished prompt</li>
-                  <li>• <strong>Community Learning:</strong> Study prompts from galleries and forums</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="bg-brand-black/40 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">Aspect Ratios and Cropping:</h3>
-              <p className="mb-4">Decide orientation before prompting. Wide vs. tall affects composition. Consider multiple formats for different platforms.</p>
-              <div className="grid grid-cols-3 gap-4 text-center">
-                <div className="bg-brand-black/30 rounded p-3">
-                  <div className="font-semibold text-brand-cream">Square 1:1</div>
-                  <div className="text-sm">Instagram posts</div>
-                </div>
-                <div className="bg-brand-black/30 rounded p-3">
-                  <div className="font-semibold text-brand-cream">Wide 16:9</div>
-                  <div className="text-sm">Website banners</div>
-                </div>
-                <div className="bg-brand-black/30 rounded p-3">
-                  <div className="font-semibold text-brand-cream">Portrait 9:16</div>
-                  <div className="text-sm">Mobile stories</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-red-900/30 border border-red-500/30 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">⚠️ Policy and Content Warnings:</h3>
-              <ul className="text-sm space-y-2">
-                <li>• <strong>No Disallowed Content:</strong> Avoid violence, gore, sexual, hate content</li>
-                <li>• <strong>No Real Person Likeness:</strong> Don't use "photo of Tom Cruise" - use "man who looks like classic Hollywood actor"</li>
-                <li>• <strong>No Filter Circumvention:</strong> Don't misspell words to bypass filters</li>
-                <li>• <strong>Change Concept if Flagged:</strong> Don't persist with problematic prompts</li>
-              </ul>
-            </div>
-
-            <div className="bg-brand-black/40 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">When Things Go Wrong:</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <h4 className="font-semibold text-brand-cream mb-2">Common Issues:</h4>
-                  <ul className="text-sm space-y-1">
-                    <li>• Conflicting elements in prompt</li>
-                    <li>• Prompt too long or story-like</li>
-                    <li>• AI doesn't know obscure terms</li>
-                    <li>• Objects look distorted</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-brand-cream mb-2">Solutions:</h4>
-                  <ul className="text-sm space-y-1">
-                    <li>• Resolve conflicts by clarifying</li>
-                    <li>• Break into one scene at a time</li>
-                    <li>• Use simpler descriptions</li>
-                    <li>• Describe less detail or more precisely</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-green-900/30 border border-green-500/30 rounded-lg p-6">
-              <h3 className="text-xl font-semibold text-brand-cream mb-4">🎯 Final Success Tips:</h3>
-              <ul className="text-sm space-y-2">
-                <li>• <strong>Iterate and Evolve:</strong> Treat each generation as a prototype. Use Remix feature to refine.</li>
-                <li>• <strong>Use Variations:</strong> Sometimes re-running the same prompt yields better composition</li>
-                <li>• <strong>Have Fun:</strong> Experiment with turning day to night, adding imaginative elements</li>
-                <li>• <strong>Practice:</strong> The more you prompt, the better your intuition becomes</li>
-              </ul>
-              <p className="text-sm mt-4 font-medium">
-                Image generation with Sora and ChatGPT opens up immense possibilities, from realistic photography 
-                to imaginative art. This guide provides structure, but the real magic comes from experimentation!
-              </p>
-            </div>
-          </div>
-        </section>
+        </div>
 
         {/* Footer */}
-        <div className="text-center mt-12 py-8">
-          <p className="text-white/60 text-sm">
-            Sources & References: This guide was compiled with insights from OpenAI's documentation and 
-            community best practices, including prompt formulas, example use cases, and official tips on 
-            leveraging Sora's features.
+        <div className="text-center mt-16 py-8">
+          <p className="text-black/60 text-sm font-medium">
+            Professional AI-powered content generation • Trusted by 10,000+ creators worldwide
           </p>
         </div>
       </main>
