@@ -13,7 +13,7 @@ export default {
       },
     },
     extend: {
-      colors: {
+            colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -56,6 +56,18 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        brand: {
+          red: "hsl(var(--brand-red))",
+          orange: "hsl(var(--brand-orange))",
+          black: "hsl(var(--brand-black))",
+          cream: "hsl(var(--brand-cream))",
+        },
+        category: {
+          freemium: "hsl(var(--category-freemium))",
+          premium: "hsl(var(--category-premium))",
+          free: "hsl(var(--category-free))",
+          paid: "hsl(var(--category-paid))",
         },
       },
       borderRadius: {
