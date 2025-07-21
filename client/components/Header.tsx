@@ -9,19 +9,11 @@ export function Header() {
           </Link>
           
           <nav className="hidden lg:flex items-center space-x-4 xl:space-x-6">
-            <Link 
-              to="/playbook" 
+            <Link
+              to="/playbook"
               className="text-white/80 hover:text-white text-xs xl:text-sm font-semibold transition-colors whitespace-nowrap"
             >
               <span style={{color: 'rgb(255, 255, 255)'}}>THE PLAYBOOK</span>
-            </Link>
-            <Link 
-              to="/templates" 
-              className="text-white/80 hover:text-white text-xs xl:text-sm font-medium transition-colors whitespace-nowrap"
-            >
-              <strong style={{color: 'rgb(255, 255, 255)'}}>
-                📋 TEMPLATES
-              </strong>
             </Link>
           </nav>
         </div>

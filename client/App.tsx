@@ -36,7 +36,6 @@ export default function App() {
         <Route path="/lifestyle-studio" element={<PlaceholderPage title="Lifestyle Studio" />} />
         <Route path="/graphic-studio" element={<PlaceholderPage title="Graphic Studio" />} />
         <Route path="/playbook" element={<Playbook />} />
-        <Route path="/templates" element={<PlaceholderPage title="Templates" />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
