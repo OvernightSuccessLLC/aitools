@@ -21,8 +21,8 @@ export function ToolCard({ name, description, features, category, url }: ToolCar
     paid: "Paid"
   };
 
-  return (
-    <div className="bg-brand-black rounded-xl p-6 border border-brand-black/20 hover:border-brand-orange/30 transition-all duration-200 hover:transform hover:scale-[1.02]">
+    return (
+    <div className="bg-brand-black rounded-xl p-4 sm:p-6 border border-brand-black/20 hover:border-brand-orange/30 transition-all duration-200 hover:transform hover:scale-[1.02]">
       <div className="flex items-start justify-between mb-4">
         <div className={`${categoryColors[category]} text-white text-xs font-medium px-3 py-1 rounded-full`}>
           {categoryLabels[category]}
