@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import Playbook from "./pages/Playbook";
 import { Header } from "./components/Header";
 
 function PlaceholderPage({ title }: { title: string }) {
