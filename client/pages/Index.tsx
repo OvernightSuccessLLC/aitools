@@ -207,7 +207,10 @@ export default function Index() {
       
       <main className="max-w-7xl mx-auto px-3 sm:px-4 py-6 sm:py-8">
         <div className="text-center mb-8 sm:mb-12">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-brand-cream mb-4 drop-shadow-lg">
+                    <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-brand-cream mb-4" style={{
+            fontFamily: "'Georgia', serif",
+            textShadow: "4px 4px 0px #000, -2px -2px 0px #000, 2px -2px 0px #000, -2px 2px 0px #000"
+          }}>
             AI Toolkit
           </h1>
           <p className="text-white/90 text-base sm:text-lg md:text-xl max-w-2xl mx-auto px-4">
