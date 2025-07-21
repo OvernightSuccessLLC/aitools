@@ -3,200 +3,221 @@ import { Header } from "../components/Header";
 
 const aiTools = [
   {
-    name: "Stylized.ai",
-    description: "Generate product photos integrated into ecommerce platforms like Shopify",
-    features: ["Product photos", "Ecommerce ready", "Shopify compatible"],
+    name: "ChatGPT",
+    description: "The industry-standard LLM chatbot known for its conversational fluency and versatility across a wide range of prompts and tasks.",
+    features: ["Conversational AI", "Text generation", "Multi-purpose"],
     category: "freemium" as const,
-    url: "https://stylized.ai"
+    url: "https://chat.openai.com"
   },
   {
-    name: "Stable Diffusion",
-    description: "Open-source AI model for high-quality image generation",
-    features: ["Image generation", "Open source", "Community driven"],
+    name: "Perplexity AI",
+    description: "An AI-infused search engine and chatbot with web citations, multimodal inputs, and Pro-tier API access. Valued at $14B as of June 2025.",
+    features: ["AI search", "Web citations", "Multimodal inputs"],
     category: "freemium" as const,
-    url: "https://stability.ai"
+    url: "https://www.perplexity.ai"
   },
   {
-    name: "Runway ML",
-    description: "Creative AI platform for video, image, and text generation",
-    features: ["Video generation", "Image editing", "Multi-modal"],
+    name: "Grok (X by Elon Musk)",
+    description: "A fast-evolving chatbot with image understanding, PDF parsing, and the new Grok‑3 reasoning model.",
+    features: ["Image understanding", "PDF parsing", "Advanced reasoning"],
+    category: "freemium" as const,
+    url: "https://x.com/i/grok"
+  },
+  {
+    name: "DeepSeek",
+    description: "A rising chatbot based on DeepSeek‑R1; top‑downloaded in Jan 2025 with advanced GRM/SPCT tuning.",
+    features: ["Advanced tuning", "Rising popularity", "Competitive performance"],
+    category: "freemium" as const,
+    url: "https://www.deepseek.com"
+  },
+  {
+    name: "DALL·E 3 / ChatGPT images",
+    description: "Top-tier for creative image generation integrated into ChatGPT's workspace.",
+    features: ["Image generation", "ChatGPT integration", "Creative tools"],
+    category: "freemium" as const,
+    url: "https://chat.openai.com"
+  },
+  {
+    name: "Midjourney",
+    description: "Primary alternative art-generation platform.",
+    features: ["Art generation", "High quality", "Creative community"],
+    category: "premium" as const,
+    url: "https://www.midjourney.com"
+  },
+  {
+    name: "Freepik AI",
+    description: "AI-based graphic and design generation tools.",
+    features: ["Graphic design", "Design templates", "Creative assets"],
+    category: "freemium" as const,
+    url: "https://www.freepik.com"
+  },
+  {
+    name: "Imagen & Veo (Google DeepMind)",
+    description: "Imagen generates visuals, Veo 3 supports coherent video with audio.",
+    features: ["Visual generation", "Video creation", "Audio support"],
+    category: "freemium" as const,
+    url: "https://en.wikipedia.org/wiki/Google_DeepMind"
+  },
+  {
+    name: "Kling 2",
+    description: "Awarded Best AI video generator for quality and affordability in recent AI awards.",
+    features: ["Video generation", "Award winning", "High quality"],
+    category: "freemium" as const,
+    url: "https://kling.tv"
+  },
+  {
+    name: "Runway",
+    description: "Creative video tools used in professional-grade content.",
+    features: ["Video editing", "Professional tools", "Creative suite"],
     category: "freemium" as const,
     url: "https://runwayml.com"
   },
   {
-    name: "Replit Ghostwriter",
-    description: "AI that helps you write and understand code in many languages",
-    features: ["Code writing", "Code understanding", "Multi-language"],
-    category: "freemium" as const,
-    url: "https://replit.com/ghostwriter"
-  },
-  {
-    name: "Resume",
-    description: "AI resume builder that designs and complements your experiences",
-    features: ["Resume builder", "Component generation", "Design assistance"],
+    name: "NotebooksLM (Google)",
+    description: "A research & note-taking assistant for analyzing data and generating summaries.",
+    features: ["Research assistant", "Note-taking", "Data analysis"],
     category: "free" as const,
-    url: "https://resume.io"
+    url: "https://notebooklm.google/"
   },
   {
-    name: "Prompt Hunt",
-    description: "Prompt library and AI art generation platform",
-    features: ["Prompt library", "AI generation", "Community prompts"],
+    name: "Manus",
+    description: "Multimodal autonomous agent for complex web tasks like coding and planning.",
+    features: ["Web automation", "Coding assistance", "Task planning"],
     category: "freemium" as const,
-    url: "https://prompthunt.com"
+    url: "https://en.wikipedia.org/wiki/Manus_%28AI_agent%29"
   },
   {
-    name: "Playground AI",
-    description: "Free AI image generator and editor with multiple models",
-    features: ["Image generation", "Multiple models", "Free editor"],
+    name: "Flux",
+    description: "Next-gen text-to-image model with in-context editing.",
+    features: ["Text-to-image", "In-context editing", "Next-gen model"],
     category: "freemium" as const,
-    url: "https://playgroundai.com"
+    url: "https://en.wikipedia.org/wiki/Flux_%28text-to-image_model%29"
   },
   {
-    name: "Phind",
-    description: "AI-powered search engine for developers and engineers",
-    features: ["Developer search", "Code help", "Engineering focus"],
+    name: "Tome.app",
+    description: "AI-powered storytelling and presentation creation platform.",
+    features: ["Storytelling", "Presentations", "Content creation"],
     category: "freemium" as const,
-    url: "https://phind.com"
+    url: "https://tome.app/"
   },
   {
-    name: "Perplexity AI",
-    description: "An AI-based search engine and chatbot with intelligent Q&A capabilities",
-    features: ["Search engine", "Intelligent Q&A", "Multilingual"],
+    name: "Descript",
+    description: "AI-enhanced audio/video editor with transcription and editing.",
+    features: ["Audio editing", "Video editing", "Transcription"],
+    category: "freemium" as const,
+    url: "https://www.descript.com"
+  },
+  {
+    name: "Dia Browser",
+    description: "AI-integrated browser with built-in assistants for web automation.",
+    features: ["AI browser", "Web automation", "Built-in assistants"],
+    category: "freemium" as const,
+    url: "https://www.theverge.com/web/685232/dia-browser-ai-arc"
+  },
+  {
+    name: "Zapier AI",
+    description: "Collections of tested AI automations for workflows.",
+    features: ["Workflow automation", "AI integrations", "Productivity tools"],
+    category: "freemium" as const,
+    url: "https://zapier.com/blog/best-ai-productivity-tools"
+  },
+  {
+    name: "Synthesia",
+    description: "AI video avatars, voice cloning & screen-record capabilities.",
+    features: ["Video avatars", "Voice cloning", "Screen recording"],
     category: "premium" as const,
-    url: "https://perplexity.ai"
+    url: "https://www.synthesia.io"
+  },
+  {
+    name: "V7 Labs",
+    description: "Categorized list of 35+ best AI tools for writing, coding, image/video.",
+    features: ["Tool directory", "AI catalog", "Resource hub"],
+    category: "free" as const,
+    url: "https://www.v7labs.com/blog/best-ai-tools-listed"
+  },
+  {
+    name: "Framer",
+    description: "Build and instantly publish AI-generated websites with a visual editor.",
+    features: ["Website builder", "Visual editor", "AI generation"],
+    category: "freemium" as const,
+    url: "https://framer.com/"
+  },
+  {
+    name: "Taskade",
+    description: "Visualize your tasks and notes with AI-powered productivity tools.",
+    features: ["Task management", "Note visualization", "Productivity"],
+    category: "freemium" as const,
+    url: "https://taskade.com/"
+  },
+  {
+    name: "Bing Image Creator",
+    description: "Generate images from natural text descriptions, powered by DALL-E.",
+    features: ["Image generation", "DALL-E powered", "Text descriptions"],
+    category: "free" as const,
+    url: "https://www.bing.com/create"
+  },
+  {
+    name: "AutoDraw",
+    description: "Turns freehand sketches into refined icons and illustrations.",
+    features: ["Sketch to icon", "Drawing assistance", "Icon creation"],
+    category: "free" as const,
+    url: "https://www.autodraw.com/"
   },
   {
     name: "Pebblely",
-    description: "Generate product images in various tones and settings",
-    features: ["Product images", "Tone variety", "Multiple settings"],
+    description: "AI image generator for product images in various styles and settings.",
+    features: ["Product images", "Style variety", "E-commerce focused"],
     category: "freemium" as const,
-    url: "https://pebblely.com"
+    url: "https://pebblely.com/"
   },
   {
-    name: "OpenArt",
-    description: "AI image generation and prompt patterns platform",
-    features: ["AI generation", "Prompt patterns", "Community driven"],
-    category: "freemium" as const,
-    url: "https://openart.ai"
-  },
-  {
-    name: "NotebookLM",
-    description: "A reading and note-taking assistant for analyzing documents and generating summaries",
-    features: ["Research assistant", "Note analysis", "Content summary"],
-    category: "free" as const,
-    url: "https://notebooklm.google.com"
-  },
-  {
-    name: "NightCafe",
-    description: "AI art generator using various algorithms including VQGAN+CLIP",
-    features: ["Multiple algorithms", "Art generation", "Community platform"],
+    name: "Booth.ai",
+    description: "Generates professional-quality product photos using AI, focused on furniture, fashion, and packaged goods.",
+    features: ["Product photography", "Professional quality", "E-commerce"],
     category: "premium" as const,
-    url: "https://nightcafe.studio"
+    url: "http://booth.ai/"
   },
   {
-    name: "Mutable AI",
-    description: "Code refactor, document, and write code faster with AI",
-    features: ["Code refactoring", "Documentation", "Fast coding"],
+    name: "Stylized.ai",
+    description: "Generates product photos integrated into ecommerce platforms like Shopify.",
+    features: ["Product photos", "Shopify integration", "E-commerce ready"],
     category: "freemium" as const,
-    url: "https://mutable.ai"
+    url: "http://stylized.ai/"
   },
   {
-    name: "Midjourney",
-    description: "Prompt alternatives art generation platform",
-    features: ["Prompt alternatives", "Art generation", "Community platform"],
+    name: "Fronty",
+    description: "Converts uploaded images or drawings into HTML and CSS code using AI.",
+    features: ["Image to code", "HTML generation", "CSS creation"],
     category: "freemium" as const,
-    url: "https://midjourney.com"
+    url: "https://fronty.com/"
   },
   {
-    name: "Microsoft Designer",
-    description: "A graphic design app by Microsoft for creating social posts and marketing visuals",
-    features: ["Graphic design", "Social posts", "Marketing visuals"],
-    category: "free" as const,
-    url: "https://designer.microsoft.com"
-  },
-  {
-    name: "Menu",
-    description: "Multi-agent autonomous agent for complex web tasks like coding and planning",
-    features: ["Multi-agent", "Web tasks", "Coding assistance"],
-    category: "free" as const,
-    url: "https://menu.so"
-  },
-  {
-    name: "Magic Design",
-    description: "Canva's intelligent tool that creates layouts from text input",
-    features: ["Layout creation", "Text input", "Design templates"],
-    category: "free" as const,
-    url: "https://canva.com/magic-design"
-  },
-  {
-    name: "Luminal AI",
-    description: "AI platform for creatives to generate branded text and visual content",
-    features: ["Branded content", "Text generation", "Creative platform"],
+    name: "LetsEnhance",
+    description: "Uses AI to enhance the resolution of images and photographs.",
+    features: ["Image enhancement", "Resolution upscaling", "Photo improvement"],
     category: "freemium" as const,
-    url: "https://luminal.ai"
+    url: "https://letsenhance.io/"
   },
   {
-    name: "LostEnhance",
-    description: "Live AI to enhance the resolution of images and videos",
-    features: ["Image enhancement", "Video enhancement", "Photo improvement"],
+    name: "Remove.bg",
+    description: "Recognizes and removes image backgrounds effectively without requiring signup.",
+    features: ["Background removal", "No signup required", "Easy to use"],
     category: "freemium" as const,
-    url: "https://lostenhance.com"
+    url: "http://remove.bg/"
   },
   {
-    name: "Leonardo AI",
-    description: "AI platform for generating detailed visual artwork and creative assets",
-    features: ["Visual artwork", "Creative assets", "Detailed generation"],
+    name: "Ideogram 3.0",
+    description: "Advanced AI image generation with improved text rendering and creative capabilities.",
+    features: ["Image generation", "Text rendering", "Creative tools"],
     category: "freemium" as const,
-    url: "https://leonardo.ai"
+    url: "https://ideogram.ai/"
   },
   {
-    name: "King AI",
-    description: "Advanced text-to-video generator for quality and affordability to create at Speed",
-    features: ["Video generation", "High quality", "Cost effective"],
+    name: "GlamAI",
+    description: "AI-powered beauty and fashion content generation platform.",
+    features: ["Beauty content", "Fashion AI", "Style generation"],
     category: "freemium" as const,
-    url: "https://king.ai"
-  },
-  {
-    name: "Kittl",
-    description: "An intuitive graphic design tool with templates and vector support",
-    features: ["Graphic design", "Templates", "Vector support"],
-    category: "free" as const,
-    url: "https://kittl.com"
-  },
-  {
-    name: "Imagen 3 Veo",
-    description: "Google's advanced text-to-image, Veo 2 supports coherent video from text audio",
-    features: ["Image generation", "Video creation", "Audio support"],
-    category: "freemium" as const,
-    url: "https://imagen.google.com"
-  },
-  {
-    name: "HotpotAI",
-    description: "AI tools for image editing, enhancement, and background removal",
-    features: ["Image editing", "Enhancement", "Background removal"],
-    category: "freemium" as const,
-    url: "https://hotpot.ai"
-  },
-  {
-    name: "Headlines",
-    description: "Copywriting assistant powered by GPT for landing pages and ads",
-    features: ["Copywriting", "Landing pages", "Ad creation"],
-    category: "freemium" as const,
-    url: "https://headlines.ai"
-  },
-  {
-    name: "Grok",
-    description: "A free-reasoning chatbot with image understanding, categories and the new Grok 3 learning research",
-    features: ["Image understanding", "Advanced reasoning", "Research capabilities"],
-    category: "freemium" as const,
-    url: "https://grok.x.ai"
-  },
-  {
-    name: "GlennAI",
-    description: "AI assistants for various productivity and creative tasks",
-    features: ["Productivity", "Creative tasks", "AI assistance"],
-    category: "freemium" as const,
-    url: "https://glenn.ai"
+    url: "https://glam.ai/"
   }
 ];
 
