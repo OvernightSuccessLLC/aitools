@@ -205,18 +205,8 @@ export default function Index() {
     <div className="min-h-screen bg-brand-red">
       <Header />
       
-      <main className="max-w-7xl mx-auto px-3 sm:px-4 py-6 sm:py-8">
+      <main className="max-w-7xl mx-auto px-3 sm:px-4 py-0">
         <div className="text-center mb-8 sm:mb-12">
-                    <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-brand-cream mb-4" style={{
-            fontFamily: "'Georgia', serif",
-            textShadow: "4px 4px 0px #000, -2px -2px 0px #000, 2px -2px 0px #000, -2px 2px 0px #000"
-          }}>
-            AI Toolkit
-          </h1>
-          <p className="text-white/90 text-base sm:text-lg md:text-xl max-w-2xl mx-auto px-4">
-            Discover the best AI tools for productivity, creativity, and innovation. 
-            Hand-curated collection of premium and free AI solutions.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
@@ -234,11 +224,6 @@ export default function Index() {
       </main>
       
       <footer className="bg-brand-black/20 border-t border-brand-black/30 mt-16">
-        <div className="max-w-7xl mx-auto px-3 sm:px-4 py-8 text-center">
-          <p className="text-white/60 text-sm">
-            © 2024 Overnight Success. Curated AI tools for modern creators.
-          </p>
-        </div>
       </footer>
     </div>
   );
