@@ -35,7 +35,7 @@ export default function App() {
         <Route path="/product-studio" element={<PlaceholderPage title="Product Studio" />} />
         <Route path="/lifestyle-studio" element={<PlaceholderPage title="Lifestyle Studio" />} />
         <Route path="/graphic-studio" element={<PlaceholderPage title="Graphic Studio" />} />
-        <Route path="/playbook" element={<PlaceholderPage title="The Playbook" />} />
+        <Route path="/playbook" element={<Playbook />} />
         <Route path="/templates" element={<PlaceholderPage title="Templates" />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
