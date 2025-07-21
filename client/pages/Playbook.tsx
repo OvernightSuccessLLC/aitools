@@ -462,7 +462,7 @@ export default function Playbook() {
             <div className="bg-brand-black/40 rounded-lg p-6">
               <h3 className="text-xl font-semibold text-brand-cream mb-4">Example Formula Structure:</h3>
               <div className="bg-brand-black/50 rounded p-4 font-mono text-sm mb-4">
-                "{Subject} {Action} in {Setting}, lit by {Lighting}, {Style}. Colors: {PrimaryColor} and {SecondaryColor}. Shot with {Camera} --aspect {AspectRatio}"
+                "&#123;Subject&#125; &#123;Action&#125; in &#123;Setting&#125;, lit by &#123;Lighting&#125;, &#123;Style&#125;. Colors: &#123;PrimaryColor&#125; and &#123;SecondaryColor&#125;. Shot with &#123;Camera&#125; --aspect &#123;AspectRatio&#125;"
               </div>
               <p className="text-sm">
                 <strong>Example Output:</strong> "A sleek vape pen is centered on a frosted glass pedestal in a minimalist studio, 
