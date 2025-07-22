@@ -305,9 +305,7 @@ export default function Playbook() {
         <section id="editing" className="bg-black rounded-lg pt-6 px-6 pb-0 mb-3">
           <h2 className="text-3xl font-black text-white my-3 ml-3 pt-3 pl-3">SCENE REGENERATION & EDITING</h2>
           <div className="text-white space-y-4">
-            <div className="p-4">
-              <h3 className="text-xl font-black text-white mb-3">HOW TO USE REMIX</h3>
-              <p className="text-white font-bold mb-3">After generating an image in Sora, open it and select "Remix" (or press R). This lets you describe changes.</p>
+            <div className="px-4 py-0">
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <div className="p-3">
