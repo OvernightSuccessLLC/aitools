@@ -327,8 +327,11 @@ export default function Playbook() {
               </div>
             </div>
 
+            <div className="my-4 mx-3 p-3">
+              <h4 className="font-black text-brand-red mb-1">EXAMPLE OUTPUT:</h4>
+              <p className="text-white font-bold text-sm">"A sleek vape pen is centered on a frosted glass pedestal in a minimalist studio, lit by soft ambient glow, captured top-down with a 50mm macro lens. Presented in editorial style. Colors: #000000 and #F5C044. --aspect 4:5"</p>
+            </div>
             <div className="py-3 px-6 pt-0">
-              <h3 className="text-2xl font-black text-white mb-4">EDITING EXAMPLES</h3>
               <div className="space-y-4">
                 <div>
                   <h4 className="text-brand-red font-black mb-1">ADDING OBJECTS:</h4>
