@@ -217,7 +217,7 @@ export default function Playbook() {
 
         {/* Section 4: Product Photography */}
         <section id="product" className="bg-black rounded-lg p-6 mb-6">
-          <h2 className="text-4xl font-black text-white mb-6">4. PRODUCT & STUDIO PHOTOGRAPHY</h2>
+          <h2 className="text-xl font-black text-white mb-6">4. PRODUCT & STUDIO PHOTOGRAPHY</h2>
           <div className="text-white space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-black p-4">
