@@ -17,7 +17,7 @@ export default function Playbook() {
           <h2 className="text-xl font-black text-white mb-6">BASICS OF PROMPTING</h2>
           <div className="text-white space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h3 className="text-xl font-black text-white mb-2">BE SPECIFIC & CLEAR</h3>
                 <p className="text-white font-bold text-sm mb-2">
                   Provide concrete details about the subject and scene. "A young woman in a red coat walking through a snowy forest" beats "a person in a city"
