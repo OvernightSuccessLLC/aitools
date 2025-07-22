@@ -33,7 +33,7 @@ export default function Playbook() {
                 <div className="text-brand-red text-xs font-black">"Shot in natural, casual style" or "Pixar animation style"</div>
               </div>
               
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h3 className="text-xl font-black text-white mb-2">KEEP IT SIMPLE</h3>
                 <p className="text-white font-bold text-sm mb-2">
                   Start with single sentences focusing on one scene. Complex prompts can confuse the model. Refine in steps.
