@@ -8,26 +8,13 @@ export default function Playbook() {
       <main className="max-w-6xl mx-auto mt-5 px-4 py-5">
         {/* Hero Section */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center bg-black rounded-full px-6 py-3 mb-6">
-            <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-            <span className="text-white font-bold text-sm tracking-wide">NOW WITH SORA INTEGRATION</span>
-          </div>
-          
-          <div className="mb-6">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-black mb-3 leading-tight tracking-tight">
-              THE FUTURE OF
-            </h1>
+          <div className="mb-5">
             <div className="bg-black px-6 py-3 inline-block mb-4">
               <h2 className="text-5xl md:text-7xl lg:text-8xl font-black text-brand-red leading-tight tracking-tight">
                 LIFESTYLE CREATION
               </h2>
             </div>
           </div>
-          
-          <p className="text-black text-lg md:text-xl max-w-4xl mx-auto mb-10 font-bold leading-relaxed">
-            Master AI-powered image generation with Sora & ChatGPT. From basic prompting to advanced techniques - 
-            your complete guide to creating stunning visuals with precision and speed.
-          </p>
         </div>
 
         {/* Table of Contents */}
