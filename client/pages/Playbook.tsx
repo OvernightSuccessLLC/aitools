@@ -409,14 +409,11 @@ export default function Playbook() {
         </section>
 
         {/* CTA Section */}
-        <div className="bg-black rounded-lg p-6 text-center mb-6">
-          <h3 className="text-4xl font-black text-white mb-4">READY TO CREATE?</h3>
+        <div className="bg-brand-red rounded-lg pb-6 px-6 text-center mb-6">
+          <h3 className="text-3xl font-black text-white mb-4">READY TO CREATE?</h3>
           <div className="flex gap-3 justify-center">
-            <button className="bg-brand-red text-white px-6 py-3 rounded-lg text-lg font-black hover:bg-brand-red/90 transition-colors">
+            <button className="bg-black text-white px-6 h-7.5 pb-1.5 rounded-lg text-lg font-black hover:bg-black/90 transition-colors">
               START CREATING NOW
-            </button>
-            <button className="border-2 border-white text-white px-6 py-3 rounded-lg text-lg font-black hover:bg-white hover:text-black transition-colors">
-              VIEW AI TOOLS
             </button>
           </div>
         </div>
