@@ -91,9 +91,9 @@ export default function Playbook() {
                 <span style={{fontWeight: 'normal'}}>[Subject] + [Pose] + [Setting] + [Lighting]<br />+ [Camera Details] + [Style] + [Quality]</span>
               </div>
             </div>
-            <h3 className="text-2xl font-black text-white mb-4">QUICK REFERENCE VARIABLES</h3>
+            <h3 className="text-3xl font-black text-white mb-4 text-center">QUICK REFERENCE VARIABLES</h3>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-3">
               <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">SUBJECT DESCRIPTION</h4>
                 <p className="text-white font-bold text-sm mb-2">Who or what is the focus. Be specific with colors, size, distinctive features.</p>
