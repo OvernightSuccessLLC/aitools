@@ -182,7 +182,7 @@ export default function Playbook() {
               </div>
             </div>
 
-            <div className="bg-black p-6">
+            <div className="bg-black py-3 px-6 pb-3">
               <h3 className="text-2xl font-black text-white mb-4">LIFESTYLE EXAMPLES</h3>
               <div className="space-y-4">
                 <div>
@@ -421,7 +421,7 @@ export default function Playbook() {
                     <li>• Conflicting elements in prompt</li>
                     <li>• Prompt too long or story-like</li>
                     <li>• AI doesn't know obscure terms</li>
-                    <li>• Objects look distorted</li>
+                    <li>�� Objects look distorted</li>
                   </ul>
                 </div>
                 <div>
