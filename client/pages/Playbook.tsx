@@ -410,51 +410,12 @@ export default function Playbook() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Section 7: Modular Formulas */}
-        <section id="formulas" className="bg-black rounded-lg p-6 mb-6">
-          <h2 className="text-4xl font-black text-white mb-6">7. MODULAR PROMPT FORMULAS</h2>
-          <div className="text-white space-y-4">
-            <p className="text-lg font-bold leading-tight">
-              For power users and teams, create modular formulas – templates filled with different values. 
-              Ensures consistency and saves time, especially useful for brand style guides.
-            </p>
-
-            <div className="bg-black p-6">
-              <h3 className="text-2xl font-black text-white mb-4">SETTING UP IN NOTION</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-black text-brand-red mb-2">CREATE TABLE COLUMNS:</h4>
-                  <ul className="space-y-1 text-white font-bold text-sm">
-                    <li>• Subject, Action, Setting</li>
-                    <li>• Lighting, Style, Camera</li>
-                    <li>• Primary Color, Secondary Color</li>
-                    <li>• Aspect Ratio, Text to Include</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-black text-brand-red mb-2">FORMULA BENEFITS:</h4>
-                  <ul className="space-y-1 text-white font-bold text-sm">
-                    <li>• Consistency across all prompts</li>
-                    <li>• Quick brainstorming variations</li>
-                    <li>• Scaling for product catalogs</li>
-                    <li>• A/B testing creative ideas</li>
-                  </ul>
-                </div>
-              </div>
+            <div className="bg-black p-3 font-mono text-sm text-brand-red font-black mb-3">
+              "&#123;Subject&#125; &#123;Action&#125; in &#123;Setting&#125;, lit by &#123;Lighting&#125;, &#123;Style&#125;. Colors: &#123;PrimaryColor&#125; and &#123;SecondaryColor&#125;. Shot with &#123;Camera&#125; --aspect &#123;AspectRatio&#125;"
             </div>
-
-            <div className="bg-black p-6">
-              <h3 className="text-2xl font-black text-white mb-3">EXAMPLE FORMULA</h3>
-              <div className="bg-black p-3 font-mono text-sm text-brand-red font-black mb-3">
-                "&#123;Subject&#125; &#123;Action&#125; in &#123;Setting&#125;, lit by &#123;Lighting&#125;, &#123;Style&#125;. Colors: &#123;PrimaryColor&#125; and &#123;SecondaryColor&#125;. Shot with &#123;Camera&#125; --aspect &#123;AspectRatio&#125;"
-              </div>
-              <div className="bg-black p-3">
-                <h4 className="font-black text-brand-red mb-1">EXAMPLE OUTPUT:</h4>
-                <p className="text-white font-bold text-sm">"A sleek vape pen is centered on a frosted glass pedestal in a minimalist studio, lit by soft ambient glow, captured top-down with a 50mm macro lens. Presented in editorial style. Colors: #000000 and #F5C044. --aspect 4:5"</p>
-              </div>
+            <div className="bg-black p-3 mb-3">
+              <h4 className="font-black text-brand-red mb-1">EXAMPLE OUTPUT:</h4>
+              <p className="text-white font-bold text-sm">"A sleek vape pen is centered on a frosted glass pedestal in a minimalist studio, lit by soft ambient glow, captured top-down with a 50mm macro lens. Presented in editorial style. Colors: #000000 and #F5C044. --aspect 4:5"</p>
             </div>
           </div>
         </section>
