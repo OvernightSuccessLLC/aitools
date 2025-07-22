@@ -138,7 +138,7 @@ export default function Playbook() {
                 </div>
                 <div>
                   <ul className="space-y-1 text-white font-bold text-sm">
-                    <li>��� <strong>Eye-level</strong> - human perspective, natural</li>
+                    <li>• <strong>Eye-level</strong> - human perspective, natural</li>
                     <li>• <strong>Bird's-eye</strong> - top-down overview</li>
                     <li>• <strong>POV</strong> - subject's viewpoint</li>
                   </ul>
@@ -147,18 +147,9 @@ export default function Playbook() {
               </div>
               
               <div className="p-4">
-                <div>
-                  <h4 className="text-brand-red text-lg font-black mb-3">SHOT TYPES</h4>
-                  <ul className="space-y-1 text-white font-bold text-sm">
-                    <li>• <strong>Close-up</strong> - focus on face/object details</li>
-                    <li>• <strong>Medium shot</strong> - subject from waist up</li>
-                    <li>• <strong>Wide shot</strong> - full scene/environment</li>
-                    <li>• <strong>Panoramic</strong> - ultra-wide scene</li>
-                  </ul>
-                </div>
                 <h4 className="text-lg font-black text-white mb-2">STYLE/MOOD</h4>
                 <p className="text-white font-bold text-sm mb-2">Artistic style, genre, overall vibe.</p>
-                <div className="text-brand-red text-xs font-black">Example: "in the style of Studio Ghibli" or "cinematic look"</div>
+                <div className="text-brand-red text-xs font-black">"in the style of Studio Ghibli" or "cinematic look"</div>
               </div>
             </div>
           </div>
