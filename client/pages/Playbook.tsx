@@ -114,16 +114,16 @@ export default function Playbook() {
               
               <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">LIGHTING</h4>
+                <p className="text-white font-bold text-sm mb-2">One of the most powerful mood setters. Quality and direction of light.</p>
                 <div>
                   <ul className="space-y-1 text-white font-bold text-sm">
-                    <li>• <strong>Soft diffused light</strong> - gentle, minimal shadows</li>
-                    <li>• <strong>Golden hour sunlight</strong> - warm, dramatic shadows</li>
-                    <li>• <strong>Neon glow</strong> - colored urban light</li>
-                    <li>• <strong>Candlelight</strong> - dim, warm, flickering</li>
+                    <li>• <strong>Soft diffused light</strong>&nbsp;</li>
+                    <li>• <strong>Golden hour sunlight</strong>&nbsp;</li>
+                    <li>• <strong>Neon glow</strong><div></div></li>
+                    <li>• <strong>Candlelight</strong>&nbsp;</li>
                   </ul>
                 </div>
-                <p className="text-white font-bold text-sm mb-2">One of the most powerful mood setters. Quality and direction of light.</p>
-                <div className="text-brand-red text-xs font-black">Example: "dramatic side lighting creating long shadows"</div>
+                <div className="text-brand-red text-xs font-black">"dramatic side lighting creating long shadows"</div>
               </div>
               
               <div className="p-4">
