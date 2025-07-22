@@ -9,30 +9,11 @@ export default function Playbook() {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <div className="mb-5">
-            <div className="bg-black px-6 py-3 inline-block mb-4">
-              <h2 className="text-5xl md:text-7xl lg:text-8xl font-black text-brand-red leading-tight tracking-tight">
-                LIFESTYLE CREATION
-              </h2>
-            </div>
           </div>
         </div>
 
-        {/* Table of Contents */}
-        <div className="bg-black rounded-lg p-6 mb-8">
-          <h2 className="text-3xl font-black text-white mb-6">MASTER THE PLAYBOOK</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="space-y-3">
-              <a href="#basics" className="block text-white hover:text-brand-red transition-colors font-bold">1. BASICS OF PROMPTING</a>
-              <a href="#components" className="block text-white hover:text-brand-red transition-colors font-bold">2. KEY PROMPT COMPONENTS</a>
-              <a href="#lifestyle" className="block text-white hover:text-brand-red transition-colors font-bold">3. LIFESTYLE PHOTOGRAPHY</a>
-              <a href="#product" className="block text-white hover:text-brand-red transition-colors font-bold">4. PRODUCT & STUDIO PHOTOGRAPHY</a>
-            </div>
-            <div className="space-y-3">
-              <a href="#graphics" className="block text-white hover:text-brand-red transition-colors font-bold">5. CUSTOM GRAPHICS & DESIGN</a>
-              <a href="#editing" className="block text-white hover:text-brand-red transition-colors font-bold">6. SCENE REGENERATION & EDITING</a>
-              <a href="#tips" className="block text-white hover:text-brand-red transition-colors font-bold">7. TIPS & BEST PRACTICES</a>
-            </div>
-          </div>
+        <div className="bg-black text-brand-red text-6xl tracking-tight leading-tight p-6 pb-2 mb-2">
+          <span style={{color: 'rgb(255, 255, 255)', fontSize: '30px', letterSpacing: 'normal', textAlign: 'start'}}>MASTER THE PLAYBOOK</span>
         </div>
 
         {/* Section 1: Basics of Prompting */}
@@ -173,7 +154,7 @@ export default function Playbook() {
                   <ul className="space-y-1 text-white font-bold text-sm">
                     <li>• <strong>Eye-level</strong> - human perspective, natural</li>
                     <li>• <strong>Low-angle</strong> - looking up, makes subject larger</li>
-                    <li>• <strong>Bird's-eye</strong> - top-down overview</li>
+                    <li>��� <strong>Bird's-eye</strong> - top-down overview</li>
                     <li>• <strong>First-person POV</strong> - subject's viewpoint</li>
                   </ul>
                 </div>
