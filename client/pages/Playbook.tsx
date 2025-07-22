@@ -404,13 +404,7 @@ export default function Playbook() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
             </div>
 
-            <div className="py-3 px-6 pb-0 text-center">
-              <h3 className="text-xl font-black text-white mb-3">ITERATE AND EVOLVE</h3>
-              <p className="text-white font-bold text-lg mb-4 max-w-3xl mx-auto">
-                Great images may not come out on the first try. Use the Remix feature to refine.
-                Treat each generation as a prototype – even professional artists make many sketches!
-              </p>
-            </div>
+
           </div>
         </section>
 
