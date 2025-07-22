@@ -481,14 +481,11 @@ export default function Playbook() {
               </div>
             </div>
 
-            <div className="bg-black p-6 text-center">
+            <div className="bg-black py-6 px-6 pb-0 text-center">
               <h3 className="text-3xl font-black text-white mb-3">ITERATE AND EVOLVE</h3>
               <p className="text-white font-bold text-lg mb-4 max-w-3xl mx-auto">
-                Great images may not come out on the first try. Use the Remix feature to refine. 
+                Great images may not come out on the first try. Use the Remix feature to refine.
                 Treat each generation as a prototype – even professional artists make many sketches!
-              </p>
-              <p className="text-brand-red font-black text-xl">
-                Have fun and be creative! Image generation opens up immense possibilities.
               </p>
             </div>
           </div>
