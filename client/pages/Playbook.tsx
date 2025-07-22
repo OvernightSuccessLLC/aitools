@@ -5,7 +5,7 @@ export default function Playbook() {
     <div className="min-h-screen bg-brand-red">
       <Header />
       
-      <main className="max-w-6xl mx-auto px-4 py-6">
+      <main className="max-w-6xl mx-auto mt-5 px-4 py-5">
         {/* Hero Section */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center bg-black rounded-full px-6 py-3 mb-6">
