@@ -113,17 +113,43 @@ export default function Playbook() {
               
               <div className="bg-black p-4">
                 <h4 className="text-lg font-black text-white mb-2">LIGHTING</h4>
+                <div>
+                  <ul className="space-y-1 text-white font-bold text-sm">
+                    <li>• <strong>Soft diffused light</strong> - gentle, minimal shadows</li>
+                    <li>• <strong>Golden hour sunlight</strong> - warm, dramatic shadows</li>
+                    <li>• <strong>Neon glow</strong> - colored urban light</li>
+                    <li>• <strong>Candlelight</strong> - dim, warm, flickering</li>
+                  </ul>
+                </div>
                 <p className="text-white font-bold text-sm mb-2">One of the most powerful mood setters. Quality and direction of light.</p>
                 <div className="text-brand-red text-xs font-black">Example: "dramatic side lighting creating long shadows"</div>
               </div>
-              
+
               <div className="bg-black p-4">
                 <h4 className="text-lg font-black text-white mb-2">CAMERA DETAILS</h4>
+                <div>
+                  <h4 className="text-brand-red text-lg font-black mb-3">CAMERA ANGLES</h4>
+                  <ul className="space-y-1 text-white font-bold text-sm">
+                    <li>• <strong>Eye-level</strong> - human perspective, natural</li>
+                    <li>• <strong>Low-angle</strong> - looking up, makes subject larger</li>
+                    <li>• <strong>Bird's-eye</strong> - top-down overview</li>
+                    <li>• <strong>First-person POV</strong> - subject's viewpoint</li>
+                  </ul>
+                </div>
                 <p className="text-white font-bold text-sm mb-2">Perspective, lens effects, composition terms.</p>
                 <div className="text-brand-red text-xs font-black">Example: "shot with 50mm lens at f/1.8 (shallow depth)"</div>
               </div>
-              
+
               <div className="bg-black p-4">
+                <div>
+                  <h4 className="text-brand-red text-lg font-black mb-3">SHOT TYPES</h4>
+                  <ul className="space-y-1 text-white font-bold text-sm">
+                    <li>• <strong>Close-up</strong> - focus on face/object details</li>
+                    <li>• <strong>Medium shot</strong> - subject from waist up</li>
+                    <li>• <strong>Wide shot</strong> - full scene/environment</li>
+                    <li>• <strong>Panoramic</strong> - ultra-wide scene</li>
+                  </ul>
+                </div>
                 <h4 className="text-lg font-black text-white mb-2">STYLE/MOOD</h4>
                 <p className="text-white font-bold text-sm mb-2">Artistic style, genre, overall vibe.</p>
                 <div className="text-brand-red text-xs font-black">Example: "in the style of Studio Ghibli" or "cinematic look"</div>
