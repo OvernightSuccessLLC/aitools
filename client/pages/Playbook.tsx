@@ -289,19 +289,14 @@ export default function Playbook() {
               </div>
             </div>
 
-            <div className="p-6">
-              <h3 className="text-2xl font-black text-white mb-4">DESIGN EXAMPLES</h3>
-              <div className="space-y-3">
-                <div>
-                  <h4 className="text-brand-red font-black mb-1">LOGO DESIGN:</h4>
-                  <p className="text-white font-bold text-sm">"Logo design for a bakery called 'SweetBite', in a cute minimalist style. Features a simple icon of a cupcake outline next to the text 'SweetBite'. Use pastel pink and brown colors. The font should look handwritten or cursive, conveying a friendly vibe."</p>
-                </div>
-                
-                <div>
-                  <h4 className="text-brand-red font-black mb-1">WEBSITE BANNER:</h4>
-                  <p className="text-white font-bold text-sm">"Website banner showing a new sports car in a showroom, at a 16:9 ratio. The scene is sleek and modern, with bright showroom lights reflecting off the car's hood. Empty space on the left with plain dark background for tagline text."</p>
-                </div>
-              </div>
+            <h3 className="text-2xl font-black text-white mb-4 pt-5">DESIGN EXAMPLES</h3>
+            <div>
+              <h4 className="text-brand-red font-black mb-1">LOGO DESIGN:</h4>
+              <p className="text-white font-bold text-sm">"Logo design for a bakery called 'SweetBite', in a cute minimalist style. Features a simple icon of a cupcake outline next to the text 'SweetBite'. Use pastel pink and brown colors. The font should look handwritten or cursive, conveying a friendly vibe."</p>
+            </div>
+            <div className="mt-3">
+              <h4 className="text-brand-red font-black mb-1">WEBSITE BANNER:</h4>
+              <p className="text-white font-bold text-sm">"Website banner showing a new sports car in a showroom, at a 16:9 ratio. The scene is sleek and modern, with bright showroom lights reflecting off the car's hood. Empty space on the left with plain dark background for tagline text."</p>
             </div>
           </div>
         </section>
