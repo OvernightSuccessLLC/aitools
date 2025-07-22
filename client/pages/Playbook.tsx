@@ -349,13 +349,7 @@ export default function Playbook() {
                 </div>
               </div>
             </div>
-            <div className="p-3 font-mono text-sm text-brand-red font-black mb-3">
-              "&#123;Subject&#125; &#123;Action&#125; in &#123;Setting&#125;, lit by &#123;Lighting&#125;, &#123;Style&#125;. Colors: &#123;PrimaryColor&#125; and &#123;SecondaryColor&#125;. Shot with &#123;Camera&#125; --aspect &#123;AspectRatio&#125;"
-            </div>
-            <div className="p-3 mb-3">
-              <h4 className="font-black text-brand-red mb-1">EXAMPLE OUTPUT:</h4>
-              <p className="text-white font-bold text-sm">"A sleek vape pen is centered on a frosted glass pedestal in a minimalist studio, lit by soft ambient glow, captured top-down with a 50mm macro lens. Presented in editorial style. Colors: #000000 and #F5C044. --aspect 4:5"</p>
-            </div>
+
           </div>
         </section>
 
