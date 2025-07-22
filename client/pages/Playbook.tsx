@@ -529,7 +529,7 @@ export default function Playbook() {
             </div>
 
             <div className="bg-red-900 p-4 mt-5">
-              <h3 className="text-2xl font-black text-white mb-3">���️ POLICY & CONTENT WARNINGS</h3>
+              <h3 className="text-2xl font-black text-white mb-3">⚠️ POLICY & CONTENT WARNINGS</h3>
               <ul className="space-y-2 text-white font-bold">
                 <li><strong className="text-red-300">No Disallowed Content:</strong> Avoid violence, gore, sexual, hate content</li>
                 <li><strong className="text-red-300">No Real Person Likeness:</strong> Don't use "photo of Tom Cruise" - use "man who looks like classic Hollywood actor"</li>
@@ -538,7 +538,7 @@ export default function Playbook() {
               </ul>
             </div>
 
-            <div className="bg-green-900 p-4">
+            <div className="bg-green-900 p-4 mt-5">
               <h3 className="text-2xl font-black text-white mb-3">✅ SUCCESS STRATEGIES</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
