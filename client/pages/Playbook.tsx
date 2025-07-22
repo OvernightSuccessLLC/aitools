@@ -40,11 +40,6 @@ export default function Playbook() {
         <section id="basics" className="bg-black rounded-lg p-6 mb-6">
           <h2 className="text-4xl font-black text-white mb-6">1. BASICS OF PROMPTING</h2>
           <div className="text-white space-y-4">
-            <p className="text-lg font-bold leading-tight">
-              If you're new to AI image generation, start here. Crafting a good prompt is a mix of art and science. 
-              A prompt is simply the description you give to Sora/ChatGPT about the image you want.
-            </p>
-            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-black p-4">
                 <h3 className="text-xl font-black text-white mb-2">BE SPECIFIC & CLEAR</h3>
@@ -116,10 +111,6 @@ export default function Playbook() {
         <section id="components" className="bg-black rounded-lg p-6 mb-6">
           <h2 className="text-4xl font-black text-white mb-6">2. KEY PROMPT COMPONENTS</h2>
           <div className="text-white space-y-6">
-            <p className="text-lg font-bold leading-tight">
-              Professional-quality prompts follow a formula, ensuring you cover all important aspects of an image.
-            </p>
-
             <div className="bg-black p-4">
               <h3 className="text-2xl font-black text-white mb-3">PROMPT STRUCTURE FORMULA</h3>
               <div className="bg-black p-3 font-mono text-sm text-brand-red font-black">
@@ -216,11 +207,6 @@ export default function Playbook() {
         <section id="lifestyle" className="bg-black rounded-lg p-6 mb-6">
           <h2 className="text-4xl font-black text-white mb-6">3. LIFESTYLE PHOTOGRAPHY</h2>
           <div className="text-white space-y-4">
-            <p className="text-lg font-bold leading-tight">
-              Lifestyle images capture people in everyday, real-life contexts. They feel candid, authentic, 
-              and relatable – like stock photos or personal snapshots that tell a story.
-            </p>
-
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-black p-4">
                 <h4 className="text-lg font-black text-white mb-2">EVERYDAY SCENARIOS</h4>
@@ -278,11 +264,6 @@ export default function Playbook() {
         <section id="product" className="bg-black rounded-lg p-6 mb-6">
           <h2 className="text-4xl font-black text-white mb-6">4. PRODUCT & STUDIO PHOTOGRAPHY</h2>
           <div className="text-white space-y-4">
-            <p className="text-lg font-bold leading-tight">
-              Product photography focuses on highlighting features in a clear, visually appealing way. 
-              From classic studio shots to stylized setups.
-            </p>
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-black p-4">
                 <h4 className="text-lg font-black text-white mb-2">ISOLATE THE PRODUCT</h4>
@@ -335,11 +316,6 @@ export default function Playbook() {
         <section id="graphics" className="bg-black rounded-lg p-6 mb-6">
           <h2 className="text-4xl font-black text-white mb-6">5. CUSTOM GRAPHICS & DESIGN</h2>
           <div className="text-white space-y-4">
-            <p className="text-lg font-bold leading-tight">
-              Beyond photos, Sora can generate graphic designs: logos, icons, banners with text, 
-              illustrations for branding, and more.
-            </p>
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-black p-4">
                 <h4 className="text-xl font-black text-white mb-3">LOGOS & ICONS</h4>
@@ -391,11 +367,6 @@ export default function Playbook() {
         <section id="editing" className="bg-black rounded-lg p-6 mb-6">
           <h2 className="text-4xl font-black text-white mb-6">6. SCENE REGENERATION & EDITING</h2>
           <div className="text-white space-y-4">
-            <p className="text-lg font-bold leading-tight">
-              One of Sora's powerful features is editing and iterating on generated images. Take an initial 
-              image and ask for changes – adding/removing objects, changing mood, or extending scenes.
-            </p>
-
             <div className="bg-black p-4">
               <h3 className="text-xl font-black text-white mb-3">HOW TO USE REMIX</h3>
               <p className="text-white font-bold mb-3">After generating an image in Sora, open it and select "Remix" (or press R). This lets you describe changes.</p>
