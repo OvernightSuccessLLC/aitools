@@ -205,7 +205,7 @@ export default function Playbook() {
               </div>
             </div>
 
-            <div className="bg-black p-4">
+            <div className="bg-black py-3 px-4">
               <h4 className="font-black text-brand-red text-lg mb-2">📸 PHOTOREALISM TIP</h4>
               <p className="text-white font-bold">
                 Mention camera/film style: "35mm film photograph", "DSLR photo", or "shot on Canon EOS 5D". 
@@ -421,7 +421,7 @@ export default function Playbook() {
                     <li>• Conflicting elements in prompt</li>
                     <li>• Prompt too long or story-like</li>
                     <li>• AI doesn't know obscure terms</li>
-                    <li>�� Objects look distorted</li>
+                    <li>• Objects look distorted</li>
                   </ul>
                 </div>
                 <div>
