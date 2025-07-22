@@ -302,8 +302,8 @@ export default function Playbook() {
         </section>
 
         {/* Section 6: Scene Editing */}
-        <section id="editing" className="bg-black rounded-lg p-6 mb-6">
-          <h2 className="text-xl font-black text-white mb-6">6. SCENE REGENERATION & EDITING</h2>
+        <section id="editing" className="bg-black rounded-lg pt-6 px-6 pb-0 mb-3">
+          <h2 className="text-3xl font-black text-white my-3 ml-3 pt-3 pl-3">SCENE REGENERATION & EDITING</h2>
           <div className="text-white space-y-4">
             <div className="p-4">
               <h3 className="text-xl font-black text-white mb-3">HOW TO USE REMIX</h3>
