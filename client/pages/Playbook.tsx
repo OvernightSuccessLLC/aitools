@@ -340,7 +340,7 @@ export default function Playbook() {
               </div>
             </div>
 
-            <div className="bg-black p-6">
+            <div className="bg-black py-3 px-6 pt-0">
               <h3 className="text-2xl font-black text-white mb-4">EDITING EXAMPLES</h3>
               <div className="space-y-4">
                 <div>
