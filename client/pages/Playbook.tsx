@@ -13,8 +13,8 @@ export default function Playbook() {
             BASICS OF PROMPTING
           </h1>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 BE SPECIFIC & CLEAR
               </h2>
@@ -26,7 +26,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 MENTION STYLE/MOOD
               </h2>
@@ -38,7 +38,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 KEEP IT SIMPLE
               </h2>
@@ -50,7 +50,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 USE NATURAL LANGUAGE
               </h2>
@@ -63,7 +63,7 @@ export default function Playbook() {
             </div>
           </div>
 
-          <div className="mb-8">
+          <div className="mt-8">
             <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
               💡 PRO TIP
             </h2>
@@ -126,8 +126,8 @@ export default function Playbook() {
             QUICK REFERENCE VARIABLES
           </h1>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 SUBJECT DESCRIPTION
               </h2>
@@ -139,7 +139,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 ACTION/POSE
               </h2>
@@ -151,7 +151,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 ENVIRONMENT/SETTING
               </h2>
@@ -163,7 +163,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 LIGHTING
               </h2>
@@ -181,7 +181,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 CAMERA DETAILS
               </h2>
@@ -205,7 +205,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 STYLE/MOOD
               </h2>
@@ -225,8 +225,8 @@ export default function Playbook() {
             LIFESTYLE EXAMPLES
           </h1>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-0 mb-8">
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 EVERYDAY SCENARIOS
               </h2>
@@ -238,7 +238,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 NATURAL STYLING
               </h2>
@@ -250,7 +250,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 ENVIRONMENTAL CONTEXT
               </h2>
@@ -312,8 +312,8 @@ export default function Playbook() {
             PRODUCT & STUDIO PHOTOGRAPHY
           </h1>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 mb-8">
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 ISOLATE THE PRODUCT
               </h2>
@@ -325,7 +325,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 LIGHTING & REFLECTIONS
               </h2>
@@ -337,7 +337,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 CAMERA & FOCUS
               </h2>
@@ -349,7 +349,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 STYLING & BRANDING
               </h2>
@@ -396,8 +396,8 @@ export default function Playbook() {
             CUSTOM GRAPHICS & DESIGN
           </h1>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 mb-8">
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 LOGOS & ICONS
               </h2>
@@ -409,7 +409,7 @@ export default function Playbook() {
               </ul>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 BANNERS & HEROES
               </h2>
@@ -449,8 +449,8 @@ export default function Playbook() {
             SCENE REGENERATION & EDITING
           </h1>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 mb-8">
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 IDENTIFY BY DESCRIPTION
               </h2>
@@ -458,7 +458,7 @@ export default function Playbook() {
                 Describe what you want changed: "add fog", "make it nighttime", "remove background objects"
               </p>
             </div>
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 BE SPATIALLY SPECIFIC
               </h2>
@@ -466,7 +466,7 @@ export default function Playbook() {
                 Use directions: "Place potted plant on table in left foreground"
               </p>
             </div>
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 MAINTAIN CONSISTENCY
               </h2>
@@ -474,7 +474,7 @@ export default function Playbook() {
                 Consider overall scene: "add brown leather sofa matching room's vintage style"
               </p>
             </div>
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 ONE CHANGE AT A TIME
               </h2>
@@ -528,8 +528,8 @@ export default function Playbook() {
             Great images may not come out on the first try. Use the Remix feature to refine. Treat each generation as a prototype – even professional artists make many sketches!
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 mb-8">
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 ASK FOR IMPROVEMENTS
               </h2>
@@ -538,7 +538,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 REQUEST VARIATIONS
               </h2>
@@ -547,7 +547,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 USE CHAT CONTEXT
               </h2>
@@ -556,7 +556,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 COMMUNITY LEARNING
               </h2>
@@ -565,7 +565,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 AVOID AMBIGUITY
               </h2>
@@ -574,7 +574,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 TEST IN PARTS
               </h2>
@@ -583,7 +583,7 @@ export default function Playbook() {
               </p>
             </div>
             
-            <div>
+            <div className="p-4">
               <h2 className="font-medium text-[16px] uppercase mb-4" style={{ color: '#F0440F' }}>
                 USE STRUCTURE
               </h2>
@@ -594,17 +594,17 @@ export default function Playbook() {
           </div>
 
           <div className="bg-green-900 p-6 rounded-lg">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
+              <div className="p-4">
                 <h2 className="font-medium text-[16px] uppercase mb-4 text-green-300">SOLUTIONS:</h2>
                 <ul className="text-white text-[14px] space-y-2" style={{ lineHeight: '1.6' }}>
-                  <li>�� Resolve conflicts by clarifying</li>
+                  <li>• Resolve conflicts by clarifying</li>
                   <li>• Break into one scene at a time</li>
                   <li>• Use simpler descriptions</li>
                   <li>• Use variations and re-run prompts</li>
                 </ul>
               </div>
-              <div>
+              <div className="p-4">
                 <h2 className="font-medium text-[16px] uppercase mb-4 text-green-300">WHEN THINGS GO WRONG:</h2>
                 <ul className="text-white text-[14px] space-y-2" style={{ lineHeight: '1.6' }}>
                   <li>• Conflicting elements in prompt</li>
