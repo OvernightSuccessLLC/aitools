@@ -506,13 +506,6 @@ export default function Playbook() {
             </button>
           </div>
         </div>
-
-        {/* Footer */}
-        <div className="text-center py-6">
-          <p className="text-black font-black text-sm">
-            Professional AI-powered content generation • Trusted by 10,000+ creators worldwide
-          </p>
-        </div>
       </main>
     </div>
   );
