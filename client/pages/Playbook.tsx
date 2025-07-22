@@ -83,14 +83,14 @@ export default function Playbook() {
 
         {/* Section 2: Key Components */}
         <section id="components" className="bg-black rounded-lg p-6 mb-6">
-          <h2 className="text-4xl font-black text-white mb-6">2. KEY PROMPT COMPONENTS</h2>
           <div className="text-white space-y-6">
-            <div className="bg-black p-4">
-              <h3 className="text-2xl font-black text-white mb-3">PROMPT STRUCTURE FORMULA</h3>
-              <div className="bg-black p-3 font-mono text-sm text-brand-red font-black">
-                [Subject] + [Action/Pose] + [Environment/Setting] + [Lighting] + [Camera Details] + [Style/Mood] + [Quality Parameters]
+            <div className="bg-black p-4 flex flex-col">
+              <h3 className="text-3xl font-black text-white mb-0 mx-auto">PROMPT STRUCTURE FORMULA</h3>
+              <div className="bg-black py-3 px-0 text-center self-center mx-auto font-mono text-brand-red text-4xl leading-[50px]">
+                <span style={{fontWeight: 'normal'}}>[Subject] + [Pose] + [Setting] + [Lighting]<br />+ [Camera Details] + [Style] + [Quality]</span>
               </div>
             </div>
+            <h3 className="text-2xl font-black text-white mb-4">QUICK REFERENCE VARIABLES</h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
               <div className="bg-black p-4">
