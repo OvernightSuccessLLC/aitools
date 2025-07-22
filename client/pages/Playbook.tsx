@@ -376,28 +376,32 @@ export default function Playbook() {
 
 
 
-            <div className="bg-green-900 p-4 mt-5">
-              <h3 className="text-2xl font-black text-white mb-3">✅ SUCCESS STRATEGIES</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <h4 className="font-black text-green-300 mb-1">WHEN THINGS GO WRONG:</h4>
-                  <ul className="space-y-1 text-white font-bold text-sm">
-                    <li>• Conflicting elements in prompt</li>
-                    <li>• Prompt too long or story-like</li>
-                    <li>• AI doesn't know obscure terms</li>
-                    <li>• Objects look distorted</li>
-                  </ul>
+            <div className="bg-green-900 p-4 my-3">
+              <div className="flex gap-5">
+                <div className="flex-1">
+                  <div>
+                    <h4 className="font-black text-green-300 mb-1">SOLUTIONS:</h4>
+                    <ul className="space-y-1 text-white font-bold text-sm">
+                      <li>• Resolve conflicts by clarifying</li>
+                      <li>• Break into one scene at a time</li>
+                      <li>• Use simpler descriptions</li>
+                      <li className="pb-1.5 my-1.5">• Use variations and re-run prompts</li>
+                    </ul>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="font-black text-green-300 mb-1">SOLUTIONS:</h4>
-                  <ul className="space-y-1 text-white font-bold text-sm">
-                    <li>• Resolve conflicts by clarifying</li>
-                    <li>• Break into one scene at a time</li>
-                    <li>• Use simpler descriptions</li>
-                    <li>• Use variations and re-run prompts</li>
-                  </ul>
+                <div className="flex-1 ml-5">
+                  <div>
+                    <h4 className="font-black text-green-300 mb-1">WHEN THINGS GO WRONG:</h4>
+                    <ul className="space-y-1 text-white font-bold text-sm">
+                      <li>• Conflicting elements in prompt</li>
+                      <li>• Prompt too long or story-like</li>
+                      <li>• AI doesn't know obscure terms</li>
+                      <li className="pb-1.5 my-1.5">• Objects look distorted</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
             </div>
 
             <div className="py-3 px-6 pb-0 text-center">
