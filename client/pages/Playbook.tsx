@@ -50,8 +50,10 @@ export default function Playbook() {
               </div>
             </div>
 
-            <div className="p-6">
-              <h3 className="text-2xl font-black text-white mb-4">PROGRESSION EXAMPLES</h3>
+            <div className="px-6 py-0">
+              <h3 className="text-3xl font-black text-white mb-4">PROGRESSION EXAMPLES</h3>
+              <h4 className="font-black text-brand-red text-lg mb-2">💡 PRO TIP</h4>
+              <strong>Clarity is king.</strong> <br />Describe one idea at a time, avoid ambiguity. Instead of "in front of a bank", <br />say "standing on the steps in front of a large, stone bank building" to avoid confusion with other meanings.
               <div className="space-y-4">
                 <div>
                   <div className="bg-green-600 text-white px-3 py-1 rounded inline-block mb-2 font-black text-sm">BEGINNER</div>
