@@ -12,12 +12,8 @@ export default function Playbook() {
           </div>
         </div>
 
-        <div className="bg-black text-brand-red text-6xl tracking-tight leading-tight p-6 pb-2 mb-2">
-          <span style={{color: 'rgb(255, 255, 255)', fontSize: '30px', letterSpacing: 'normal', textAlign: 'start'}}>MASTER THE PLAYBOOK</span>
-        </div>
-
         {/* Section 1: Basics of Prompting */}
-        <section id="basics" className="bg-black rounded-lg p-6 mb-6">
+        <section id="basics" className="bg-black rounded-lg py-3 px-6 mb-3">
           <h2 className="text-4xl font-black text-white mb-6">1. BASICS OF PROMPTING</h2>
           <div className="text-white space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -154,7 +150,7 @@ export default function Playbook() {
                   <ul className="space-y-1 text-white font-bold text-sm">
                     <li>• <strong>Eye-level</strong> - human perspective, natural</li>
                     <li>• <strong>Low-angle</strong> - looking up, makes subject larger</li>
-                    <li>��� <strong>Bird's-eye</strong> - top-down overview</li>
+                    <li>• <strong>Bird's-eye</strong> - top-down overview</li>
                     <li>• <strong>First-person POV</strong> - subject's viewpoint</li>
                   </ul>
                 </div>
