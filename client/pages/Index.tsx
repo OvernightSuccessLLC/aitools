@@ -226,11 +226,8 @@ export default function Index() {
     <div className="min-h-screen bg-brand-red">
       <Header />
       
-      <main className="max-w-7xl mx-auto px-3 sm:px-4 py-0">
-        <div className="text-center mb-8 sm:mb-12">
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+      <main className="max-w-6xl mx-auto px-3 py-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 auto-rows-fr">
           {aiTools.map((tool, index) => (
             <ToolCard
               key={index}
