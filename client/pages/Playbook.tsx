@@ -157,7 +157,7 @@ export default function Playbook() {
 
         {/* Section 3: Lifestyle Photography */}
         <section id="lifestyle" className="bg-black rounded-lg p-6 mb-6">
-          <h2 className="text-2xl font-black text-white mb-6">3. LIFESTYLE PHOTOGRAPHY</h2>
+          <h3 className="text-3xl font-black text-white mb-4 text-center pb-3">LIFESTYLE EXAMPLES</h3>
           <div className="text-white space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="p-4">
