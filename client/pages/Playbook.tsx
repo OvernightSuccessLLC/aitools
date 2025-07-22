@@ -41,7 +41,7 @@ export default function Playbook() {
                 <div className="text-brand-red text-xs font-black">Generate first, then adjust iteratively</div>
               </div>
               
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h3 className="text-xl font-black text-white mb-2">USE NATURAL LANGUAGE</h3>
                 <p className="text-white font-bold text-sm mb-2">
                   Write as if describing to a person. "A clear photo of a golden retriever puppy playing in a green field at sunset."
