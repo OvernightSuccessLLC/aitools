@@ -155,51 +155,6 @@ export default function Playbook() {
                 <div className="text-brand-red text-xs font-black">Example: "in the style of Studio Ghibli" or "cinematic look"</div>
               </div>
             </div>
-
-            <div className="bg-black p-6">
-              <h3 className="text-2xl font-black text-white mb-4">QUICK REFERENCE VARIABLES</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="text-lg font-black text-brand-red mb-3">LIGHTING OPTIONS</h4>
-                  <ul className="space-y-1 text-white font-bold text-sm">
-                    <li>• <strong>Soft diffused light</strong> - gentle, minimal shadows</li>
-                    <li>• <strong>Golden hour sunlight</strong> - warm, dramatic shadows</li>
-                    <li>• <strong>Neon glow</strong> - colored urban light</li>
-                    <li>• <strong>Candlelight</strong> - dim, warm, flickering</li>
-                  </ul>
-                </div>
-                
-                <div>
-                  <h4 className="text-lg font-black text-brand-red mb-3">CAMERA ANGLES</h4>
-                  <ul className="space-y-1 text-white font-bold text-sm">
-                    <li>• <strong>Eye-level</strong> - human perspective, natural</li>
-                    <li>• <strong>Low-angle</strong> - looking up, makes subject larger</li>
-                    <li>• <strong>Bird's-eye</strong> - top-down overview</li>
-                    <li>• <strong>First-person POV</strong> - subject's viewpoint</li>
-                  </ul>
-                </div>
-                
-                <div>
-                  <h4 className="text-lg font-black text-brand-red mb-3">SHOT TYPES</h4>
-                  <ul className="space-y-1 text-white font-bold text-sm">
-                    <li>• <strong>Close-up</strong> - focus on face/object details</li>
-                    <li>• <strong>Medium shot</strong> - subject from waist up</li>
-                    <li>• <strong>Wide shot</strong> - full scene/environment</li>
-                    <li>• <strong>Panoramic</strong> - ultra-wide scene</li>
-                  </ul>
-                </div>
-                
-                <div>
-                  <h4 className="text-lg font-black text-brand-red mb-3">COLOR PALETTES</h4>
-                  <ul className="space-y-1 text-white font-bold text-sm">
-                    <li>• <strong>Vivid technicolor</strong> - bright, saturated</li>
-                    <li>• <strong>Muted sepia</strong> - vintage, brownish tones</li>
-                    <li>• <strong>Monochrome</strong> - single color or B&W</li>
-                    <li>• <strong>Pastel palette</strong> - soft, muted colors</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
 
