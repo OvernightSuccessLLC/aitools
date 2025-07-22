@@ -418,7 +418,7 @@ export default function Playbook() {
                   <h4 className="font-black text-green-300 mb-1">SOLUTIONS:</h4>
                   <ul className="space-y-1 text-white font-bold text-sm">
                     <li>• Resolve conflicts by clarifying</li>
-                    <li>• Break into one scene at a time</li>
+                    <li>�� Break into one scene at a time</li>
                     <li>• Use simpler descriptions</li>
                     <li>• Use variations and re-run prompts</li>
                   </ul>
@@ -426,8 +426,8 @@ export default function Playbook() {
               </div>
             </div>
 
-            <div className="bg-black py-6 px-6 pb-0 text-center">
-              <h3 className="text-3xl font-black text-white mb-3">ITERATE AND EVOLVE</h3>
+            <div className="bg-black py-3 px-6 pb-0 text-center">
+              <h3 className="text-xl font-black text-white mb-3">ITERATE AND EVOLVE</h3>
               <p className="text-white font-bold text-lg mb-4 max-w-3xl mx-auto">
                 Great images may not come out on the first try. Use the Remix feature to refine.
                 Treat each generation as a prototype – even professional artists make many sketches!
@@ -439,10 +439,7 @@ export default function Playbook() {
         {/* CTA Section */}
         <div className="bg-black rounded-lg p-6 text-center mb-6">
           <h3 className="text-4xl font-black text-white mb-4">READY TO CREATE?</h3>
-          <p className="text-white font-bold text-lg mb-6 max-w-2xl mx-auto">
-            Apply these professional techniques and transform your AI image generation workflow today.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <div className="flex gap-3 justify-center">
             <button className="bg-brand-red text-white px-6 py-3 rounded-lg text-lg font-black hover:bg-brand-red/90 transition-colors">
               START CREATING NOW
             </button>
