@@ -22,36 +22,35 @@ export function ToolCard({ name, description, features, category, url }: ToolCar
   };
 
     return (
-    <div className="bg-brand-black rounded-xl p-4 sm:p-6 border border-brand-black/20 hover:border-brand-orange/30 transition-all duration-200 hover:transform hover:scale-[1.02]">
-      <div className="flex items-start justify-between mb-4">
-        <div className={`${categoryColors[category]} text-white text-xs font-medium px-3 py-1 rounded-full`}>
+    <div className="bg-brand-black rounded-xl p-4 border border-brand-black/20 hover:border-brand-orange/30 transition-all duration-200 hover:transform hover:scale-[1.02] flex flex-col h-full">
+      <div className="flex items-center justify-between mb-3">
+        <div className={`${categoryColors[category]} text-white text-xs font-bold px-2 py-1 rounded-full`}>
           {categoryLabels[category]}
         </div>
       </div>
-      
-      <h3 className="text-white font-bold text-lg mb-3 leading-tight">
+
+      <h3 className="text-white font-black text-base mb-2 leading-tight">
         {name}
       </h3>
-      
-      <p className="text-white/80 text-sm mb-4 leading-relaxed">
+
+      <p className="text-white/80 text-xs mb-3 leading-tight line-clamp-1 overflow-hidden text-ellipsis whitespace-nowrap">
         {description}
       </p>
-      
-      <div className="mb-6">
-        <h4 className="text-white font-semibold text-sm mb-3">Key Features:</h4>
-        <ul className="space-y-2">
-          {features.map((feature, index) => (
-            <li key={index} className="text-white/70 text-sm flex items-start">
+
+      <div className="mb-4 flex-grow">
+        <ul className="space-y-1">
+          {features.slice(0, 3).map((feature, index) => (
+            <li key={index} className="text-white/70 text-xs flex items-center">
               <span className="text-brand-orange mr-2 text-xs">●</span>
-              <span>{feature}</span>
+              <span className="line-clamp-1">{feature}</span>
             </li>
           ))}
         </ul>
       </div>
-      
-      <button 
+
+      <button
         onClick={() => window.open(url, '_blank')}
-        className="w-full bg-brand-orange hover:bg-brand-orange/90 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200 text-sm"
+        className="w-full bg-brand-orange hover:bg-brand-orange/90 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 text-xs mt-auto"
       >
         🔗 Visit Tool
       </button>
