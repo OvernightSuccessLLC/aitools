@@ -129,16 +129,21 @@ export default function Playbook() {
               <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">CAMERA DETAILS</h4>
                 <div>
-                  <h4 className="text-brand-red text-lg font-black mb-3">CAMERA ANGLES</h4>
                   <ul className="space-y-1 text-white font-bold text-sm">
-                    <li>• <strong>Eye-level</strong> - human perspective, natural</li>
-                    <li>• <strong>Low-angle</strong> - looking up, makes subject larger</li>
-                    <li>• <strong>Bird's-eye</strong> - top-down overview</li>
-                    <li>• <strong>First-person POV</strong> - subject's viewpoint</li>
+                    <li>• <strong>Close-up</strong> - focus on face/object details</li>
+                    <li>• <strong>Medium shot</strong> - subject from waist up</li>
+                    <li>• <strong>Wide shot</strong> - full scene/environment</li>
+                    <li>• <strong>Panoramic</strong> - ultra-wide scene</li>
                   </ul>
                 </div>
-                <p className="text-white font-bold text-sm mb-2">Perspective, lens effects, composition terms.</p>
-                <div className="text-brand-red text-xs font-black">Example: "shot with 50mm lens at f/1.8 (shallow depth)"</div>
+                <div>
+                  <ul className="space-y-1 text-white font-bold text-sm">
+                    <li>��� <strong>Eye-level</strong> - human perspective, natural</li>
+                    <li>• <strong>Bird's-eye</strong> - top-down overview</li>
+                    <li>• <strong>POV</strong> - subject's viewpoint</li>
+                  </ul>
+                </div>
+                <div className="text-brand-red text-xs font-black">"shot with 50mm lens at f/1.8 (shallow depth)"</div>
               </div>
               
               <div className="p-4">
