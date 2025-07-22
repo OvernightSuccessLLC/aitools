@@ -30,8 +30,7 @@ export default function Playbook() {
             <div className="space-y-3">
               <a href="#graphics" className="block text-white hover:text-brand-red transition-colors font-bold">5. CUSTOM GRAPHICS & DESIGN</a>
               <a href="#editing" className="block text-white hover:text-brand-red transition-colors font-bold">6. SCENE REGENERATION & EDITING</a>
-              <a href="#formulas" className="block text-white hover:text-brand-red transition-colors font-bold">7. MODULAR PROMPT FORMULAS</a>
-              <a href="#tips" className="block text-white hover:text-brand-red transition-colors font-bold">8. TIPS & BEST PRACTICES</a>
+              <a href="#tips" className="block text-white hover:text-brand-red transition-colors font-bold">7. TIPS & BEST PRACTICES</a>
             </div>
           </div>
         </div>
