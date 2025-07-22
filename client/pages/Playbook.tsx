@@ -74,9 +74,8 @@ export default function Playbook() {
                 </div>
               </div>
               <div className="p-4 pr-0">
-                <h4 className="font-black text-brand-red text-lg mb-2">💡 PRO TIP</h4>
                 <p className="text-white font-bold">
-                  <strong>Clarity is king.</strong> Describe one idea at a time, avoid ambiguity. Instead of "in front of a bank", say "standing on the steps in front of a large, stone bank building" to avoid confusion with other meanings.
+
                 </p>
               </div>
             </div>
