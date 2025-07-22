@@ -1,9 +1,9 @@
-import { Header } from "../components/Header";
+import { AppNavigation } from "../components/Header";
 
 export default function Playbook() {
   return (
     <div className="min-h-screen font-inter" style={{ backgroundColor: '#F0440F' }}>
-      <Header />
+      <AppNavigation />
       
       <main className="max-w-[1200px] mx-auto px-4 md:px-6 lg:px-8 py-16 space-y-16">
         
