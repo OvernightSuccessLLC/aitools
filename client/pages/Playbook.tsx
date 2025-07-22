@@ -25,7 +25,7 @@ export default function Playbook() {
                 <div className="text-brand-red text-xs font-black">Always include who/what, where, and distinctive features</div>
               </div>
               
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h3 className="text-xl font-black text-white mb-2">MENTION STYLE/MOOD</h3>
                 <p className="text-white font-bold text-sm mb-2">
                   Let the AI know if you want a photo, painting, 3D render, etc. For photorealistic: "photorealistic, 4K detail, ultra-realistic"
