@@ -374,15 +374,7 @@ export default function Playbook() {
               <li><strong className="text-brand-red">Use Structure:</strong> "Scene: market. Subject: merchant. Action: arranging spices"</li>
             </ul>
 
-            <div className="bg-red-900 p-4 mt-5">
-              <h3 className="text-2xl font-black text-white mb-3">⚠️ POLICY & CONTENT WARNINGS</h3>
-              <ul className="space-y-2 text-white font-bold">
-                <li><strong className="text-red-300">No Disallowed Content:</strong> Avoid violence, gore, sexual, hate content</li>
-                <li><strong className="text-red-300">No Real Person Likeness:</strong> Don't use "photo of Tom Cruise" - use "man who looks like classic Hollywood actor"</li>
-                <li><strong className="text-red-300">No Filter Circumvention:</strong> Don't misspell words to bypass filters</li>
-                <li><strong className="text-red-300">Change Concept if Flagged:</strong> Don't persist with problematic prompts</li>
-              </ul>
-            </div>
+
 
             <div className="bg-green-900 p-4 mt-5">
               <h3 className="text-2xl font-black text-white mb-3">✅ SUCCESS STRATEGIES</h3>
