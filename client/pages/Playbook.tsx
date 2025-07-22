@@ -308,13 +308,7 @@ export default function Playbook() {
               </div>
             </div>
 
-            <div className="bg-black p-4">
-              <h4 className="font-black text-brand-red text-lg mb-2">✨ TEXT INTEGRATION</h4>
-              <p className="text-white font-bold">
-                GPT-4o can embed text correctly! Use quotes for exact text: "poster with title 'Summer Festival 2025'". 
-                Specify style: "in red bold font" or "handwritten style text". Keep text concise for best results.
-              </p>
-            </div>
+
           </div>
         </section>
 
