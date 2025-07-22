@@ -179,8 +179,14 @@ export default function Playbook() {
               </div>
             </div>
 
+            <div className="py-3 px-4">
+              <h4 className="font-black text-brand-red text-lg mb-2">📸 PHOTOREALISM TIP</h4>
+              <p className="text-white font-bold">
+                Mention camera/film style: "35mm film photograph", "DSLR photo", or "shot on Canon EOS 5D".
+                Include slight imperfections: "motion blur on moving hands" or "wind tousling hair" for authenticity.
+              </p>
+            </div>
             <div className="py-3 px-6 pb-3">
-              <h3 className="text-2xl font-black text-white mb-4">LIFESTYLE EXAMPLES</h3>
               <div className="space-y-4">
                 <div>
                   <div className="bg-green-600 text-white px-3 py-1 rounded inline-block mb-2 font-black text-sm">BEGINNER</div>
@@ -398,7 +404,7 @@ export default function Playbook() {
             </div>
 
             <div className="bg-green-900 p-4 mt-5">
-              <h3 className="text-2xl font-black text-white mb-3">✅ SUCCESS STRATEGIES</h3>
+              <h3 className="text-2xl font-black text-white mb-3">�� SUCCESS STRATEGIES</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <h4 className="font-black text-green-300 mb-1">WHEN THINGS GO WRONG:</h4>
