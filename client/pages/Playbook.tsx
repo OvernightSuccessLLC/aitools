@@ -14,7 +14,7 @@ export default function Playbook() {
               BASICS OF PROMPTING
             </h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div>
                 <h3 className="font-medium uppercase text-[16px] mb-4" style={{ color: '#F0440F' }}>
                   BE SPECIFIC & CLEAR
