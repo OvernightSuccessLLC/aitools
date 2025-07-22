@@ -71,14 +71,12 @@ export default function Playbook() {
                   <p className="text-white/70 font-bold text-sm mt-1">Includes camera specifics, composition, lighting mood, and style cues.</p>
                 </div>
               </div>
-            </div>
-
-            <div className="bg-black p-4">
-              <h4 className="font-black text-brand-red text-lg mb-2">💡 PRO TIP</h4>
-              <p className="text-white font-bold">
-                <strong>Clarity is king.</strong> Describe one idea at a time, avoid ambiguity. Instead of "in front of a bank", 
-                say "standing on the steps in front of a large, stone bank building" to avoid confusion with other meanings.
-              </p>
+              <div className="bg-black p-4 pr-0">
+                <h4 className="font-black text-brand-red text-lg mb-2">💡 PRO TIP</h4>
+                <p className="text-white font-bold">
+                  <strong>Clarity is king.</strong> Describe one idea at a time, avoid ambiguity. Instead of "in front of a bank", say "standing on the steps in front of a large, stone bank building" to avoid confusion with other meanings.
+                </p>
+              </div>
             </div>
           </div>
         </section>
