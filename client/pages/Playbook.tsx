@@ -4,7 +4,7 @@ export default function Playbook() {
   return (
     <div className="min-h-screen bg-brand-red">
       <Header />
-
+      
       <main className="max-w-6xl mx-auto mt-3 px-4 pb-3">
         {/* Hero Section */}
         <div className="text-center mb-12">
@@ -71,7 +71,7 @@ export default function Playbook() {
                   <p className="text-white/70 font-bold text-sm mt-1">Includes camera specifics, composition, lighting mood, and style cues.</p>
                 </div>
               </div>
-              <div className="bg-black p-4 pr-0">
+              <div className="p-4 pr-0">
                 <h4 className="font-black text-brand-red text-lg mb-2">💡 PRO TIP</h4>
                 <p className="text-white font-bold">
                   <strong>Clarity is king.</strong> Describe one idea at a time, avoid ambiguity. Instead of "in front of a bank", say "standing on the steps in front of a large, stone bank building" to avoid confusion with other meanings.
@@ -84,34 +84,34 @@ export default function Playbook() {
         {/* Section 2: Key Components */}
         <section id="components" className="bg-black rounded-lg p-6 mb-6">
           <div className="text-white space-y-6">
-            <div className="bg-black p-4 flex flex-col">
+            <div className="p-4 flex flex-col">
               <h3 className="text-3xl font-black text-white mb-0 mx-auto">PROMPT STRUCTURE FORMULA</h3>
-              <div className="bg-black py-3 px-0 text-center self-center mx-auto font-mono text-brand-red text-4xl leading-[50px]">
+              <div className="py-3 px-0 text-center self-center mx-auto font-mono text-brand-red text-4xl leading-[50px]">
                 <span style={{fontWeight: 'normal'}}>[Subject] + [Pose] + [Setting] + [Lighting]<br />+ [Camera Details] + [Style] + [Quality]</span>
               </div>
             </div>
             <h3 className="text-2xl font-black text-white mb-4">QUICK REFERENCE VARIABLES</h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">SUBJECT DESCRIPTION</h4>
                 <p className="text-white font-bold text-sm mb-2">Who or what is the focus. Be specific with colors, size, distinctive features.</p>
                 <div className="text-brand-red text-xs font-black">Example: "majestic white Siberian tiger with electric blue eyes"</div>
               </div>
               
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">ACTION/POSE</h4>
                 <p className="text-white font-bold text-sm mb-2">What the subject is doing or how positioned. Adds dynamism to the image.</p>
                 <div className="text-brand-red text-xs font-black">Example: "leaping across a ravine" or "sitting cross-legged reading"</div>
               </div>
               
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">ENVIRONMENT/SETTING</h4>
                 <p className="text-white font-bold text-sm mb-2">Surroundings or background providing context and mood.</p>
                 <div className="text-brand-red text-xs font-black">Example: "misty bamboo forest at dawn" or "studio backdrop"</div>
               </div>
               
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">LIGHTING</h4>
                 <div>
                   <ul className="space-y-1 text-white font-bold text-sm">
@@ -124,8 +124,8 @@ export default function Playbook() {
                 <p className="text-white font-bold text-sm mb-2">One of the most powerful mood setters. Quality and direction of light.</p>
                 <div className="text-brand-red text-xs font-black">Example: "dramatic side lighting creating long shadows"</div>
               </div>
-
-              <div className="bg-black p-4">
+              
+              <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">CAMERA DETAILS</h4>
                 <div>
                   <h4 className="text-brand-red text-lg font-black mb-3">CAMERA ANGLES</h4>
@@ -139,8 +139,8 @@ export default function Playbook() {
                 <p className="text-white font-bold text-sm mb-2">Perspective, lens effects, composition terms.</p>
                 <div className="text-brand-red text-xs font-black">Example: "shot with 50mm lens at f/1.8 (shallow depth)"</div>
               </div>
-
-              <div className="bg-black p-4">
+              
+              <div className="p-4">
                 <div>
                   <h4 className="text-brand-red text-lg font-black mb-3">SHOT TYPES</h4>
                   <ul className="space-y-1 text-white font-bold text-sm">
@@ -163,26 +163,26 @@ export default function Playbook() {
           <h2 className="text-2xl font-black text-white mb-6">3. LIFESTYLE PHOTOGRAPHY</h2>
           <div className="text-white space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">EVERYDAY SCENARIOS</h4>
                 <p className="text-white font-bold text-sm mb-2">Focus on common activities: friends at cafe, family cooking, jogging in park.</p>
                 <div className="text-brand-red text-xs font-black">Goal: slice-of-life feel</div>
               </div>
               
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">NATURAL STYLING</h4>
                 <p className="text-white font-bold text-sm mb-2">Use "candid", "unposed", "in the moment" for authenticity.</p>
                 <div className="text-brand-red text-xs font-black">Poses should not feel stiff</div>
               </div>
               
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">ENVIRONMENTAL CONTEXT</h4>
                 <p className="text-white font-bold text-sm mb-2">Setting grounds the lifestyle. Add props and background details for realism.</p>
                 <div className="text-brand-red text-xs font-black">Coffee cup + laptop = remote work scene</div>
               </div>
             </div>
 
-            <div className="bg-black py-3 px-6 pb-3">
+            <div className="py-3 px-6 pb-3">
               <h3 className="text-2xl font-black text-white mb-4">LIFESTYLE EXAMPLES</h3>
               <div className="space-y-4">
                 <div>
@@ -205,7 +205,7 @@ export default function Playbook() {
               </div>
             </div>
 
-            <div className="bg-black py-3 px-4">
+            <div className="py-3 px-4">
               <h4 className="font-black text-brand-red text-lg mb-2">📸 PHOTOREALISM TIP</h4>
               <p className="text-white font-bold">
                 Mention camera/film style: "35mm film photograph", "DSLR photo", or "shot on Canon EOS 5D". 
@@ -220,32 +220,32 @@ export default function Playbook() {
           <h2 className="text-xl font-black text-white mb-6">4. PRODUCT & STUDIO PHOTOGRAPHY</h2>
           <div className="text-white space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">ISOLATE THE PRODUCT</h4>
                 <p className="text-white font-bold text-sm mb-2">Clean background (white, solid color, gradient), good lighting, product centered.</p>
                 <div className="text-brand-red text-xs font-black">Example: "stainless steel wristwatch on plain white background"</div>
               </div>
               
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">LIGHTING & REFLECTIONS</h4>
                 <p className="text-white font-bold text-sm mb-2">Match lighting to material. Shiny objects need softbox lighting for reflections.</p>
                 <div className="text-brand-red text-xs font-black">"Softbox from above", "ring light front-fill", "dramatic rim lighting"</div>
               </div>
               
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">CAMERA & FOCUS</h4>
                 <p className="text-white font-bold text-sm mb-2">Sharp focus, high resolution for detail. Consider angles and perspectives.</p>
                 <div className="text-brand-red text-xs font-black">"Sharp focus, 8K detail", "top-down view", "45-degree angle"</div>
               </div>
               
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-lg font-black text-white mb-2">STYLING & BRANDING</h4>
                 <p className="text-white font-bold text-sm mb-2">Incorporate brand aesthetics, colors, modern/minimalist styling.</p>
                 <div className="text-brand-red text-xs font-black">"Modern, minimalist way using black and gold accents"</div>
               </div>
             </div>
 
-            <div className="bg-black p-6">
+            <div className="p-6">
               <h3 className="text-2xl font-black text-white mb-4">PRODUCT EXAMPLES</h3>
               <div className="space-y-4">
                 <div>
@@ -272,7 +272,7 @@ export default function Playbook() {
           <h2 className="text-xl font-black text-white mb-6">5. CUSTOM GRAPHICS & DESIGN</h2>
           <div className="text-white space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-xl font-black text-white mb-3">LOGOS & ICONS</h4>
                 <ul className="space-y-2 text-white font-bold text-sm">
                   <li><strong className="text-brand-red">Keep Simple:</strong> "minimalist logo" or "bold emblem-style"</li>
@@ -282,7 +282,7 @@ export default function Playbook() {
                 </ul>
               </div>
               
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <h4 className="text-xl font-black text-white mb-3">BANNERS & HEROES</h4>
                 <ul className="space-y-2 text-white font-bold text-sm">
                   <li><strong className="text-brand-red">Composition:</strong> "space on right for tagline"</li>
@@ -293,7 +293,7 @@ export default function Playbook() {
               </div>
             </div>
 
-            <div className="bg-black p-6">
+            <div className="p-6">
               <h3 className="text-2xl font-black text-white mb-4">DESIGN EXAMPLES</h3>
               <div className="space-y-3">
                 <div>
@@ -307,8 +307,6 @@ export default function Playbook() {
                 </div>
               </div>
             </div>
-
-
           </div>
         </section>
 
@@ -316,31 +314,31 @@ export default function Playbook() {
         <section id="editing" className="bg-black rounded-lg p-6 mb-6">
           <h2 className="text-xl font-black text-white mb-6">6. SCENE REGENERATION & EDITING</h2>
           <div className="text-white space-y-4">
-            <div className="bg-black p-4">
+            <div className="p-4">
               <h3 className="text-xl font-black text-white mb-3">HOW TO USE REMIX</h3>
               <p className="text-white font-bold mb-3">After generating an image in Sora, open it and select "Remix" (or press R). This lets you describe changes.</p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <div className="bg-black p-3">
+                <div className="p-3">
                   <h4 className="font-black text-brand-red mb-1">IDENTIFY BY DESCRIPTION</h4>
                   <p className="text-white font-bold text-sm">Describe what you want changed: "add fog", "make it nighttime", "remove background objects"</p>
                 </div>
-                <div className="bg-black p-3">
+                <div className="p-3">
                   <h4 className="font-black text-brand-red mb-1">BE SPATIALLY SPECIFIC</h4>
                   <p className="text-white font-bold text-sm">Use directions: "Place potted plant on table in left foreground"</p>
                 </div>
-                <div className="bg-black p-3">
+                <div className="p-3">
                   <h4 className="font-black text-brand-red mb-1">MAINTAIN CONSISTENCY</h4>
                   <p className="text-white font-bold text-sm">Consider overall scene: "add brown leather sofa matching room's vintage style"</p>
                 </div>
-                <div className="bg-black p-3">
+                <div className="p-3">
                   <h4 className="font-black text-brand-red mb-1">ONE CHANGE AT A TIME</h4>
                   <p className="text-white font-bold text-sm">For big edits, work stepwise. First "add dog", then "change to dusk lighting"</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-black py-3 px-6 pt-0">
+            <div className="py-3 px-6 pt-0">
               <h3 className="text-2xl font-black text-white mb-4">EDITING EXAMPLES</h3>
               <div className="space-y-4">
                 <div>
@@ -359,10 +357,10 @@ export default function Playbook() {
                 </div>
               </div>
             </div>
-            <div className="bg-black p-3 font-mono text-sm text-brand-red font-black mb-3">
+            <div className="p-3 font-mono text-sm text-brand-red font-black mb-3">
               "&#123;Subject&#125; &#123;Action&#125; in &#123;Setting&#125;, lit by &#123;Lighting&#125;, &#123;Style&#125;. Colors: &#123;PrimaryColor&#125; and &#123;SecondaryColor&#125;. Shot with &#123;Camera&#125; --aspect &#123;AspectRatio&#125;"
             </div>
-            <div className="bg-black p-3 mb-3">
+            <div className="p-3 mb-3">
               <h4 className="font-black text-brand-red mb-1">EXAMPLE OUTPUT:</h4>
               <p className="text-white font-bold text-sm">"A sleek vape pen is centered on a frosted glass pedestal in a minimalist studio, lit by soft ambient glow, captured top-down with a 50mm macro lens. Presented in editorial style. Colors: #000000 and #F5C044. --aspect 4:5"</p>
             </div>
@@ -373,7 +371,7 @@ export default function Playbook() {
         <section id="tips" className="bg-black rounded-lg p-6 mb-6">
           <h2 className="text-4xl font-black text-white mb-6">7. TIPS, BEST PRACTICES & WARNINGS</h2>
           <div className="text-white space-y-6">
-            <div className="bg-black p-4">
+            <div className="p-4">
               <ul className="space-y-2 text-white font-bold text-sm">
                 <li><strong className="text-brand-red">Ask for Improvements:</strong> "How can I make this prompt more detailed?"</li>
                 <li><strong className="text-brand-red">Request Variations:</strong> "Give me five variations of this idea"</li>
@@ -382,7 +380,7 @@ export default function Playbook() {
               </ul>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-black p-4">
+              <div className="p-4">
                 <ul className="space-y-2 text-white font-bold text-sm">
                   <li><strong className="text-brand-red">Be Specific, Avoid Redundancy:</strong> "red ball on wooden table" not "nice pretty red ball on brown table"</li>
                   <li><strong className="text-brand-red">Avoid Ambiguity:</strong> "black Jaguar car" not just "Jaguar"</li>
@@ -426,7 +424,7 @@ export default function Playbook() {
               </div>
             </div>
 
-            <div className="bg-black py-3 px-6 pb-0 text-center">
+            <div className="py-3 px-6 pb-0 text-center">
               <h3 className="text-xl font-black text-white mb-3">ITERATE AND EVOLVE</h3>
               <p className="text-white font-bold text-lg mb-4 max-w-3xl mx-auto">
                 Great images may not come out on the first try. Use the Remix feature to refine.
