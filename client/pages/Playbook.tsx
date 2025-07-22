@@ -2,12 +2,8 @@ import { Header } from "../components/Header";
 
 export default function Playbook() {
   return (
-    <div className="min-h-screen bg-red-500">
+    <div className="min-h-screen bg-brand-red">
       <Header />
-
-      <div style={{backgroundColor: 'red', color: 'white', padding: '20px', fontSize: '24px'}}>
-        TEST - PLAYBOOK PAGE IS LOADING
-      </div>
 
       <main className="max-w-6xl mx-auto mt-5 px-4 py-5">
         {/* Hero Section */}
@@ -197,7 +193,7 @@ export default function Playbook() {
                   <ul className="space-y-1 text-white font-bold text-sm">
                     <li>• <strong>Close-up</strong> - focus on face/object details</li>
                     <li>• <strong>Medium shot</strong> - subject from waist up</li>
-                    <li>�� <strong>Wide shot</strong> - full scene/environment</li>
+                    <li>• <strong>Wide shot</strong> - full scene/environment</li>
                     <li>• <strong>Panoramic</strong> - ultra-wide scene</li>
                   </ul>
                 </div>
