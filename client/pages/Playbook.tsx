@@ -373,25 +373,21 @@ export default function Playbook() {
         <section id="tips" className="bg-black rounded-lg p-6 mb-6">
           <h2 className="text-4xl font-black text-white mb-6">7. TIPS, BEST PRACTICES & WARNINGS</h2>
           <div className="text-white space-y-6">
-            
+            <div className="bg-black p-4">
+              <ul className="space-y-2 text-white font-bold text-sm">
+                <li><strong className="text-brand-red">Ask for Improvements:</strong> "How can I make this prompt more detailed?"</li>
+                <li><strong className="text-brand-red">Request Variations:</strong> "Give me five variations of this idea"</li>
+                <li><strong className="text-brand-red">Use Chat Context:</strong> Describe conversationally, then ask for prompt</li>
+                <li><strong className="text-brand-red">Community Learning:</strong> Study prompts from galleries</li>
+              </ul>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-black p-4">
-                <h4 className="text-xl font-black text-white mb-3">GENERAL TIPS</h4>
                 <ul className="space-y-2 text-white font-bold text-sm">
                   <li><strong className="text-brand-red">Be Specific, Avoid Redundancy:</strong> "red ball on wooden table" not "nice pretty red ball on brown table"</li>
                   <li><strong className="text-brand-red">Avoid Ambiguity:</strong> "black Jaguar car" not just "Jaguar"</li>
                   <li><strong className="text-brand-red">Test in Parts:</strong> Try "mid-century modern living room" alone first</li>
                   <li><strong className="text-brand-red">Use Structure:</strong> "Scene: market. Subject: merchant. Action: arranging spices"</li>
-                </ul>
-              </div>
-              
-              <div className="bg-black p-4">
-                <h4 className="text-xl font-black text-white mb-3">LEVERAGE CHATGPT</h4>
-                <ul className="space-y-2 text-white font-bold text-sm">
-                  <li><strong className="text-brand-red">Ask for Improvements:</strong> "How can I make this prompt more detailed?"</li>
-                  <li><strong className="text-brand-red">Request Variations:</strong> "Give me five variations of this idea"</li>
-                  <li><strong className="text-brand-red">Use Chat Context:</strong> Describe conversationally, then ask for prompt</li>
-                  <li><strong className="text-brand-red">Community Learning:</strong> Study prompts from galleries</li>
                 </ul>
               </div>
             </div>
