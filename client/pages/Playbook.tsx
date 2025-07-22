@@ -265,7 +265,7 @@ export default function Playbook() {
 
         {/* Section 5: Graphics & Design */}
         <section id="graphics" className="bg-black rounded-lg p-6 mb-6">
-          <h2 className="text-xl font-black text-white mb-6">5. CUSTOM GRAPHICS & DESIGN</h2>
+          <h2 className="text-3xl font-black text-white mb-6">CUSTOM GRAPHICS & DESIGN</h2>
           <div className="text-white space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="p-4">
