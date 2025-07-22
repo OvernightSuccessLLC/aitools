@@ -14,7 +14,7 @@ export default function Playbook() {
 
         {/* Section 1: Basics of Prompting */}
         <section id="basics" className="bg-black rounded-lg py-3 px-6 mb-3">
-          <h2 className="text-4xl font-black text-white mb-6">1. BASICS OF PROMPTING</h2>
+          <h2 className="text-xl font-black text-white mb-6">BASICS OF PROMPTING</h2>
           <div className="text-white space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-black p-4">
@@ -418,7 +418,7 @@ export default function Playbook() {
                   <h4 className="font-black text-green-300 mb-1">SOLUTIONS:</h4>
                   <ul className="space-y-1 text-white font-bold text-sm">
                     <li>• Resolve conflicts by clarifying</li>
-                    <li>�� Break into one scene at a time</li>
+                    <li>• Break into one scene at a time</li>
                     <li>• Use simpler descriptions</li>
                     <li>• Use variations and re-run prompts</li>
                   </ul>
