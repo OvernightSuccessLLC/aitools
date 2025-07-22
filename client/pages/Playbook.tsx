@@ -1,9 +1,9 @@
-import { AppNavigation } from "../components/Header";
+import { Header } from "../components/Header";
 
 export default function Playbook() {
   return (
     <div className="min-h-screen font-inter" style={{ backgroundColor: '#F0440F' }}>
-      <AppNavigation />
+      <Header />
       
       <main className="max-w-[1200px] mx-auto px-4 md:px-6 lg:px-8 py-16 space-y-16">
         
@@ -171,7 +171,7 @@ export default function Playbook() {
                 One of the most powerful mood setters. Quality and direction of light.
               </p>
               <ul className="text-white text-[14px] space-y-1 mb-4" style={{ lineHeight: '1.6' }}>
-                <li>• <strong>Soft diffused light</strong> - gentle, minimal shadows</li>
+                <li>�� <strong>Soft diffused light</strong> - gentle, minimal shadows</li>
                 <li>• <strong>Golden hour sunlight</strong> - warm, dramatic shadows</li>
                 <li>• <strong>Neon glow</strong> - colored urban light</li>
                 <li>• <strong>Candlelight</strong> - dim, warm, flickering</li>
