@@ -10,7 +10,7 @@ export default function Playbook() {
         {/* Section 1: Basics of Prompting */}
         <section className="bg-black rounded-3xl p-1 mb-16">
           <div className="p-6">
-            <h2 className="font-bold text-white text-[28px] uppercase tracking-tight leading-tight mb-6" style={{ fontFamily: 'Inter, sans-serif' }}>
+            <h2 className="font-bold text-white text-[28px] uppercase tracking-tight leading-tight mb-6">
               BASICS OF PROMPTING
             </h2>
             
