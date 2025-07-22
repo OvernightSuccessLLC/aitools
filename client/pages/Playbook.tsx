@@ -420,9 +420,9 @@ export default function Playbook() {
           </div>
         </section>
 
-        {/* Section 8: Tips & Best Practices */}
+        {/* Section 7: Tips & Best Practices */}
         <section id="tips" className="bg-black rounded-lg p-6 mb-6">
-          <h2 className="text-4xl font-black text-white mb-6">8. TIPS, BEST PRACTICES & WARNINGS</h2>
+          <h2 className="text-4xl font-black text-white mb-6">7. TIPS, BEST PRACTICES & WARNINGS</h2>
           <div className="text-white space-y-6">
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
