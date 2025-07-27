@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { handleDemo } from "./routes/demo";
+import emailCaptureRoutes from "./routes/email-capture";
 
 export function createServer() {
   const app = express();
@@ -16,6 +17,9 @@ export function createServer() {
   });
 
   app.get("/api/demo", handleDemo);
+
+  // Email capture routes
+  app.use("/api", emailCaptureRoutes);
 
   return app;
 }
