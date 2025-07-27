@@ -715,20 +715,19 @@ export default function Tools() {
   };
 
   return (
-    <div className="min-h-screen bg-brand-red">
+    <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#fe1b06' }}>
       <Header />
-      <main className="max-w-7xl mx-auto px-4 py-6 sm:py-8" style={{ backgroundColor: '#fe1b06' }}>
-        <div
-          className="text-center mb-8 sm:mb-12 font-normal drop-shadow-lg"
-          style={{
-            fontSize: "clamp(2.5rem, 8vw, 3.75rem)",
-            lineHeight: "1.1",
-            color: "rgba(255, 255, 255, 1)",
-            backgroundColor: "rgba(0, 0, 0, 1)"
-          }}
-        >
-          <strong>AI Toolkit</strong>
-        </div>
+      <strong
+        className="text-center font-bold"
+        style={{
+          fontSize: '30px',
+          margin: '12px auto 0',
+          padding: '12px 0'
+        }}
+      >
+        AI Toolkit
+      </strong>
+      <main className="max-w-7xl mx-auto px-4" style={{ backgroundColor: '#fe1b06', padding: '12px 16px 20px' }}>
 
         {Object.entries(categories)
           .filter(
