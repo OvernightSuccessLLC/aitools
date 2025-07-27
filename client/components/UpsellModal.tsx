@@ -24,7 +24,7 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
             <div className="w-8 h-8 rounded flex items-center justify-center" style={{ backgroundColor: '#fe1b06' }}>
               <span className="text-white font-bold">⚠</span>
             </div>
-            <h2 className="text-white text-xl font-bold">Upgrade Required</h2>
+            <h2 className="text-white text-xl font-bold">LEVEL UP NOW!</h2>
           </div>
           <button 
             onClick={onClose}
