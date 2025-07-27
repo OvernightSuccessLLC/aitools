@@ -88,9 +88,9 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
                     </li>
                   </ul>
                   
-                  <button 
+                  <button
                     className="w-full text-white font-semibold rounded transition-colors text-xs"
-                    style={{ 
+                    style={{
                       backgroundColor: '#fe1b06',
                       height: '20px',
                       padding: '2px 0'
@@ -98,7 +98,7 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
                     onMouseEnter={(e) => e.target.style.backgroundColor = '#e0180a'}
                     onMouseLeave={(e) => e.target.style.backgroundColor = '#fe1b06'}
                   >
-                    Use Pro Key
+                    GET ACCESS NOW
                   </button>
                 </div>
               </div>
