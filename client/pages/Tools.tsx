@@ -705,14 +705,7 @@ export default function Tools() {
             ([categoryName, { tools, color, icon }]) =>
               tools.length > 0 && (
                 <section key={categoryName} className="mb-8 sm:mb-12">
-                  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-0" style={{ color: "rgba(255, 255, 255, 1)", backgroundColor: "rgba(0, 0, 0, 1)", padding: "8px 0" }}>
-                    <span
-                      className={`${color} text-white rounded-full text-xs sm:text-sm mr-0 sm:mr-4 flex items-center gap-2 w-fit`}
-                      style={{ padding: "4px 8px" }}
-                    >
-                      <span>{icon}</span>
-                      <span>{categoryName.toUpperCase()}</span>
-                    </span>
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6" style={{ color: "rgba(255, 255, 255, 1)", backgroundColor: "rgba(0, 0, 0, 1)", padding: "8px 0" }}>
                     <span className="text-base sm:text-lg md:text-xl" style={{ color: "rgba(255, 255, 255, 1)" }}>
                       {categoryName === "AI" && "Core AI & Development Tools"}
                       {categoryName === "Design" && "Design & Visual Creation"}
