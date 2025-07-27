@@ -104,38 +104,38 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
                 >
                   <div className="text-center mb-6">
                     <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white text-xl">👑</span>
+                      <span className="text-white text-xl">���</span>
                     </div>
-                    <h3 className="text-white text-xl font-bold mb-2">Enterprise</h3>
+                    <h3 className="text-white text-xl font-bold mb-2">Creative O/S</h3>
                     <div className="text-3xl font-bold text-white">
-                      $99<span className="text-sm font-normal text-gray-400">/month</span>
+                      $29<span className="text-sm font-normal text-gray-400">/month</span>
                     </div>
                   </div>
-                  
+
                   <ul className="space-y-3 mb-6">
                     <li className="flex items-center text-sm text-gray-300">
                       <span className="text-green-500 mr-3">✓</span>
-                      Everything in Pro
+                      200+ Curated Tools
                     </li>
                     <li className="flex items-center text-sm text-gray-300">
                       <span className="text-green-500 mr-3">✓</span>
-                      API access
+                      Frameworks & Integrations
                     </li>
                     <li className="flex items-center text-sm text-gray-300">
                       <span className="text-green-500 mr-3">✓</span>
-                      Custom integrations
+                      Full Playbook
                     </li>
                     <li className="flex items-center text-sm text-gray-300">
                       <span className="text-green-500 mr-3">✓</span>
-                      Dedicated support
+                      Template Library
                     </li>
                     <li className="flex items-center text-sm text-gray-300">
                       <span className="text-green-500 mr-3">✓</span>
-                      Team collaboration
+                      Custom Prompt Generators
                     </li>
                     <li className="flex items-center text-sm text-gray-300">
                       <span className="text-green-500 mr-3">✓</span>
-                      White-label options
+                      Pre-Built Keyworld Library
                     </li>
                   </ul>
                   
