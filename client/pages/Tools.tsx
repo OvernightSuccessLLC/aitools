@@ -1,5 +1,7 @@
+import { useState } from "react";
 import { ToolCard } from "../components/ToolCard";
 import { Header } from "../components/Header";
+import { UpsellModal } from "../components/UpsellModal";
 
 const aiTools = [
   // AI Category - Core AI Tools & LLMs
