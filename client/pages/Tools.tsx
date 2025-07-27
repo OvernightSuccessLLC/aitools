@@ -13,7 +13,8 @@ const aiTools = [
   },
   {
     name: "ChatGPT-4o",
-    description: "Advanced conversational AI with image and file understanding.",
+    description:
+      "Advanced conversational AI with image and file understanding.",
     features: ["Image understanding", "File processing", "Advanced reasoning"],
     category: "AI" as const,
     url: "https://chat.openai.com",
@@ -63,7 +64,8 @@ const aiTools = [
   },
   {
     name: "Claude 3.7 Sonnet",
-    description: "Anthropic's advanced language model focused on accuracy and reasoning.",
+    description:
+      "Anthropic's advanced language model focused on accuracy and reasoning.",
     features: ["Advanced reasoning", "High accuracy", "Professional grade"],
     category: "AI" as const,
     url: "https://claude.ai",
@@ -152,7 +154,8 @@ const aiTools = [
   },
   {
     name: "Bito AI",
-    description: "Copilot for engineers with auto-suggestions and doc generation.",
+    description:
+      "Copilot for engineers with auto-suggestions and doc generation.",
     features: ["Engineering focus", "Documentation", "Auto-suggestions"],
     category: "AI" as const,
     url: "https://bito.ai",
@@ -173,7 +176,8 @@ const aiTools = [
   },
   {
     name: "Manus",
-    description: "Multimodal autonomous agent for complex web tasks like coding and planning.",
+    description:
+      "Multimodal autonomous agent for complex web tasks like coding and planning.",
     features: ["Autonomous agent", "Web tasks", "Complex planning"],
     category: "AI" as const,
     url: "https://manus.chat",
@@ -214,7 +218,8 @@ const aiTools = [
   },
   {
     name: "Ideogram 3.0",
-    description: "Advanced AI image generator with text rendering and creative control.",
+    description:
+      "Advanced AI image generator with text rendering and creative control.",
     features: ["Text rendering", "Creative control", "High quality"],
     category: "Design" as const,
     url: "https://ideogram.ai",
@@ -242,28 +247,32 @@ const aiTools = [
   },
   {
     name: "Bing Image Creator",
-    description: "Generate images from natural text descriptions, powered by DALL-E.",
+    description:
+      "Generate images from natural text descriptions, powered by DALL-E.",
     features: ["Free to use", "DALL-E powered", "Microsoft integration"],
     category: "Design" as const,
     url: "https://www.bing.com/create",
   },
   {
     name: "AutoDraw",
-    description: "Turns freehand sketches into refined icons and illustrations.",
+    description:
+      "Turns freehand sketches into refined icons and illustrations.",
     features: ["Sketch to vector", "Free to use", "Google tool"],
     category: "Design" as const,
     url: "https://www.autodraw.com",
   },
   {
     name: "Framer",
-    description: "Build and instantly publish AI-generated websites with a visual editor.",
+    description:
+      "Build and instantly publish AI-generated websites with a visual editor.",
     features: ["Website builder", "Visual editor", "Instant publish"],
     category: "Design" as const,
     url: "https://framer.com",
   },
   {
     name: "Microsoft Designer",
-    description: "AI graphic design tool by Microsoft for creating social posts and marketing visuals.",
+    description:
+      "AI graphic design tool by Microsoft for creating social posts and marketing visuals.",
     features: ["Social media", "Marketing visuals", "Microsoft integration"],
     category: "Design" as const,
     url: "https://designer.microsoft.com",
@@ -277,7 +286,8 @@ const aiTools = [
   },
   {
     name: "Magic Design",
-    description: "Canva's AI design assistant that creates layouts from text input.",
+    description:
+      "Canva's AI design assistant that creates layouts from text input.",
     features: ["Layout generation", "Canva integration", "Text input"],
     category: "Design" as const,
     url: "https://www.canva.com/magic-design",
@@ -292,13 +302,18 @@ const aiTools = [
   {
     name: "Figma AI",
     description: "AI-powered design assistant inside Figma.",
-    features: ["Figma integration", "Design assistance", "Workflow optimization"],
+    features: [
+      "Figma integration",
+      "Design assistance",
+      "Workflow optimization",
+    ],
     category: "Design" as const,
     url: "https://www.figma.com/blog/introducing-ai-in-figma",
   },
   {
     name: "Kittl",
-    description: "AI-powered graphic design tool with templates and vector support.",
+    description:
+      "AI-powered graphic design tool with templates and vector support.",
     features: ["Vector graphics", "Templates", "Design tools"],
     category: "Design" as const,
     url: "https://www.kittl.com",
@@ -306,7 +321,11 @@ const aiTools = [
   {
     name: "Exactly",
     description: "AI for generating commercial-quality artwork.",
-    features: ["Commercial quality", "Artwork generation", "Professional grade"],
+    features: [
+      "Commercial quality",
+      "Artwork generation",
+      "Professional grade",
+    ],
     category: "Design" as const,
     url: "https://www.exactly.ai",
   },
@@ -319,21 +338,24 @@ const aiTools = [
   },
   {
     name: "Adobe Express",
-    description: "Simplified Adobe suite with AI features for quick content creation.",
+    description:
+      "Simplified Adobe suite with AI features for quick content creation.",
     features: ["Quick creation", "Adobe integration", "AI features"],
     category: "Design" as const,
     url: "https://express.adobe.com",
   },
   {
     name: "Fronty",
-    description: "Converts uploaded images or drawings into HTML and CSS code using AI.",
+    description:
+      "Converts uploaded images or drawings into HTML and CSS code using AI.",
     features: ["Image to code", "HTML/CSS", "Design conversion"],
     category: "Design" as const,
     url: "https://fronty.com",
   },
   {
     name: "Remove.bg",
-    description: "Recognizes and removes image backgrounds effectively without requiring signup.",
+    description:
+      "Recognizes and removes image backgrounds effectively without requiring signup.",
     features: ["Background removal", "No signup", "Batch processing"],
     category: "Design" as const,
     url: "https://remove.bg",
@@ -347,7 +369,8 @@ const aiTools = [
   },
   {
     name: "Hotpot.ai",
-    description: "AI tools for image editing, enhancement, and background removal.",
+    description:
+      "AI tools for image editing, enhancement, and background removal.",
     features: ["Image editing", "Background removal", "Enhancement"],
     category: "Design" as const,
     url: "https://hotpot.ai",
@@ -363,7 +386,8 @@ const aiTools = [
   // Creative Category
   {
     name: "NightCafe",
-    description: "AI art generator using various algorithms including VQGAN+CLIP.",
+    description:
+      "AI art generator using various algorithms including VQGAN+CLIP.",
     features: ["Multiple algorithms", "Community", "Print services"],
     category: "Creative" as const,
     url: "https://creator.nightcafe.studio",
@@ -428,14 +452,16 @@ const aiTools = [
   },
   {
     name: "Kling 2",
-    description: "Awarded Best AI video generator for quality and affordability in recent AI awards.",
+    description:
+      "Awarded Best AI video generator for quality and affordability in recent AI awards.",
     features: ["Award winning", "High quality", "Affordable"],
     category: "Creative" as const,
     url: "https://kling.tv",
   },
   {
     name: "Synthesia",
-    description: "AI video avatars, voice cloning & screen-record capabilities.",
+    description:
+      "AI video avatars, voice cloning & screen-record capabilities.",
     features: ["AI avatars", "Voice cloning", "Professional videos"],
     category: "Creative" as const,
     url: "https://www.synthesia.io",
@@ -505,35 +531,44 @@ const aiTools = [
   },
   {
     name: "Headlime",
-    description: "Copywriting assistant powered by GPT for landing pages and ads.",
+    description:
+      "Copywriting assistant powered by GPT for landing pages and ads.",
     features: ["Landing pages", "Ad copy", "GPT powered"],
     category: "Marketing" as const,
     url: "https://headlime.com",
   },
   {
     name: "Lummi AI",
-    description: "AI platform for creatives to generate branded content and marketing assets.",
+    description:
+      "AI platform for creatives to generate branded content and marketing assets.",
     features: ["Branded content", "Marketing assets", "Creative tools"],
     category: "Marketing" as const,
     url: "https://lummi.ai",
   },
   {
     name: "Pebblely",
-    description: "AI image generator for product images in various styles and settings.",
+    description:
+      "AI image generator for product images in various styles and settings.",
     features: ["Product photography", "Various styles", "E-commerce"],
     category: "Marketing" as const,
     url: "https://pebblely.com",
   },
   {
     name: "Booth.ai",
-    description: "Generates professional-quality product photos using AI, focused on furniture, fashion, and packaged goods.",
-    features: ["Product photography", "Professional quality", "Multiple categories"],
+    description:
+      "Generates professional-quality product photos using AI, focused on furniture, fashion, and packaged goods.",
+    features: [
+      "Product photography",
+      "Professional quality",
+      "Multiple categories",
+    ],
     category: "Marketing" as const,
     url: "https://booth.ai",
   },
   {
     name: "Stylized.ai",
-    description: "Generates product photos integrated into ecommerce platforms like Shopify.",
+    description:
+      "Generates product photos integrated into ecommerce platforms like Shopify.",
     features: ["E-commerce integration", "Product photos", "Shopify support"],
     category: "Marketing" as const,
     url: "https://stylized.ai",
@@ -542,7 +577,8 @@ const aiTools = [
   // Sales Category
   {
     name: "Booking-Agent.io",
-    description: "Map-based event booking tool to find promoters, events, and artist schedules by location.",
+    description:
+      "Map-based event booking tool to find promoters, events, and artist schedules by location.",
     features: ["Event booking", "Map-based", "Artist schedules"],
     category: "Sales" as const,
     url: "https://booking-agent.io",
@@ -583,14 +619,16 @@ const aiTools = [
   },
   {
     name: "NotebooksLM (Google)",
-    description: "A research & note-taking assistant for analyzing data and generating summaries.",
+    description:
+      "A research & note-taking assistant for analyzing data and generating summaries.",
     features: ["Research assistant", "Data analysis", "Summaries"],
     category: "Productivity" as const,
     url: "https://notebooklm.google.com",
   },
   {
     name: "Taskade",
-    description: "Visualize your tasks and notes with AI-powered productivity tools.",
+    description:
+      "Visualize your tasks and notes with AI-powered productivity tools.",
     features: ["Task management", "Visual organization", "AI productivity"],
     category: "Productivity" as const,
     url: "https://taskade.com",
@@ -604,7 +642,8 @@ const aiTools = [
   },
   {
     name: "Dia Browser",
-    description: "AI-integrated browser with built-in assistants for web automation.",
+    description:
+      "AI-integrated browser with built-in assistants for web automation.",
     features: ["AI browser", "Web automation", "Built-in assistants"],
     category: "Productivity" as const,
     url: "https://dia.so",
@@ -620,14 +659,16 @@ const aiTools = [
   // Other Category
   {
     name: "V7 Labs",
-    description: "Categorized list of 35+ best AI tools for writing, coding, image/video.",
+    description:
+      "Categorized list of 35+ best AI tools for writing, coding, image/video.",
     features: ["Tool directory", "Categorized", "Comprehensive list"],
     category: "Other" as const,
     url: "https://www.v7labs.com/blog/best-ai-tools-listed",
   },
   {
     name: "GlamAI",
-    description: "AI-powered beauty and fashion tool for virtual try-ons and styling.",
+    description:
+      "AI-powered beauty and fashion tool for virtual try-ons and styling.",
     features: ["Virtual try-on", "Beauty tech", "Fashion styling"],
     category: "Other" as const,
     url: "https://glamai.com",
@@ -636,49 +677,89 @@ const aiTools = [
 
 export default function Tools() {
   const categories = {
-    AI: { tools: aiTools.filter((tool) => tool.category === "AI"), color: "bg-purple-500", icon: "🤖" },
-    Design: { tools: aiTools.filter((tool) => tool.category === "Design"), color: "bg-pink-500", icon: "🎨" },
-    Creative: { tools: aiTools.filter((tool) => tool.category === "Creative"), color: "bg-orange-500", icon: "✨" },
-    Marketing: { tools: aiTools.filter((tool) => tool.category === "Marketing"), color: "bg-blue-500", icon: "📈" },
-    Productivity: { tools: aiTools.filter((tool) => tool.category === "Productivity"), color: "bg-green-500", icon: "⚡" },
-    Sales: { tools: aiTools.filter((tool) => tool.category === "Sales"), color: "bg-yellow-500", icon: "💼" },
-    Other: { tools: aiTools.filter((tool) => tool.category === "Other"), color: "bg-gray-500", icon: "🔧" },
+    AI: {
+      tools: aiTools.filter((tool) => tool.category === "AI"),
+      color: "bg-purple-500",
+      icon: "🤖",
+    },
+    Design: {
+      tools: aiTools.filter((tool) => tool.category === "Design"),
+      color: "bg-pink-500",
+      icon: "🎨",
+    },
+    Creative: {
+      tools: aiTools.filter((tool) => tool.category === "Creative"),
+      color: "bg-orange-500",
+      icon: "✨",
+    },
+    Marketing: {
+      tools: aiTools.filter((tool) => tool.category === "Marketing"),
+      color: "bg-blue-500",
+      icon: "📈",
+    },
+    Productivity: {
+      tools: aiTools.filter((tool) => tool.category === "Productivity"),
+      color: "bg-green-500",
+      icon: "⚡",
+    },
+    Sales: {
+      tools: aiTools.filter((tool) => tool.category === "Sales"),
+      color: "bg-yellow-500",
+      icon: "💼",
+    },
+    Other: {
+      tools: aiTools.filter((tool) => tool.category === "Other"),
+      color: "bg-gray-500",
+      icon: "🔧",
+    },
   };
 
   return (
     <div className="min-h-screen bg-brand-red">
       <Header />
       <main className="max-w-7xl mx-auto px-4 py-6 sm:py-8">
-        <div className="text-center mb-8 sm:mb-12 text-black font-normal drop-shadow-lg" style={{ fontSize: 'clamp(2.5rem, 8vw, 3.75rem)', lineHeight: '1.1' }}>
+        <div
+          className="text-center mb-8 sm:mb-12 text-black font-normal drop-shadow-lg"
+          style={{ fontSize: "clamp(2.5rem, 8vw, 3.75rem)", lineHeight: "1.1" }}
+        >
           <strong>AI Toolkit</strong>
         </div>
 
         {Object.entries(categories)
-          .filter(([categoryName]) => categoryName !== "Sales" && categoryName !== "Other")
-          .map(([categoryName, { tools, color, icon }]) =>
-          tools.length > 0 && (
-            <section key={categoryName} className="mb-8 sm:mb-12">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-brand-cream mb-4 sm:mb-6 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-0">
-                <span className={`${color} text-white px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm mr-0 sm:mr-4 flex items-center gap-2 w-fit`}>
-                  <span>{icon}</span>
-                  <span>{categoryName.toUpperCase()}</span>
-                </span>
-                <span className="text-black text-base sm:text-lg md:text-xl">
-                  {categoryName === "AI" && "Core AI & Development Tools"}
-                  {categoryName === "Design" && "Design & Visual Creation"}
-                  {categoryName === "Creative" && "Creative & Media Production"}
-                  {categoryName === "Marketing" && "Marketing & Content Creation"}
-                  {categoryName === "Productivity" && "Productivity & Organization"}
-                </span>
-              </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-                {tools.map((tool, index) => (
-                  <ToolCard key={`${categoryName}-${index}`} {...tool} />
-                ))}
-              </div>
-            </section>
+          .filter(
+            ([categoryName]) =>
+              categoryName !== "Sales" && categoryName !== "Other",
           )
-        )}
+          .map(
+            ([categoryName, { tools, color, icon }]) =>
+              tools.length > 0 && (
+                <section key={categoryName} className="mb-8 sm:mb-12">
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-brand-cream mb-4 sm:mb-6 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-0">
+                    <span
+                      className={`${color} text-white px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm mr-0 sm:mr-4 flex items-center gap-2 w-fit`}
+                    >
+                      <span>{icon}</span>
+                      <span>{categoryName.toUpperCase()}</span>
+                    </span>
+                    <span className="text-black text-base sm:text-lg md:text-xl">
+                      {categoryName === "AI" && "Core AI & Development Tools"}
+                      {categoryName === "Design" && "Design & Visual Creation"}
+                      {categoryName === "Creative" &&
+                        "Creative & Media Production"}
+                      {categoryName === "Marketing" &&
+                        "Marketing & Content Creation"}
+                      {categoryName === "Productivity" &&
+                        "Productivity & Organization"}
+                    </span>
+                  </h2>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                    {tools.map((tool, index) => (
+                      <ToolCard key={`${categoryName}-${index}`} {...tool} />
+                    ))}
+                  </div>
+                </section>
+              ),
+          )}
       </main>
     </div>
   );

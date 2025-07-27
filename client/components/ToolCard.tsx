@@ -6,25 +6,33 @@ interface ToolCardProps {
   url: string;
 }
 
-export function ToolCard({ name, description, features, category, url }: ToolCardProps) {
+export function ToolCard({
+  name,
+  description,
+  features,
+  category,
+  url,
+}: ToolCardProps) {
   const categoryColors = {
     freemium: "bg-category-freemium",
-    premium: "bg-category-premium", 
+    premium: "bg-category-premium",
     free: "bg-category-free",
-    paid: "bg-category-paid"
+    paid: "bg-category-paid",
   };
 
   const categoryLabels = {
     freemium: "Freemium",
     premium: "Premium",
     free: "Free",
-    paid: "Paid"
+    paid: "Paid",
   };
 
-    return (
+  return (
     <div className="bg-brand-black rounded-xl p-3 sm:p-4 border border-brand-black/20 hover:border-brand-orange/30 transition-all duration-200 hover:transform hover:scale-[1.02] active:scale-[0.98] flex flex-col h-full touch-manipulation">
       <div className="flex items-center justify-between mb-3">
-        <div className={`${categoryColors[category]} text-white text-xs font-bold px-2 py-1 rounded-full`}>
+        <div
+          className={`${categoryColors[category]} text-white text-xs font-bold px-2 py-1 rounded-full`}
+        >
           {categoryLabels[category]}
         </div>
       </div>
@@ -40,8 +48,13 @@ export function ToolCard({ name, description, features, category, url }: ToolCar
       <div className="mb-4 flex-grow">
         <ul className="space-y-1">
           {features.slice(0, 3).map((feature, index) => (
-            <li key={index} className="text-white/70 text-xs sm:text-sm flex items-start">
-              <span className="text-brand-orange mr-2 text-xs flex-shrink-0 mt-0.5">●</span>
+            <li
+              key={index}
+              className="text-white/70 text-xs sm:text-sm flex items-start"
+            >
+              <span className="text-brand-orange mr-2 text-xs flex-shrink-0 mt-0.5">
+                ●
+              </span>
               <span className="line-clamp-1 break-words">{feature}</span>
             </li>
           ))}
@@ -49,7 +62,7 @@ export function ToolCard({ name, description, features, category, url }: ToolCar
       </div>
 
       <button
-        onClick={() => window.open(url, '_blank')}
+        onClick={() => window.open(url, "_blank")}
         className="w-full bg-brand-orange hover:bg-brand-orange/90 active:bg-brand-orange/80 text-white font-bold py-2.5 sm:py-3 px-4 rounded-lg transition-all duration-200 text-xs sm:text-sm mt-auto transform active:scale-95"
       >
         🔗 Visit Tool

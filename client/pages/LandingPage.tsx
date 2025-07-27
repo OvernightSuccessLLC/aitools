@@ -40,13 +40,13 @@ export default function LandingPage() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-[#FF4426]">
         <div className="mb-12">
-          <img 
-            src="https://cdn.builder.io/api/v1/image/assets%2F1964cc1516094f2c9726884f044c2ef1%2Ffa47f670249e457380e59612b7a8a5aa?format=webp&width=800" 
-            alt="Overnight Success" 
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F1964cc1516094f2c9726884f044c2ef1%2Ffa47f670249e457380e59612b7a8a5aa?format=webp&width=800"
+            alt="Overnight Success"
             className="w-auto h-16"
           />
         </div>
-        
+
         <div className="bg-black rounded-lg p-8 w-full max-w-md mx-4">
           <div className="text-center">
             <div className="text-6xl mb-6">✅</div>
@@ -71,15 +71,29 @@ export default function LandingPage() {
           src="https://cdn.builder.io/api/v1/image/assets%2F1964cc1516094f2c9726884f044c2ef1%2Ffa47f670249e457380e59612b7a8a5aa?format=webp&width=800"
           alt="Overnight Success"
           className="w-auto max-w-[280px] sm:max-w-none"
-          style={{ height: 'clamp(120px, 15vw, 200px)' }}
+          style={{ height: "clamp(120px, 15vw, 200px)" }}
         />
       </div>
 
       {/* Form Card */}
-      <div className="bg-black rounded-lg w-full max-w-md mx-4" style={{ padding: 'clamp(16px, 4vw, 24px) clamp(20px, 5vw, 32px) clamp(24px, 4vw, 32px)' }}>
+      <div
+        className="bg-black rounded-lg w-full max-w-md mx-4"
+        style={{
+          padding:
+            "clamp(16px, 4vw, 24px) clamp(20px, 5vw, 32px) clamp(24px, 4vw, 32px)",
+        }}
+      >
         <div className="text-center mb-6">
-          <h1 className="text-xl sm:text-2xl font-bold mb-2" style={{ color: 'rgba(255, 255, 255, 1)' }}>Get Access</h1>
-          <p className="text-sm sm:text-base" style={{ color: 'rgba(255, 255, 255, 1)' }}>
+          <h1
+            className="text-xl sm:text-2xl font-bold mb-2"
+            style={{ color: "rgba(255, 255, 255, 1)" }}
+          >
+            Get Access
+          </h1>
+          <p
+            className="text-sm sm:text-base"
+            style={{ color: "rgba(255, 255, 255, 1)" }}
+          >
             Enter your details to access the AI Playbook and Toolkit
           </p>
         </div>
@@ -113,7 +127,7 @@ export default function LandingPage() {
             type="submit"
             disabled={isLoading || !email || !name}
             className="w-full py-3 sm:py-4 px-6 text-sm sm:text-base bg-[#FF4426] text-white font-bold rounded hover:bg-[#e03d1f] active:bg-[#d03419] disabled:cursor-not-allowed transition-all transform hover:scale-[1.02] active:scale-[0.98]"
-            style={{ opacity: '1' }}
+            style={{ opacity: "1" }}
           >
             {isLoading ? (
               <div className="flex items-center justify-center">
