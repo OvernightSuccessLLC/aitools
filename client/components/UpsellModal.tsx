@@ -12,11 +12,11 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
     <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4">
       <div className="bg-gray-900 rounded-lg w-full max-w-4xl max-h-[90vh] overflow-y-auto">
         {/* Header */}
-        <div 
+        <div
           className="flex items-center justify-between border-b"
-          style={{ 
-            backgroundColor: 'rgba(0, 0, 0, 1)', 
-            padding: '20px 24px',
+          style={{
+            backgroundColor: 'rgba(0, 0, 0, 1)',
+            padding: '20px 24px 0',
             border: '1px solid rgba(0, 0, 0, 1)'
           }}
         >
