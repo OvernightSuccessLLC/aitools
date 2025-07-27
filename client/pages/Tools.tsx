@@ -699,7 +699,7 @@ export default function Tools() {
         {Object.entries(categories)
           .filter(
             ([categoryName]) =>
-              categoryName !== "Sales" && categoryName !== "Other",
+              categoryName !== "Sales" && categoryName !== "Other" && categoryName !== "Marketing",
           )
           .map(
             ([categoryName, { tools, color, icon }]) =>
