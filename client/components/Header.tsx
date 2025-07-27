@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export function Header() {
   return (
-    <header className="bg-brand-black border-b border-brand-black/20 px-3 sm:px-4 py-2 sm:py-3">
+    <header className="bg-brand-black border-b border-brand-black/20 px-3 sm:px-4" style={{ padding: '0 16px' }}>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/tools" className="flex items-center">
