@@ -690,7 +690,7 @@ export default function Tools() {
     Creative: {
       tools: aiTools.filter((tool) => tool.category === "Creative"),
       color: "bg-orange-500",
-      icon: "✨",
+      icon: "���",
     },
     Marketing: {
       tools: aiTools.filter((tool) => tool.category === "Marketing"),
@@ -719,8 +719,13 @@ export default function Tools() {
       <Header />
       <main className="max-w-7xl mx-auto px-4 py-6 sm:py-8" style={{ backgroundColor: '#fe1b06' }}>
         <div
-          className="text-center mb-8 sm:mb-12 text-black font-normal drop-shadow-lg"
-          style={{ fontSize: "clamp(2.5rem, 8vw, 3.75rem)", lineHeight: "1.1" }}
+          className="text-center mb-8 sm:mb-12 font-normal drop-shadow-lg"
+          style={{
+            fontSize: "clamp(2.5rem, 8vw, 3.75rem)",
+            lineHeight: "1.1",
+            color: "rgba(255, 255, 255, 1)",
+            backgroundColor: "rgba(0, 0, 0, 1)"
+          }}
         >
           <strong>AI Toolkit</strong>
         </div>
