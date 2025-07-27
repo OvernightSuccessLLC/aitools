@@ -122,7 +122,7 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
                     />
                     <h3 className="text-white text-xl font-bold mb-2">Creative O/S</h3>
                     <div className="text-3xl font-bold text-white">
-                      $29<span className="text-sm font-normal text-gray-400">/month</span>
+                      $29<span className="text-sm font-normal text-gray-400">&nbsp;one-time</span>
                     </div>
                   </div>
 
