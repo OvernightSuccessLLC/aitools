@@ -153,16 +153,17 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
                     </li>
                   </ul>
                   
-                  <button 
-                    className="w-full bg-purple-600 text-white font-semibold rounded transition-colors text-xs"
-                    style={{ 
+                  <button
+                    className="w-full text-white font-semibold rounded transition-colors text-xs"
+                    style={{
+                      backgroundColor: '#fe1b06',
                       height: '20px',
                       padding: '2px 0'
                     }}
-                    onMouseEnter={(e) => e.target.style.backgroundColor = '#7c3aed'}
-                    onMouseLeave={(e) => e.target.style.backgroundColor = '#9333ea'}
+                    onMouseEnter={(e) => e.target.style.backgroundColor = '#e0180a'}
+                    onMouseLeave={(e) => e.target.style.backgroundColor = '#fe1b06'}
                   >
-                    Use Enterprise Key
+                    GET ACCESS NOW
                   </button>
                 </div>
               </div>
