@@ -64,7 +64,7 @@ export default function LandingPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-4" style={{ backgroundColor: '#fc1c04' }}>
+    <div className="min-h-screen flex flex-col items-center justify-center px-4" style={{ backgroundColor: '#fe1b06' }}>
       {/* Logo */}
       <div className="mb-8 sm:mb-12">
         <img
