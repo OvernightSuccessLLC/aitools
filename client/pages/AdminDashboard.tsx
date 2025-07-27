@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { UpsellBanner } from "../components/UpsellBanner";
 
 interface EmailEntry {
   id: number;
