@@ -692,17 +692,6 @@ export default function Tools() {
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#fe1b06' }}>
       <Header />
       <div className="text-center">
-        <strong
-          className="font-bold block"
-          style={{
-            fontSize: '30px',
-            margin: '12px auto 0',
-            padding: '12px 0'
-          }}
-        >
-          AI Toolkit
-        </strong>
-
         <UpsellBanner />
       </div>
       <main className="max-w-7xl mx-auto px-4" style={{ backgroundColor: '#fe1b06', padding: '12px 16px 20px' }}>
