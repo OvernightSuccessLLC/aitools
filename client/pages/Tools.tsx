@@ -721,16 +721,30 @@ export default function Tools() {
   return (
     <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#fe1b06' }}>
       <Header />
-      <strong
-        className="text-center font-bold"
-        style={{
-          fontSize: '30px',
-          margin: '12px auto 0',
-          padding: '12px 0'
-        }}
-      >
-        AI Toolkit
-      </strong>
+      <div className="text-center">
+        <strong
+          className="font-bold block"
+          style={{
+            fontSize: '30px',
+            margin: '12px auto 0',
+            padding: '12px 0'
+          }}
+        >
+          AI Toolkit
+        </strong>
+
+        {/* Upsell Button */}
+        <button
+          onClick={() => setIsUpsellModalOpen(true)}
+          className="inline-flex items-center gap-2 px-6 py-3 text-white font-semibold rounded-lg transition-all transform hover:scale-105 active:scale-95 mt-4"
+          style={{ backgroundColor: '#fe1b06' }}
+          onMouseEnter={(e) => e.target.style.backgroundColor = '#e0180a'}
+          onMouseLeave={(e) => e.target.style.backgroundColor = '#fe1b06'}
+        >
+          <span className="text-xl">🚀</span>
+          Upgrade for Premium Access
+        </button>
+      </div>
       <main className="max-w-7xl mx-auto px-4" style={{ backgroundColor: '#fe1b06', padding: '12px 16px 20px' }}>
 
         {Object.entries(categories)
