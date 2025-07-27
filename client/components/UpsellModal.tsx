@@ -21,7 +21,7 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
           }}
         >
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-red-600 rounded flex items-center justify-center">
+            <div className="w-8 h-8 rounded flex items-center justify-center" style={{ backgroundColor: '#fe1b06' }}>
               <span className="text-white font-bold">⚠</span>
             </div>
             <h2 className="text-white text-xl font-bold">Upgrade Required</h2>
