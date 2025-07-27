@@ -64,24 +64,21 @@ export default function LandingPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#FF4426] px-4">
+    <div className="min-h-screen flex flex-col items-center justify-center px-4" style={{ backgroundColor: '#fc1c04' }}>
       {/* Logo */}
       <div className="mb-8 sm:mb-12">
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F1964cc1516094f2c9726884f044c2ef1%2Ffa47f670249e457380e59612b7a8a5aa?format=webp&width=800"
           alt="Overnight Success"
           className="w-auto max-w-[280px] sm:max-w-none"
-          style={{ height: "clamp(120px, 15vw, 200px)" }}
+          style={{ height: '175px', lineHeight: '12px' }}
         />
       </div>
 
       {/* Form Card */}
       <div
         className="bg-black rounded-lg w-full max-w-md mx-4"
-        style={{
-          padding:
-            "clamp(16px, 4vw, 24px) clamp(20px, 5vw, 32px) clamp(24px, 4vw, 32px)",
-        }}
+        style={{ padding: '12px 32px 24px' }}
       >
         <div className="text-center mb-6">
           <h1
@@ -92,7 +89,7 @@ export default function LandingPage() {
           </h1>
           <p
             className="text-sm sm:text-base"
-            style={{ color: "rgba(255, 255, 255, 1)" }}
+            style={{ color: "rgba(255, 255, 255, 1)", fontSize: '14px' }}
           >
             Enter your details to access the AI Playbook and Toolkit
           </p>
@@ -126,8 +123,8 @@ export default function LandingPage() {
           <button
             type="submit"
             disabled={isLoading || !email || !name}
-            className="w-full py-3 sm:py-4 px-6 text-sm sm:text-base bg-[#FF4426] text-white font-bold rounded hover:bg-[#e03d1f] active:bg-[#d03419] disabled:cursor-not-allowed transition-all transform hover:scale-[1.02] active:scale-[0.98]"
-            style={{ opacity: "1" }}
+            className="w-full py-3 sm:py-4 px-6 text-sm sm:text-base text-white font-bold rounded hover:bg-[#e03d1f] active:bg-[#d03419] disabled:cursor-not-allowed transition-all transform hover:scale-[1.02] active:scale-[0.98]"
+            style={{ opacity: "1", backgroundColor: '#fc1c04' }}
           >
             {isLoading ? (
               <div className="flex items-center justify-center">
@@ -139,10 +136,6 @@ export default function LandingPage() {
             )}
           </button>
         </form>
-
-        <p className="text-white/70 text-xs sm:text-sm text-center mt-6 leading-relaxed">
-          Join thousands of creators using AI to accelerate their success
-        </p>
       </div>
     </div>
   );
