@@ -9,7 +9,8 @@ export function Header() {
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F1964cc1516094f2c9726884f044c2ef1%2Ffa47f670249e457380e59612b7a8a5aa?format=webp&width=800"
               alt="Overnight Success"
-              className="h-19 w-auto"
+              className="w-auto"
+              style={{ height: '76px' }}
             />
           </Link>
         </div>
