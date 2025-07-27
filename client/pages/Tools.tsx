@@ -649,16 +649,13 @@ export default function Tools() {
     <div className="min-h-screen bg-brand-red">
       <Header />
       <main className="max-w-7xl mx-auto px-4 py-8">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-6xl font-bold text-brand-cream mb-6 drop-shadow-lg">
-            🛠️ AI Tool Kit
-          </h1>
-          <p className="text-white/90 text-lg md:text-xl max-w-3xl mx-auto">
-            Discover and access the most powerful AI tools available today. Organized by category to help you find the perfect tool for your specific needs.
-          </p>
+        <div className="text-center mb-12 text-black text-6xl font-normal leading-[60px] drop-shadow-lg pb-6">
+          🛠️ AI Tool Kit
         </div>
 
-        {Object.entries(categories).map(([categoryName, { tools, color, icon }]) =>
+        {Object.entries(categories)
+          .filter(([categoryName]) => categoryName !== "Sales" && categoryName !== "Other")
+          .map(([categoryName, { tools, color, icon }]) =>
           tools.length > 0 && (
             <section key={categoryName} className="mb-12">
               <h2 className="text-2xl md:text-3xl font-bold text-brand-cream mb-6 flex items-center">
@@ -666,13 +663,13 @@ export default function Tools() {
                   <span>{icon}</span>
                   <span>{categoryName.toUpperCase()}</span>
                 </span>
-                {categoryName === "AI" && "Core AI & Development Tools"}
-                {categoryName === "Design" && "Design & Visual Creation"}
-                {categoryName === "Creative" && "Creative & Media Production"}
-                {categoryName === "Marketing" && "Marketing & Content Creation"}
-                {categoryName === "Productivity" && "Productivity & Organization"}
-                {categoryName === "Sales" && "Sales & Business Tools"}
-                {categoryName === "Other" && "Specialized Tools"}
+                <span className="text-black">
+                  {categoryName === "AI" && "Core AI & Development Tools"}
+                  {categoryName === "Design" && "Design & Visual Creation"}
+                  {categoryName === "Creative" && "Creative & Media Production"}
+                  {categoryName === "Marketing" && "Marketing & Content Creation"}
+                  {categoryName === "Productivity" && "Productivity & Organization"}
+                </span>
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {tools.map((tool, index) => (
