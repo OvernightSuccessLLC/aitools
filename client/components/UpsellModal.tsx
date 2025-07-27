@@ -102,7 +102,9 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
                     onMouseEnter={(e) => e.target.style.backgroundColor = '#e0180a'}
                     onMouseLeave={(e) => e.target.style.backgroundColor = '#fe1b06'}
                   >
-                    GET ACCESS NOW
+                    <a href="https://overnightsuccessllc.gumroad.com/l/thebriefcase?_gl=1*122wgru*_ga*Njc3Njk2NDc3LjE3NTM2NTY0ODU.*_ga_6LJN6D94N6*czE3NTM2NTY0ODUkbzEkZzEkdDE3NTM2NTY1MzIkajEzJGwwJGgw">
+                      GET ACCESS NOW
+                    </a>
                   </button>
                 </div>
               </div>
