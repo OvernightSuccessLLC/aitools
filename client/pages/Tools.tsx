@@ -783,6 +783,12 @@ export default function Tools() {
               ),
           )}
       </main>
+
+      {/* Upsell Modal */}
+      <UpsellModal
+        isOpen={isUpsellModalOpen}
+        onClose={() => setIsUpsellModalOpen(false)}
+      />
     </div>
   );
 }
