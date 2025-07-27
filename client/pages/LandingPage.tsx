@@ -76,7 +76,7 @@ export default function LandingPage() {
       </div>
 
       {/* Form Card */}
-      <div className="bg-black rounded-lg p-8 w-full max-w-md">
+      <div className="bg-black rounded-lg w-full max-w-md" style={{ padding: '24px 32px 32px' }}>
         <div className="text-center mb-6">
           <h1 className="text-white text-2xl font-bold mb-2">Get Access</h1>
           <p className="text-white/80 text-sm">
