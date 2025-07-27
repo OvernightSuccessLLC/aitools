@@ -14,18 +14,17 @@ export function UpsellBanner({ className = "", style = {} }: UpsellBannerProps) 
       <div className={`text-center ${className}`} style={style}>
         <button
           onClick={() => setIsUpsellModalOpen(true)}
-          className="inline-flex items-center gap-2 px-6 py-3 text-white font-semibold rounded-lg transition-all transform hover:scale-105 active:scale-95"
+          className="text-white rounded-lg transition-all transform hover:scale-105 active:scale-95"
           style={{
             backgroundColor: 'rgba(0, 0, 0, 1)',
-            margin: '16px 0 20px'
+            margin: '16px 0 20px',
+            padding: '12px 10px 12px 24px',
+            font: '600 18px/18px Inter, sans-serif'
           }}
           onMouseEnter={(e) => e.target.style.backgroundColor = '#333'}
           onMouseLeave={(e) => e.target.style.backgroundColor = 'rgba(0, 0, 0, 1)'}
         >
-          <span className="text-xl">🚀</span>
-          <span style={{ font: '18px/20px Inter, sans-serif' }}>
-            Upgrade for Premium Access
-          </span>
+          <b>LEVEL UP YOUR AI &amp; CREATIVE OVERNIGHT</b>
         </button>
       </div>
 
