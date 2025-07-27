@@ -635,9 +635,15 @@ const aiTools = [
 ];
 
 export default function Tools() {
-  const freeTools = aiTools.filter((tool) => tool.category === "free");
-  const freemiumTools = aiTools.filter((tool) => tool.category === "freemium");
-  const paidTools = aiTools.filter((tool) => tool.category === "paid");
+  const categories = {
+    AI: { tools: aiTools.filter((tool) => tool.category === "AI"), color: "bg-purple-500", icon: "🤖" },
+    Design: { tools: aiTools.filter((tool) => tool.category === "Design"), color: "bg-pink-500", icon: "🎨" },
+    Creative: { tools: aiTools.filter((tool) => tool.category === "Creative"), color: "bg-orange-500", icon: "✨" },
+    Marketing: { tools: aiTools.filter((tool) => tool.category === "Marketing"), color: "bg-blue-500", icon: "📈" },
+    Productivity: { tools: aiTools.filter((tool) => tool.category === "Productivity"), color: "bg-green-500", icon: "⚡" },
+    Sales: { tools: aiTools.filter((tool) => tool.category === "Sales"), color: "bg-yellow-500", icon: "💼" },
+    Other: { tools: aiTools.filter((tool) => tool.category === "Other"), color: "bg-gray-500", icon: "🔧" },
+  };
 
   return (
     <div className="min-h-screen bg-brand-red">
@@ -648,61 +654,33 @@ export default function Tools() {
             🛠️ AI Tool Kit
           </h1>
           <p className="text-white/90 text-lg md:text-xl max-w-3xl mx-auto">
-            Discover and access the most powerful AI tools available today. From
-            chatbots to image generators, find the perfect tool for your
-            creative and professional needs.
+            Discover and access the most powerful AI tools available today. Organized by category to help you find the perfect tool for your specific needs.
           </p>
         </div>
 
-        {/* Free Tools */}
-        {freeTools.length > 0 && (
-          <section className="mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-brand-cream mb-6 flex items-center">
-              <span className="bg-green-500 text-white px-3 py-1 rounded-full text-sm mr-3">
-                FREE
-              </span>
-              Open Source & Free Tools
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {freeTools.map((tool, index) => (
-                <ToolCard key={index} {...tool} />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Freemium Tools */}
-        {freemiumTools.length > 0 && (
-          <section className="mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-brand-cream mb-6 flex items-center">
-              <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm mr-3">
-                FREEMIUM
-              </span>
-              Free with Premium Options
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {freemiumTools.map((tool, index) => (
-                <ToolCard key={index} {...tool} />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Paid Tools */}
-        {paidTools.length > 0 && (
-          <section className="mb-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-brand-cream mb-6 flex items-center">
-              <span className="bg-orange-500 text-white px-3 py-1 rounded-full text-sm mr-3">
-                PAID
-              </span>
-              Premium Tools
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {paidTools.map((tool, index) => (
-                <ToolCard key={index} {...tool} />
-              ))}
-            </div>
-          </section>
+        {Object.entries(categories).map(([categoryName, { tools, color, icon }]) =>
+          tools.length > 0 && (
+            <section key={categoryName} className="mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold text-brand-cream mb-6 flex items-center">
+                <span className={`${color} text-white px-4 py-2 rounded-full text-sm mr-4 flex items-center gap-2`}>
+                  <span>{icon}</span>
+                  <span>{categoryName.toUpperCase()}</span>
+                </span>
+                {categoryName === "AI" && "Core AI & Development Tools"}
+                {categoryName === "Design" && "Design & Visual Creation"}
+                {categoryName === "Creative" && "Creative & Media Production"}
+                {categoryName === "Marketing" && "Marketing & Content Creation"}
+                {categoryName === "Productivity" && "Productivity & Organization"}
+                {categoryName === "Sales" && "Sales & Business Tools"}
+                {categoryName === "Other" && "Specialized Tools"}
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {tools.map((tool, index) => (
+                  <ToolCard key={`${categoryName}-${index}`} {...tool} />
+                ))}
+              </div>
+            </section>
+          )
         )}
       </main>
     </div>
