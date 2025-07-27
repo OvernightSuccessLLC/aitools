@@ -124,7 +124,7 @@ export default function LandingPage() {
             type="submit"
             disabled={isLoading || !email || !name}
             className="w-full py-3 sm:py-4 px-6 text-sm sm:text-base text-white font-bold rounded hover:bg-[#e03d1f] active:bg-[#d03419] disabled:cursor-not-allowed transition-all transform hover:scale-[1.02] active:scale-[0.98]"
-            style={{ opacity: "1", backgroundColor: '#fc1c04' }}
+            style={{ opacity: "1", backgroundColor: '#fe1b06' }}
           >
             {isLoading ? (
               <div className="flex items-center justify-center">
