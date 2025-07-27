@@ -12,12 +12,6 @@ export function Header() {
 
         <div className="flex items-center space-x-4">
           <Link
-            to="/admin"
-            className="text-white/60 hover:text-white text-xs xl:text-sm font-medium transition-colors whitespace-nowrap"
-          >
-            Admin
-          </Link>
-          <Link
             to="/tools"
             className="bg-brand-orange hover:bg-brand-orange/90 text-white px-3 py-2 rounded-lg text-xs sm:text-sm font-medium transition-colors whitespace-nowrap"
           >
