@@ -265,14 +265,7 @@ const aiTools = [
     category: "Design" as const,
     url: "https://relume.io",
   },
-  {
-    name: "Magic Design",
-    description:
-      "Canva's AI design assistant that creates layouts from text input.",
-    features: ["Layout generation", "Canva integration", "Text input"],
-    category: "Design" as const,
-    url: "https://www.canva.com/magic-design",
-  },
+
   {
     name: "Visual Electric",
     description: "Generative design tool for creatives and agencies.",
