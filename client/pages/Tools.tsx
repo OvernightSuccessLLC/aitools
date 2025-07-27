@@ -716,7 +716,7 @@ export default function Tools() {
                     }}
                   >
                     <span className="text-lg sm:text-xl md:text-2xl" style={{ color: "rgba(255, 255, 255, 1)" }}>
-                      {categoryName === "AI" && "Core AI & Development Tools"}
+                      {categoryName === "AI" && "Core AI Tools"}
                       {categoryName === "Design" && "Design & Visual Creation"}
                       {categoryName === "Creative" &&
                         "Creative & Media Production"}
