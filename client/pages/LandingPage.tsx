@@ -66,12 +66,12 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#FF4426] px-4">
       {/* Logo */}
-      <div className="mb-12">
+      <div className="mb-8 sm:mb-12">
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F1964cc1516094f2c9726884f044c2ef1%2Ffa47f670249e457380e59612b7a8a5aa?format=webp&width=800"
           alt="Overnight Success"
-          className="w-auto"
-          style={{ height: '200px' }}
+          className="w-auto max-w-[280px] sm:max-w-none"
+          style={{ height: 'clamp(120px, 15vw, 200px)' }}
         />
       </div>
 
