@@ -657,13 +657,13 @@ export default function Tools() {
           .filter(([categoryName]) => categoryName !== "Sales" && categoryName !== "Other")
           .map(([categoryName, { tools, color, icon }]) =>
           tools.length > 0 && (
-            <section key={categoryName} className="mb-12">
-              <h2 className="text-2xl md:text-3xl font-bold text-brand-cream mb-6 flex items-center">
-                <span className={`${color} text-white px-4 py-2 rounded-full text-sm mr-4 flex items-center gap-2`}>
+            <section key={categoryName} className="mb-8 sm:mb-12">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-brand-cream mb-4 sm:mb-6 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-0">
+                <span className={`${color} text-white px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm mr-0 sm:mr-4 flex items-center gap-2 w-fit`}>
                   <span>{icon}</span>
                   <span>{categoryName.toUpperCase()}</span>
                 </span>
-                <span className="text-black">
+                <span className="text-black text-base sm:text-lg md:text-xl">
                   {categoryName === "AI" && "Core AI & Development Tools"}
                   {categoryName === "Design" && "Design & Visual Creation"}
                   {categoryName === "Creative" && "Creative & Media Production"}
@@ -671,7 +671,7 @@ export default function Tools() {
                   {categoryName === "Productivity" && "Productivity & Organization"}
                 </span>
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                 {tools.map((tool, index) => (
                   <ToolCard key={`${categoryName}-${index}`} {...tool} />
                 ))}
