@@ -678,6 +678,8 @@ const aiTools = [
 ];
 
 export default function Tools() {
+  const [isUpsellModalOpen, setIsUpsellModalOpen] = useState(false);
+
   const categories = {
     AI: {
       tools: aiTools.filter((tool) => tool.category === "AI"),
