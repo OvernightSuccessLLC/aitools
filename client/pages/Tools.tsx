@@ -736,13 +736,18 @@ export default function Tools() {
         {/* Upsell Button */}
         <button
           onClick={() => setIsUpsellModalOpen(true)}
-          className="inline-flex items-center gap-2 px-6 py-3 text-white font-semibold rounded-lg transition-all transform hover:scale-105 active:scale-95 mt-4"
-          style={{ backgroundColor: '#fe1b06' }}
-          onMouseEnter={(e) => e.target.style.backgroundColor = '#e0180a'}
-          onMouseLeave={(e) => e.target.style.backgroundColor = '#fe1b06'}
+          className="inline-flex items-center gap-2 px-6 py-3 text-white font-semibold rounded-lg transition-all transform hover:scale-105 active:scale-95"
+          style={{
+            backgroundColor: 'rgba(0, 0, 0, 1)',
+            margin: '16px 0 20px'
+          }}
+          onMouseEnter={(e) => e.target.style.backgroundColor = '#333'}
+          onMouseLeave={(e) => e.target.style.backgroundColor = 'rgba(0, 0, 0, 1)'}
         >
           <span className="text-xl">🚀</span>
-          Upgrade for Premium Access
+          <span style={{ font: '18px/20px Inter, sans-serif' }}>
+            Upgrade for Premium Access
+          </span>
         </button>
       </div>
       <main className="max-w-7xl mx-auto px-4" style={{ backgroundColor: '#fe1b06', padding: '12px 16px 20px' }}>
