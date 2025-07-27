@@ -690,7 +690,7 @@ export default function Tools() {
     Creative: {
       tools: aiTools.filter((tool) => tool.category === "Creative"),
       color: "bg-orange-500",
-      icon: "���",
+      icon: "✨",
     },
     Marketing: {
       tools: aiTools.filter((tool) => tool.category === "Marketing"),
@@ -739,7 +739,7 @@ export default function Tools() {
             ([categoryName, { tools, color, icon }]) =>
               tools.length > 0 && (
                 <section key={categoryName} className="mb-8 sm:mb-12">
-                  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-brand-cream mb-4 sm:mb-6 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-0">
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-0" style={{ color: "rgba(255, 255, 255, 1)", backgroundColor: "rgba(0, 0, 0, 1)" }}>
                     <span
                       className={`${color} text-white px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm mr-0 sm:mr-4 flex items-center gap-2 w-fit`}
                     >
