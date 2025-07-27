@@ -50,14 +50,7 @@ const aiTools = [
     category: "AI" as const,
     url: "https://claude.ai",
   },
-  {
-    name: "Claude 3.7 Sonnet",
-    description:
-      "Anthropic's advanced language model focused on accuracy and reasoning.",
-    features: ["Advanced reasoning", "High accuracy", "Professional grade"],
-    category: "AI" as const,
-    url: "https://claude.ai",
-  },
+
   {
     name: "Gemini (Google)",
     description:
