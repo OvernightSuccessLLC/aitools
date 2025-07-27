@@ -12,12 +12,12 @@ export default function LandingPage() {
     if (!email) return;
 
     setIsLoading(true);
-    
+
     try {
-      const response = await fetch('/api/capture-email', {
-        method: 'POST',
+      const response = await fetch("/api/capture-email", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({ email }),
       });
@@ -25,11 +25,11 @@ export default function LandingPage() {
       if (response.ok) {
         setIsSubmitted(true);
         setTimeout(() => {
-          navigate('/tools');
+          navigate("/tools");
         }, 2000);
       }
     } catch (error) {
-      console.error('Error submitting email:', error);
+      console.error("Error submitting email:", error);
     } finally {
       setIsLoading(false);
     }
@@ -37,7 +37,10 @@ export default function LandingPage() {
 
   if (isSubmitted) {
     return (
-      <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: '#F0440F' }}>
+      <div
+        className="min-h-screen flex items-center justify-center"
+        style={{ backgroundColor: "#F0440F" }}
+      >
         <div className="max-w-md mx-auto text-center px-6">
           <div className="bg-black rounded-3xl p-8">
             <div className="text-6xl mb-6">✅</div>
@@ -55,16 +58,18 @@ export default function LandingPage() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: '#F0440F' }}>
+    <div
+      className="min-h-screen flex items-center justify-center"
+      style={{ backgroundColor: "#F0440F" }}
+    >
       <div className="max-w-md mx-auto text-center px-6">
         <div className="bg-black rounded-3xl p-8">
-          <h1 className="text-3xl font-bold text-white mb-4">
-            🚀 AI TOOLKIT
-          </h1>
+          <h1 className="text-3xl font-bold text-white mb-4">🚀 AI TOOLKIT</h1>
           <p className="text-white/80 mb-8 text-lg">
-            Access the most powerful AI tools in one place. Enter your email to get started.
+            Access the most powerful AI tools in one place. Enter your email to
+            get started.
           </p>
-          
+
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <input
@@ -77,7 +82,7 @@ export default function LandingPage() {
                 disabled={isLoading}
               />
             </div>
-            
+
             <button
               type="submit"
               disabled={isLoading || !email}
@@ -89,11 +94,11 @@ export default function LandingPage() {
                   Getting you in...
                 </div>
               ) : (
-                'Access AI Tools →'
+                "Access AI Tools →"
               )}
             </button>
           </form>
-          
+
           <p className="text-white/60 text-sm mt-6">
             Join thousands of creators using AI to build amazing things.
           </p>
