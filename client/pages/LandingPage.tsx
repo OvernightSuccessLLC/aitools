@@ -91,7 +91,7 @@ export default function LandingPage() {
               value={name}
               onChange={(e) => setName(e.target.value)}
               placeholder="Your Name"
-              className="w-full px-4 py-3 rounded bg-gray-700 border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:border-gray-500 transition-colors"
+              className="w-full px-3 sm:px-4 py-3 sm:py-4 text-sm sm:text-base rounded bg-gray-700 border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:border-gray-500 focus:ring-2 focus:ring-gray-500/50 transition-all"
               required
               disabled={isLoading}
             />
@@ -103,7 +103,7 @@ export default function LandingPage() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Your Email Address"
-              className="w-full px-4 py-3 rounded bg-gray-700 border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:border-gray-500 transition-colors"
+              className="w-full px-3 sm:px-4 py-3 sm:py-4 text-sm sm:text-base rounded bg-gray-700 border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:border-gray-500 focus:ring-2 focus:ring-gray-500/50 transition-all"
               required
               disabled={isLoading}
             />
