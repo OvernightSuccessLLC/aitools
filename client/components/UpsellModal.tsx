@@ -91,12 +91,12 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
                       Plus More
                     </li>
                   </ul>
-                  
+
                   <button
                     className="w-full text-white font-semibold rounded transition-colors text-xs"
                     style={{
                       backgroundColor: '#fe1b06',
-                      height: '20px',
+                      height: '30px',
                       padding: '2px 0'
                     }}
                     onMouseEnter={(e) => e.target.style.backgroundColor = '#e0180a'}
