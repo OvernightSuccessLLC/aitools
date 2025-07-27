@@ -63,7 +63,12 @@ export function ToolCard({
 
       <button
         onClick={() => window.open(url, "_blank")}
-        className="w-full bg-brand-orange hover:bg-brand-orange/90 active:bg-brand-orange/80 text-white font-bold py-2.5 sm:py-3 px-4 rounded-lg transition-all duration-200 text-xs sm:text-sm mt-auto transform active:scale-95"
+        className="w-full text-white font-bold py-2.5 sm:py-3 px-4 rounded-lg transition-all duration-200 text-xs sm:text-sm mt-auto transform active:scale-95"
+        style={{ backgroundColor: '#fe1b06' }}
+        onMouseEnter={(e) => e.target.style.backgroundColor = '#e0180a'}
+        onMouseLeave={(e) => e.target.style.backgroundColor = '#fe1b06'}
+        onMouseDown={(e) => e.target.style.backgroundColor = '#c4150a'}
+        onMouseUp={(e) => e.target.style.backgroundColor = '#e0180a'}
       >
         🔗 Visit Tool
       </button>
