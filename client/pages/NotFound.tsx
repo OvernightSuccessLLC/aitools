@@ -6,6 +6,7 @@ export default function NotFound() {
   return (
     <div className="min-h-screen bg-brand-red">
       <Header />
+      <UpsellBanner />
       <main className="max-w-7xl mx-auto px-3 sm:px-4 py-16">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-brand-cream mb-6" style={{
