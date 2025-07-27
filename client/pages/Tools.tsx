@@ -13,21 +13,7 @@ const aiTools = [
     category: "AI" as const,
     url: "https://chat.openai.com",
   },
-  {
-    name: "ChatGPT-4o",
-    description:
-      "Advanced conversational AI with image and file understanding.",
-    features: ["Image understanding", "File processing", "Advanced reasoning"],
-    category: "AI" as const,
-    url: "https://chat.openai.com",
-  },
-  {
-    name: "ChatGPT o3-mini",
-    description: "Lightweight GPT model variant for performance and speed.",
-    features: ["Lightweight", "Fast performance", "Efficient"],
-    category: "AI" as const,
-    url: "https://chat.openai.com",
-  },
+
   {
     name: "Perplexity AI",
     description:
