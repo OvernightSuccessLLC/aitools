@@ -649,8 +649,8 @@ export default function Tools() {
     <div className="min-h-screen bg-brand-red">
       <Header />
       <main className="max-w-7xl mx-auto px-4 py-8">
-        <div className="text-center mb-12 text-black text-6xl font-normal leading-[60px] drop-shadow-lg pb-6">
-          🛠️ AI Tool Kit
+        <div className="text-center mb-12 text-black text-6xl font-normal leading-[60px] drop-shadow-lg">
+          <strong>AI Toolkit</strong>
         </div>
 
         {Object.entries(categories)
