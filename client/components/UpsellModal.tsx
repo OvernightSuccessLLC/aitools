@@ -48,36 +48,36 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
                     <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
                       <span className="text-white text-xl">👑</span>
                     </div>
-                    <h3 className="text-white text-xl font-bold mb-2">Pro</h3>
+                    <h3 className="text-white text-xl font-bold mb-2">The Briefcase</h3>
                     <div className="text-3xl font-bold text-white">
                       $29<span className="text-sm font-normal text-gray-400">/month</span>
                     </div>
                   </div>
-                  
+
                   <ul className="space-y-3 mb-6">
                     <li className="flex items-center text-sm text-gray-300">
                       <span className="text-green-500 mr-3">✓</span>
-                      Unlimited prompts
+                      100+ Curated Tools
                     </li>
                     <li className="flex items-center text-sm text-gray-300">
                       <span className="text-green-500 mr-3">✓</span>
-                      Advanced analytics
+                      Frameworks & Templates
                     </li>
                     <li className="flex items-center text-sm text-gray-300">
                       <span className="text-green-500 mr-3">✓</span>
-                      Priority support
+                      Full Playbook
                     </li>
                     <li className="flex items-center text-sm text-gray-300">
                       <span className="text-green-500 mr-3">✓</span>
-                      Exclusive templates
+                      Template Library
                     </li>
                     <li className="flex items-center text-sm text-gray-300">
                       <span className="text-green-500 mr-3">✓</span>
-                      Advanced quality optimizer
+                      Lifetime Updates
                     </li>
                     <li className="flex items-center text-sm text-gray-300">
                       <span className="text-green-500 mr-3">✓</span>
-                      Export capabilities
+                      Plus More
                     </li>
                   </ul>
                   
