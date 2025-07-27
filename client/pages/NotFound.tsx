@@ -19,7 +19,10 @@ export default function NotFound() {
             </p>
             <Link 
               to="/" 
-              className="inline-block bg-brand-orange hover:bg-brand-orange/90 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200"
+              className="inline-block text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200"
+              style={{ backgroundColor: '#fe1b06' }}
+              onMouseEnter={(e) => e.target.style.backgroundColor = '#e0180a'}
+              onMouseLeave={(e) => e.target.style.backgroundColor = '#fe1b06'}
             >
               Back to AI Toolkit
             </Link>
