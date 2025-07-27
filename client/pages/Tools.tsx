@@ -2,28 +2,27 @@ import { ToolCard } from "../components/ToolCard";
 import { Header } from "../components/Header";
 
 const aiTools = [
-  // LLM & Chatbots
+  // AI Category - Core AI Tools & LLMs
   {
     name: "ChatGPT",
     description:
       "The industry-standard LLM chatbot known for its conversational fluency and versatility across a wide range of prompts and tasks.",
     features: ["Conversational AI", "Text generation", "Multi-purpose"],
-    category: "freemium" as const,
+    category: "AI" as const,
     url: "https://chat.openai.com",
   },
   {
     name: "ChatGPT-4o",
-    description:
-      "Advanced conversational AI with image and file understanding.",
+    description: "Advanced conversational AI with image and file understanding.",
     features: ["Image understanding", "File processing", "Advanced reasoning"],
-    category: "freemium" as const,
+    category: "AI" as const,
     url: "https://chat.openai.com",
   },
   {
     name: "ChatGPT o3-mini",
     description: "Lightweight GPT model variant for performance and speed.",
     features: ["Lightweight", "Fast performance", "Efficient"],
-    category: "freemium" as const,
+    category: "AI" as const,
     url: "https://chat.openai.com",
   },
   {
@@ -31,7 +30,7 @@ const aiTools = [
     description:
       "An AI-infused search engine and chatbot with web citations, multimodal inputs, and Pro-tier API access. Valued at $14B as of June 2025.",
     features: ["AI search", "Web citations", "Multimodal inputs"],
-    category: "freemium" as const,
+    category: "AI" as const,
     url: "https://www.perplexity.ai",
   },
   {
@@ -39,7 +38,7 @@ const aiTools = [
     description:
       "A fast-evolving chatbot with image understanding, PDF parsing, and the new Grok‑3 reasoning model.",
     features: ["Image understanding", "PDF parsing", "Advanced reasoning"],
-    category: "freemium" as const,
+    category: "AI" as const,
     url: "https://x.com/i/grok",
   },
   {
@@ -51,7 +50,7 @@ const aiTools = [
       "Rising popularity",
       "Competitive performance",
     ],
-    category: "freemium" as const,
+    category: "AI" as const,
     url: "https://www.deepseek.com",
   },
   {
@@ -59,15 +58,14 @@ const aiTools = [
     description:
       "A reasoning-focused AI assistant known for nuanced responses and constitutional training.",
     features: ["Constitutional AI", "Reasoning", "Nuanced responses"],
-    category: "freemium" as const,
+    category: "AI" as const,
     url: "https://claude.ai",
   },
   {
     name: "Claude 3.7 Sonnet",
-    description:
-      "Anthropic's advanced language model focused on accuracy and reasoning.",
+    description: "Anthropic's advanced language model focused on accuracy and reasoning.",
     features: ["Advanced reasoning", "High accuracy", "Professional grade"],
-    category: "freemium" as const,
+    category: "AI" as const,
     url: "https://claude.ai",
   },
   {
@@ -75,17 +73,119 @@ const aiTools = [
     description:
       "Google's flagship AI with multimodal capabilities and integration across Google services.",
     features: ["Multimodal", "Google integration", "Real-time info"],
-    category: "freemium" as const,
+    category: "AI" as const,
     url: "https://gemini.google.com",
   },
+  {
+    name: "GitHub Copilot",
+    description:
+      "AI programming assistant that provides code suggestions and completions directly in your IDE.",
+    features: ["Code suggestions", "IDE integration", "Programming assistant"],
+    category: "AI" as const,
+    url: "https://github.com/features/copilot",
+  },
+  {
+    name: "Cursor",
+    description:
+      "AI-powered code editor with intelligent code completion and natural language programming capabilities.",
+    features: ["Code editor", "Natural language", "Intelligent completion"],
+    category: "AI" as const,
+    url: "https://cursor.sh",
+  },
+  {
+    name: "Replit AI",
+    description:
+      "Cloud-based development environment with AI coding assistance and collaborative programming features.",
+    features: ["Cloud development", "AI assistance", "Collaborative"],
+    category: "AI" as const,
+    url: "https://replit.com",
+  },
+  {
+    name: "Tabnine",
+    description:
+      "AI code completion tool that works across multiple IDEs and programming languages with privacy focus.",
+    features: ["Multi-IDE support", "Multiple languages", "Privacy focused"],
+    category: "AI" as const,
+    url: "https://www.tabnine.com",
+  },
+  {
+    name: "Codeium",
+    description: "Free AI code completion tool for all major IDEs.",
+    features: ["Free tier", "Multi-IDE", "Code completion"],
+    category: "AI" as const,
+    url: "https://codeium.com",
+  },
+  {
+    name: "CodeWhisperer",
+    description: "Amazon's coding assistant integrated into IDEs.",
+    features: ["AWS integration", "Security scanning", "Multi-language"],
+    category: "AI" as const,
+    url: "https://aws.amazon.com/codewhisperer",
+  },
+  {
+    name: "Ask Codi",
+    description: "Natural language to code generation and query platform.",
+    features: ["Natural language", "Code generation", "Query support"],
+    category: "AI" as const,
+    url: "https://www.askcodi.com",
+  },
+  {
+    name: "Phind",
+    description: "AI-powered search engine for developers and engineers.",
+    features: ["Developer focused", "Code search", "Technical answers"],
+    category: "AI" as const,
+    url: "https://www.phind.com",
+  },
+  {
+    name: "Mutable AI",
+    description: "Helps refactor, document, and write code faster with AI.",
+    features: ["Code refactoring", "Documentation", "Productivity"],
+    category: "AI" as const,
+    url: "https://mutable.ai",
+  },
+  {
+    name: "Codium AI",
+    description: "AI that auto-generates tests and suggests improvements.",
+    features: ["Test generation", "Code improvement", "Quality assurance"],
+    category: "AI" as const,
+    url: "https://www.codium.ai",
+  },
+  {
+    name: "Bito AI",
+    description: "Copilot for engineers with auto-suggestions and doc generation.",
+    features: ["Engineering focus", "Documentation", "Auto-suggestions"],
+    category: "AI" as const,
+    url: "https://bito.ai",
+  },
+  {
+    name: "CodePal",
+    description: "Helps you write and troubleshoot code with natural language.",
+    features: ["Natural language", "Troubleshooting", "Code writing"],
+    category: "AI" as const,
+    url: "https://codepal.ai",
+  },
+  {
+    name: "Askthecode",
+    description: "AI assistant for code explanations and debugging.",
+    features: ["Code explanation", "Debugging", "Learning aid"],
+    category: "AI" as const,
+    url: "https://askthecode.ai",
+  },
+  {
+    name: "Manus",
+    description: "Multimodal autonomous agent for complex web tasks like coding and planning.",
+    features: ["Autonomous agent", "Web tasks", "Complex planning"],
+    category: "AI" as const,
+    url: "https://manus.chat",
+  },
 
-  // Image Generation
+  // Design Category
   {
     name: "DALL-E (OpenAI)",
     description:
       "Advanced AI image generator known for high-quality, creative visual outputs from text prompts.",
     features: ["Image generation", "High quality", "Creative outputs"],
-    category: "freemium" as const,
+    category: "Design" as const,
     url: "https://openai.com/dall-e-3",
   },
   {
@@ -93,7 +193,7 @@ const aiTools = [
     description:
       "Popular AI art generator favored by artists and designers for its aesthetic style and community features.",
     features: ["Artistic style", "Community", "High-quality art"],
-    category: "paid" as const,
+    category: "Design" as const,
     url: "https://www.midjourney.com",
   },
   {
@@ -101,7 +201,7 @@ const aiTools = [
     description:
       "Open-source image generation model with extensive customization options and local deployment capability.",
     features: ["Open source", "Customizable", "Local deployment"],
-    category: "free" as const,
+    category: "Design" as const,
     url: "https://stability.ai/stable-diffusion",
   },
   {
@@ -109,127 +209,213 @@ const aiTools = [
     description:
       "AI art platform focused on consistent character creation and style control for professional workflows.",
     features: ["Character consistency", "Style control", "Professional tools"],
-    category: "freemium" as const,
+    category: "Design" as const,
     url: "https://leonardo.ai",
   },
   {
     name: "Ideogram 3.0",
-    description:
-      "Advanced AI image generator with text rendering and creative control.",
+    description: "Advanced AI image generator with text rendering and creative control.",
     features: ["Text rendering", "Creative control", "High quality"],
-    category: "freemium" as const,
+    category: "Design" as const,
     url: "https://ideogram.ai",
   },
   {
     name: "Freepik AI",
     description: "AI-based graphic and design generation tools.",
     features: ["Graphic design", "Templates", "Commercial use"],
-    category: "freemium" as const,
+    category: "Design" as const,
     url: "https://www.freepik.com",
   },
   {
     name: "Flux",
     description: "Next-gen text-to-image model with in-context editing.",
     features: ["In-context editing", "High quality", "Advanced features"],
-    category: "freemium" as const,
+    category: "Design" as const,
     url: "https://flux1.ai",
   },
   {
     name: "Adobe Firefly",
     description: "Adobe's AI image generation and editing tool.",
     features: ["Commercial safe", "Adobe integration", "Professional grade"],
-    category: "freemium" as const,
+    category: "Design" as const,
     url: "https://firefly.adobe.com",
   },
   {
     name: "Bing Image Creator",
-    description:
-      "Generate images from natural text descriptions, powered by DALL-E.",
+    description: "Generate images from natural text descriptions, powered by DALL-E.",
     features: ["Free to use", "DALL-E powered", "Microsoft integration"],
-    category: "free" as const,
+    category: "Design" as const,
     url: "https://www.bing.com/create",
   },
   {
     name: "AutoDraw",
-    description:
-      "Turns freehand sketches into refined icons and illustrations.",
+    description: "Turns freehand sketches into refined icons and illustrations.",
     features: ["Sketch to vector", "Free to use", "Google tool"],
-    category: "free" as const,
+    category: "Design" as const,
     url: "https://www.autodraw.com",
   },
   {
-    name: "NightCafe",
-    description:
-      "AI art generator using various algorithms including VQGAN+CLIP.",
-    features: ["Multiple algorithms", "Community", "Print services"],
-    category: "freemium" as const,
-    url: "https://creator.nightcafe.studio",
+    name: "Framer",
+    description: "Build and instantly publish AI-generated websites with a visual editor.",
+    features: ["Website builder", "Visual editor", "Instant publish"],
+    category: "Design" as const,
+    url: "https://framer.com",
   },
   {
-    name: "Artbreeder",
-    description: "Collaborative platform for blending and evolving art via AI.",
-    features: ["Collaborative", "Image blending", "Evolution"],
-    category: "freemium" as const,
-    url: "https://www.artbreeder.com",
+    name: "Microsoft Designer",
+    description: "AI graphic design tool by Microsoft for creating social posts and marketing visuals.",
+    features: ["Social media", "Marketing visuals", "Microsoft integration"],
+    category: "Design" as const,
+    url: "https://designer.microsoft.com",
   },
   {
-    name: "Playground AI",
-    description: "Free AI image generator and editor with collaboration tools.",
-    features: ["Free tier", "Collaboration", "Editing tools"],
-    category: "freemium" as const,
-    url: "https://playgroundai.com",
+    name: "Relume",
+    description: "AI tool to generate website designs and components.",
+    features: ["Website design", "Components", "Webflow integration"],
+    category: "Design" as const,
+    url: "https://relume.io",
   },
   {
-    name: "BlueWillow",
-    description: "Alternative AI art generation platform like Midjourney.",
-    features: ["Discord-based", "Community", "High quality"],
-    category: "freemium" as const,
-    url: "https://www.bluewillow.ai",
+    name: "Magic Design",
+    description: "Canva's AI design assistant that creates layouts from text input.",
+    features: ["Layout generation", "Canva integration", "Text input"],
+    category: "Design" as const,
+    url: "https://www.canva.com/magic-design",
   },
   {
-    name: "DeepArt",
-    description: "Turn your photos into artworks using neural networks.",
-    features: ["Photo transformation", "Artistic styles", "Neural networks"],
-    category: "freemium" as const,
-    url: "https://deepart.io",
+    name: "Visual Electric",
+    description: "Generative design tool for creatives and agencies.",
+    features: ["Generative design", "Creative focus", "Agency tools"],
+    category: "Design" as const,
+    url: "https://visualelectric.com",
   },
   {
-    name: "Dream by Wombo",
-    description: "AI app for creating vibrant artwork from text prompts.",
-    features: ["Mobile app", "Vibrant art", "Easy to use"],
-    category: "freemium" as const,
-    url: "https://www.wombo.art",
+    name: "Figma AI",
+    description: "AI-powered design assistant inside Figma.",
+    features: ["Figma integration", "Design assistance", "Workflow optimization"],
+    category: "Design" as const,
+    url: "https://www.figma.com/blog/introducing-ai-in-figma",
+  },
+  {
+    name: "Kittl",
+    description: "AI-powered graphic design tool with templates and vector support.",
+    features: ["Vector graphics", "Templates", "Design tools"],
+    category: "Design" as const,
+    url: "https://www.kittl.com",
+  },
+  {
+    name: "Exactly",
+    description: "AI for generating commercial-quality artwork.",
+    features: ["Commercial quality", "Artwork generation", "Professional grade"],
+    category: "Design" as const,
+    url: "https://www.exactly.ai",
+  },
+  {
+    name: "Canva Visual Suite",
+    description: "Suite of design tools with AI enhancements from Canva.",
+    features: ["Design suite", "AI enhancements", "Templates"],
+    category: "Design" as const,
+    url: "https://www.canva.com",
+  },
+  {
+    name: "Adobe Express",
+    description: "Simplified Adobe suite with AI features for quick content creation.",
+    features: ["Quick creation", "Adobe integration", "AI features"],
+    category: "Design" as const,
+    url: "https://express.adobe.com",
+  },
+  {
+    name: "Fronty",
+    description: "Converts uploaded images or drawings into HTML and CSS code using AI.",
+    features: ["Image to code", "HTML/CSS", "Design conversion"],
+    category: "Design" as const,
+    url: "https://fronty.com",
+  },
+  {
+    name: "Remove.bg",
+    description: "Recognizes and removes image backgrounds effectively without requiring signup.",
+    features: ["Background removal", "No signup", "Batch processing"],
+    category: "Design" as const,
+    url: "https://remove.bg",
+  },
+  {
+    name: "LetsEnhance",
+    description: "Uses AI to enhance the resolution of images and photographs.",
+    features: ["Image enhancement", "Resolution increase", "Photo quality"],
+    category: "Design" as const,
+    url: "https://letsenhance.io",
   },
   {
     name: "Hotpot.ai",
-    description:
-      "AI tools for image editing, enhancement, and background removal.",
+    description: "AI tools for image editing, enhancement, and background removal.",
     features: ["Image editing", "Background removal", "Enhancement"],
-    category: "freemium" as const,
+    category: "Design" as const,
     url: "https://hotpot.ai",
   },
   {
     name: "Fotor AI Art",
     description: "Photo editing and AI image generation suite.",
     features: ["Photo editing", "AI generation", "Templates"],
-    category: "freemium" as const,
+    category: "Design" as const,
     url: "https://www.fotor.com/features/ai-image-generator",
+  },
+
+  // Creative Category
+  {
+    name: "NightCafe",
+    description: "AI art generator using various algorithms including VQGAN+CLIP.",
+    features: ["Multiple algorithms", "Community", "Print services"],
+    category: "Creative" as const,
+    url: "https://creator.nightcafe.studio",
+  },
+  {
+    name: "Artbreeder",
+    description: "Collaborative platform for blending and evolving art via AI.",
+    features: ["Collaborative", "Image blending", "Evolution"],
+    category: "Creative" as const,
+    url: "https://www.artbreeder.com",
+  },
+  {
+    name: "Playground AI",
+    description: "Free AI image generator and editor with collaboration tools.",
+    features: ["Free tier", "Collaboration", "Editing tools"],
+    category: "Creative" as const,
+    url: "https://playgroundai.com",
+  },
+  {
+    name: "BlueWillow",
+    description: "Alternative AI art generation platform like Midjourney.",
+    features: ["Discord-based", "Community", "High quality"],
+    category: "Creative" as const,
+    url: "https://www.bluewillow.ai",
+  },
+  {
+    name: "DeepArt",
+    description: "Turn your photos into artworks using neural networks.",
+    features: ["Photo transformation", "Artistic styles", "Neural networks"],
+    category: "Creative" as const,
+    url: "https://deepart.io",
+  },
+  {
+    name: "Dream by Wombo",
+    description: "AI app for creating vibrant artwork from text prompts.",
+    features: ["Mobile app", "Vibrant art", "Easy to use"],
+    category: "Creative" as const,
+    url: "https://www.wombo.art",
   },
   {
     name: "Deep Dream",
     description: "Transforms images using deep learning for dreamlike results.",
     features: ["Deep learning", "Dreamlike effects", "Image transformation"],
-    category: "free" as const,
+    category: "Creative" as const,
     url: "https://deepdreamgenerator.com",
   },
-
-  // Video Generation
   {
     name: "Runway ML",
     description:
       "AI video generation and editing platform with advanced motion control and real-time collaboration features.",
     features: ["Video generation", "Motion control", "Real-time collaboration"],
-    category: "freemium" as const,
+    category: "Creative" as const,
     url: "https://runwayml.com",
   },
   {
@@ -237,33 +423,29 @@ const aiTools = [
     description:
       "3D capture and AI video generation platform specializing in photorealistic scene reconstruction.",
     features: ["3D capture", "Photorealistic", "Scene reconstruction"],
-    category: "freemium" as const,
+    category: "Creative" as const,
     url: "https://lumalabs.ai",
   },
   {
     name: "Kling 2",
-    description:
-      "Awarded Best AI video generator for quality and affordability in recent AI awards.",
+    description: "Awarded Best AI video generator for quality and affordability in recent AI awards.",
     features: ["Award winning", "High quality", "Affordable"],
-    category: "freemium" as const,
+    category: "Creative" as const,
     url: "https://kling.tv",
   },
   {
     name: "Synthesia",
-    description:
-      "AI video avatars, voice cloning & screen-record capabilities.",
+    description: "AI video avatars, voice cloning & screen-record capabilities.",
     features: ["AI avatars", "Voice cloning", "Professional videos"],
-    category: "paid" as const,
+    category: "Creative" as const,
     url: "https://www.synthesia.io",
   },
-
-  // Voice & Audio
   {
     name: "ElevenLabs",
     description:
       "Advanced AI voice synthesis platform with realistic speech generation and voice cloning capabilities.",
     features: ["Voice synthesis", "Speech generation", "Voice cloning"],
-    category: "freemium" as const,
+    category: "Creative" as const,
     url: "https://elevenlabs.io",
   },
   {
@@ -271,7 +453,7 @@ const aiTools = [
     description:
       "Professional AI voiceover platform with natural-sounding voices for business and creative projects.",
     features: ["Professional voiceover", "Natural voices", "Business focused"],
-    category: "freemium" as const,
+    category: "Creative" as const,
     url: "https://murf.ai",
   },
   {
@@ -279,11 +461,94 @@ const aiTools = [
     description:
       "All-in-one audio and video editing platform with AI transcription and voice synthesis capabilities.",
     features: ["Audio/video editing", "AI transcription", "Voice synthesis"],
-    category: "freemium" as const,
+    category: "Creative" as const,
     url: "https://www.descript.com",
   },
+  {
+    name: "OpenArt",
+    description: "AI-powered art generation and prompt platform.",
+    features: ["Art generation", "Prompt library", "Community"],
+    category: "Creative" as const,
+    url: "https://openart.ai",
+  },
+  {
+    name: "Prompt Hunt",
+    description: "Prompt library and AI art generator platform.",
+    features: ["Prompt library", "Art generation", "Community"],
+    category: "Creative" as const,
+    url: "https://prompthunt.com",
+  },
+  {
+    name: "Tome.app",
+    description: "AI-powered storytelling and presentation creation platform.",
+    features: ["Presentations", "Storytelling", "AI generation"],
+    category: "Creative" as const,
+    url: "https://tome.app",
+  },
 
-  // Writing & Content
+  // Marketing Category
+  {
+    name: "Copy.ai",
+    description:
+      "AI copywriting tool designed for marketing teams with templates for various content types and campaigns.",
+    features: ["Marketing focus", "Content templates", "Campaign tools"],
+    category: "Marketing" as const,
+    url: "https://www.copy.ai",
+  },
+  {
+    name: "Jasper AI",
+    description:
+      "Enterprise-focused AI writing platform with brand voice customization and team collaboration features.",
+    features: ["Enterprise focused", "Brand voice", "Team collaboration"],
+    category: "Marketing" as const,
+    url: "https://www.jasper.ai",
+  },
+  {
+    name: "Headlime",
+    description: "Copywriting assistant powered by GPT for landing pages and ads.",
+    features: ["Landing pages", "Ad copy", "GPT powered"],
+    category: "Marketing" as const,
+    url: "https://headlime.com",
+  },
+  {
+    name: "Lummi AI",
+    description: "AI platform for creatives to generate branded content and marketing assets.",
+    features: ["Branded content", "Marketing assets", "Creative tools"],
+    category: "Marketing" as const,
+    url: "https://lummi.ai",
+  },
+  {
+    name: "Pebblely",
+    description: "AI image generator for product images in various styles and settings.",
+    features: ["Product photography", "Various styles", "E-commerce"],
+    category: "Marketing" as const,
+    url: "https://pebblely.com",
+  },
+  {
+    name: "Booth.ai",
+    description: "Generates professional-quality product photos using AI, focused on furniture, fashion, and packaged goods.",
+    features: ["Product photography", "Professional quality", "Multiple categories"],
+    category: "Marketing" as const,
+    url: "https://booth.ai",
+  },
+  {
+    name: "Stylized.ai",
+    description: "Generates product photos integrated into ecommerce platforms like Shopify.",
+    features: ["E-commerce integration", "Product photos", "Shopify support"],
+    category: "Marketing" as const,
+    url: "https://stylized.ai",
+  },
+
+  // Sales Category
+  {
+    name: "Booking-Agent.io",
+    description: "Map-based event booking tool to find promoters, events, and artist schedules by location.",
+    features: ["Event booking", "Map-based", "Artist schedules"],
+    category: "Sales" as const,
+    url: "https://booking-agent.io",
+  },
+
+  // Productivity Category
   {
     name: "Notion AI",
     description:
@@ -293,256 +558,17 @@ const aiTools = [
       "Workspace integration",
       "Productivity focused",
     ],
-    category: "freemium" as const,
+    category: "Productivity" as const,
     url: "https://www.notion.so/product/ai",
-  },
-  {
-    name: "Jasper AI",
-    description:
-      "Enterprise-focused AI writing platform with brand voice customization and team collaboration features.",
-    features: ["Enterprise focused", "Brand voice", "Team collaboration"],
-    category: "paid" as const,
-    url: "https://www.jasper.ai",
-  },
-  {
-    name: "Copy.ai",
-    description:
-      "AI copywriting tool designed for marketing teams with templates for various content types and campaigns.",
-    features: ["Marketing focus", "Content templates", "Campaign tools"],
-    category: "freemium" as const,
-    url: "https://www.copy.ai",
   },
   {
     name: "Grammarly",
     description:
       "AI-powered writing assistant with grammar checking, style suggestions, and tone detection.",
     features: ["Grammar checking", "Style suggestions", "Tone detection"],
-    category: "freemium" as const,
+    category: "Productivity" as const,
     url: "https://www.grammarly.com",
   },
-  {
-    name: "Headlime",
-    description:
-      "Copywriting assistant powered by GPT for landing pages and ads.",
-    features: ["Landing pages", "Ad copy", "GPT powered"],
-    category: "paid" as const,
-    url: "https://headlime.com",
-  },
-
-  // Code & Development
-  {
-    name: "GitHub Copilot",
-    description:
-      "AI programming assistant that provides code suggestions and completions directly in your IDE.",
-    features: ["Code suggestions", "IDE integration", "Programming assistant"],
-    category: "paid" as const,
-    url: "https://github.com/features/copilot",
-  },
-  {
-    name: "Cursor",
-    description:
-      "AI-powered code editor with intelligent code completion and natural language programming capabilities.",
-    features: ["Code editor", "Natural language", "Intelligent completion"],
-    category: "freemium" as const,
-    url: "https://cursor.sh",
-  },
-  {
-    name: "Replit AI",
-    description:
-      "Cloud-based development environment with AI coding assistance and collaborative programming features.",
-    features: ["Cloud development", "AI assistance", "Collaborative"],
-    category: "freemium" as const,
-    url: "https://replit.com",
-  },
-  {
-    name: "Tabnine",
-    description:
-      "AI code completion tool that works across multiple IDEs and programming languages with privacy focus.",
-    features: ["Multi-IDE support", "Multiple languages", "Privacy focused"],
-    category: "freemium" as const,
-    url: "https://www.tabnine.com",
-  },
-  {
-    name: "Codeium",
-    description: "Free AI code completion tool for all major IDEs.",
-    features: ["Free tier", "Multi-IDE", "Code completion"],
-    category: "free" as const,
-    url: "https://codeium.com",
-  },
-  {
-    name: "CodeWhisperer",
-    description: "Amazon's coding assistant integrated into IDEs.",
-    features: ["AWS integration", "Security scanning", "Multi-language"],
-    category: "freemium" as const,
-    url: "https://aws.amazon.com/codewhisperer",
-  },
-  {
-    name: "Ask Codi",
-    description: "Natural language to code generation and query platform.",
-    features: ["Natural language", "Code generation", "Query support"],
-    category: "freemium" as const,
-    url: "https://www.askcodi.com",
-  },
-  {
-    name: "Phind",
-    description: "AI-powered search engine for developers and engineers.",
-    features: ["Developer focused", "Code search", "Technical answers"],
-    category: "freemium" as const,
-    url: "https://www.phind.com",
-  },
-  {
-    name: "Mutable AI",
-    description: "Helps refactor, document, and write code faster with AI.",
-    features: ["Code refactoring", "Documentation", "Productivity"],
-    category: "freemium" as const,
-    url: "https://mutable.ai",
-  },
-  {
-    name: "Codium AI",
-    description: "AI that auto-generates tests and suggests improvements.",
-    features: ["Test generation", "Code improvement", "Quality assurance"],
-    category: "freemium" as const,
-    url: "https://www.codium.ai",
-  },
-  {
-    name: "Bito AI",
-    description:
-      "Copilot for engineers with auto-suggestions and doc generation.",
-    features: ["Engineering focus", "Documentation", "Auto-suggestions"],
-    category: "freemium" as const,
-    url: "https://bito.ai",
-  },
-  {
-    name: "CodePal",
-    description: "Helps you write and troubleshoot code with natural language.",
-    features: ["Natural language", "Troubleshooting", "Code writing"],
-    category: "freemium" as const,
-    url: "https://codepal.ai",
-  },
-  {
-    name: "Askthecode",
-    description: "AI assistant for code explanations and debugging.",
-    features: ["Code explanation", "Debugging", "Learning aid"],
-    category: "freemium" as const,
-    url: "https://askthecode.ai",
-  },
-  {
-    name: "Fronty",
-    description:
-      "Converts uploaded images or drawings into HTML and CSS code using AI.",
-    features: ["Image to code", "HTML/CSS", "Design conversion"],
-    category: "freemium" as const,
-    url: "https://fronty.com",
-  },
-
-  // Design & Web Tools
-  {
-    name: "Framer",
-    description:
-      "Build and instantly publish AI-generated websites with a visual editor.",
-    features: ["Website builder", "Visual editor", "Instant publish"],
-    category: "freemium" as const,
-    url: "https://framer.com",
-  },
-  {
-    name: "Tome.app",
-    description: "AI-powered storytelling and presentation creation platform.",
-    features: ["Presentations", "Storytelling", "AI generation"],
-    category: "freemium" as const,
-    url: "https://tome.app",
-  },
-  {
-    name: "Microsoft Designer",
-    description:
-      "AI graphic design tool by Microsoft for creating social posts and marketing visuals.",
-    features: ["Social media", "Marketing visuals", "Microsoft integration"],
-    category: "freemium" as const,
-    url: "https://designer.microsoft.com",
-  },
-  {
-    name: "Relume",
-    description: "AI tool to generate website designs and components.",
-    features: ["Website design", "Components", "Webflow integration"],
-    category: "freemium" as const,
-    url: "https://relume.io",
-  },
-  {
-    name: "Lummi AI",
-    description:
-      "AI platform for creatives to generate branded content and marketing assets.",
-    features: ["Branded content", "Marketing assets", "Creative tools"],
-    category: "freemium" as const,
-    url: "https://lummi.ai",
-  },
-  {
-    name: "Magic Design",
-    description:
-      "Canva's AI design assistant that creates layouts from text input.",
-    features: ["Layout generation", "Canva integration", "Text input"],
-    category: "freemium" as const,
-    url: "https://www.canva.com/magic-design",
-  },
-  {
-    name: "Visual Electric",
-    description: "Generative design tool for creatives and agencies.",
-    features: ["Generative design", "Creative focus", "Agency tools"],
-    category: "freemium" as const,
-    url: "https://visualelectric.com",
-  },
-  {
-    name: "Figma AI",
-    description: "AI-powered design assistant inside Figma.",
-    features: [
-      "Figma integration",
-      "Design assistance",
-      "Workflow optimization",
-    ],
-    category: "freemium" as const,
-    url: "https://www.figma.com/blog/introducing-ai-in-figma",
-  },
-  {
-    name: "Kittl",
-    description:
-      "AI-powered graphic design tool with templates and vector support.",
-    features: ["Vector graphics", "Templates", "Design tools"],
-    category: "freemium" as const,
-    url: "https://www.kittl.com",
-  },
-  {
-    name: "OpenArt",
-    description: "AI-powered art generation and prompt platform.",
-    features: ["Art generation", "Prompt library", "Community"],
-    category: "freemium" as const,
-    url: "https://openart.ai",
-  },
-  {
-    name: "Exactly",
-    description: "AI for generating commercial-quality artwork.",
-    features: [
-      "Commercial quality",
-      "Artwork generation",
-      "Professional grade",
-    ],
-    category: "paid" as const,
-    url: "https://www.exactly.ai",
-  },
-  {
-    name: "Canva Visual Suite",
-    description: "Suite of design tools with AI enhancements from Canva.",
-    features: ["Design suite", "AI enhancements", "Templates"],
-    category: "freemium" as const,
-    url: "https://www.canva.com",
-  },
-  {
-    name: "Adobe Express",
-    description:
-      "Simplified Adobe suite with AI features for quick content creation.",
-    features: ["Quick creation", "Adobe integration", "AI features"],
-    category: "freemium" as const,
-    url: "https://express.adobe.com",
-  },
-
-  // Productivity & Research
   {
     name: "Otter.ai",
     description:
@@ -552,129 +578,58 @@ const aiTools = [
       "Real-time collaboration",
       "Speaker ID",
     ],
-    category: "freemium" as const,
+    category: "Productivity" as const,
     url: "https://otter.ai",
   },
   {
     name: "NotebooksLM (Google)",
-    description:
-      "A research & note-taking assistant for analyzing data and generating summaries.",
+    description: "A research & note-taking assistant for analyzing data and generating summaries.",
     features: ["Research assistant", "Data analysis", "Summaries"],
-    category: "free" as const,
+    category: "Productivity" as const,
     url: "https://notebooklm.google.com",
   },
   {
     name: "Taskade",
-    description:
-      "Visualize your tasks and notes with AI-powered productivity tools.",
+    description: "Visualize your tasks and notes with AI-powered productivity tools.",
     features: ["Task management", "Visual organization", "AI productivity"],
-    category: "freemium" as const,
+    category: "Productivity" as const,
     url: "https://taskade.com",
   },
   {
     name: "Zapier AI",
     description: "Collections of tested AI automations for workflows.",
     features: ["Workflow automation", "AI integrations", "No-code"],
-    category: "freemium" as const,
+    category: "Productivity" as const,
     url: "https://zapier.com/blog/best-ai-productivity-tools",
   },
   {
-    name: "Manus",
-    description:
-      "Multimodal autonomous agent for complex web tasks like coding and planning.",
-    features: ["Autonomous agent", "Web tasks", "Complex planning"],
-    category: "freemium" as const,
-    url: "https://manus.chat",
-  },
-  {
     name: "Dia Browser",
-    description:
-      "AI-integrated browser with built-in assistants for web automation.",
+    description: "AI-integrated browser with built-in assistants for web automation.",
     features: ["AI browser", "Web automation", "Built-in assistants"],
-    category: "freemium" as const,
+    category: "Productivity" as const,
     url: "https://dia.so",
-  },
-
-  // Specialized Tools
-  {
-    name: "Remove.bg",
-    description:
-      "Recognizes and removes image backgrounds effectively without requiring signup.",
-    features: ["Background removal", "No signup", "Batch processing"],
-    category: "freemium" as const,
-    url: "https://remove.bg",
-  },
-  {
-    name: "LetsEnhance",
-    description: "Uses AI to enhance the resolution of images and photographs.",
-    features: ["Image enhancement", "Resolution increase", "Photo quality"],
-    category: "freemium" as const,
-    url: "https://letsenhance.io",
-  },
-  {
-    name: "Pebblely",
-    description:
-      "AI image generator for product images in various styles and settings.",
-    features: ["Product photography", "Various styles", "E-commerce"],
-    category: "freemium" as const,
-    url: "https://pebblely.com",
-  },
-  {
-    name: "Booth.ai",
-    description:
-      "Generates professional-quality product photos using AI, focused on furniture, fashion, and packaged goods.",
-    features: [
-      "Product photography",
-      "Professional quality",
-      "Multiple categories",
-    ],
-    category: "paid" as const,
-    url: "https://booth.ai",
-  },
-  {
-    name: "Stylized.ai",
-    description:
-      "Generates product photos integrated into ecommerce platforms like Shopify.",
-    features: ["E-commerce integration", "Product photos", "Shopify support"],
-    category: "paid" as const,
-    url: "https://stylized.ai",
-  },
-  {
-    name: "Booking-Agent.io",
-    description:
-      "Map-based event booking tool to find promoters, events, and artist schedules by location.",
-    features: ["Event booking", "Map-based", "Artist schedules"],
-    category: "freemium" as const,
-    url: "https://booking-agent.io",
-  },
-  {
-    name: "Prompt Hunt",
-    description: "Prompt library and AI art generator platform.",
-    features: ["Prompt library", "Art generation", "Community"],
-    category: "freemium" as const,
-    url: "https://prompthunt.com",
-  },
-  {
-    name: "V7 Labs",
-    description:
-      "Categorized list of 35+ best AI tools for writing, coding, image/video.",
-    features: ["Tool directory", "Categorized", "Comprehensive list"],
-    category: "free" as const,
-    url: "https://www.v7labs.com/blog/best-ai-tools-listed",
   },
   {
     name: "Sweep AI",
     description: "AI tool that helps maintain and improve your codebase.",
     features: ["Codebase maintenance", "Code improvement", "Automated fixes"],
-    category: "freemium" as const,
+    category: "Productivity" as const,
     url: "https://sweep.dev",
+  },
+
+  // Other Category
+  {
+    name: "V7 Labs",
+    description: "Categorized list of 35+ best AI tools for writing, coding, image/video.",
+    features: ["Tool directory", "Categorized", "Comprehensive list"],
+    category: "Other" as const,
+    url: "https://www.v7labs.com/blog/best-ai-tools-listed",
   },
   {
     name: "GlamAI",
-    description:
-      "AI-powered beauty and fashion tool for virtual try-ons and styling.",
+    description: "AI-powered beauty and fashion tool for virtual try-ons and styling.",
     features: ["Virtual try-on", "Beauty tech", "Fashion styling"],
-    category: "freemium" as const,
+    category: "Other" as const,
     url: "https://glamai.com",
   },
 ];
