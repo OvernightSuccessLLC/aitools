@@ -112,13 +112,13 @@ export default function LandingPage() {
           <button
             type="submit"
             disabled={isLoading || !email || !name}
-            className="w-full py-3 px-6 bg-[#FF4426] text-white font-bold rounded hover:bg-[#e03d1f] disabled:cursor-not-allowed transition-colors"
+            className="w-full py-3 sm:py-4 px-6 text-sm sm:text-base bg-[#FF4426] text-white font-bold rounded hover:bg-[#e03d1f] active:bg-[#d03419] disabled:cursor-not-allowed transition-all transform hover:scale-[1.02] active:scale-[0.98]"
             style={{ opacity: '1' }}
           >
             {isLoading ? (
               <div className="flex items-center justify-center">
                 <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
-                Processing...
+                <span className="text-sm sm:text-base">Processing...</span>
               </div>
             ) : (
               "GET ACCESS NOW"
@@ -126,7 +126,7 @@ export default function LandingPage() {
           </button>
         </form>
 
-        <p className="text-white/70 text-xs text-center mt-6">
+        <p className="text-white/70 text-xs sm:text-sm text-center mt-6 leading-relaxed">
           Join thousands of creators using AI to accelerate their success
         </p>
       </div>
