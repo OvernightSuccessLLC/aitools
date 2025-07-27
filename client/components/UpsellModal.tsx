@@ -110,9 +110,16 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
                   style={{ border: '2px solid #fe1b06' }}
                 >
                   <div className="text-center mb-6">
-                    <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-white text-xl">���</span>
-                    </div>
+                    <div
+                      className="w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4"
+                      style={{
+                        backgroundColor: '#fe1b06',
+                        backgroundImage: 'url(https://cdn.builder.io/api/v1/image/assets%2F1964cc1516094f2c9726884f044c2ef1%2F90ab89f4555a48adb4dc892b50483726)',
+                        backgroundRepeat: 'no-repeat',
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover'
+                      }}
+                    />
                     <h3 className="text-white text-xl font-bold mb-2">Creative O/S</h3>
                     <div className="text-3xl font-bold text-white">
                       $29<span className="text-sm font-normal text-gray-400">/month</span>
