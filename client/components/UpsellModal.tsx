@@ -55,7 +55,11 @@ export function UpsellModal({ isOpen, onClose }: UpsellModalProps) {
                         backgroundSize: 'cover'
                       }}
                     />
-                    <h3 className="text-white text-xl font-bold mb-2">The Briefcase</h3>
+                    <h3 className="text-white text-xl font-bold mb-2">
+                      <a href="https://overnightsuccessllc.gumroad.com/l/thebriefcase?_gl=1*122wgru*_ga*Njc3Njk2NDc3LjE3NTM2NTY0ODU.*_ga_6LJN6D94N6*czE3NTM2NTY0ODUkbzEkZzEkdDE3NTM2NTY1MzIkajEzJGwwJGgw">
+                        The Briefcase
+                      </a>
+                    </h3>
                     <div className="text-3xl font-bold text-white">
                       $9.99<span className="text-sm font-normal text-gray-400">&nbsp;one-time</span>
                     </div>
