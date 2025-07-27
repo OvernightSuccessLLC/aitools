@@ -717,7 +717,7 @@ export default function Tools() {
   return (
     <div className="min-h-screen bg-brand-red">
       <Header />
-      <main className="max-w-7xl mx-auto px-4 py-6 sm:py-8">
+      <main className="max-w-7xl mx-auto px-4 py-6 sm:py-8" style={{ backgroundColor: '#fe1b06' }}>
         <div
           className="text-center mb-8 sm:mb-12 text-black font-normal drop-shadow-lg"
           style={{ fontSize: "clamp(2.5rem, 8vw, 3.75rem)", lineHeight: "1.1" }}
