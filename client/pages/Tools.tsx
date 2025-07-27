@@ -746,7 +746,7 @@ export default function Tools() {
                       <span>{icon}</span>
                       <span>{categoryName.toUpperCase()}</span>
                     </span>
-                    <span className="text-black text-base sm:text-lg md:text-xl">
+                    <span className="text-base sm:text-lg md:text-xl" style={{ color: "rgba(255, 255, 255, 1)" }}>
                       {categoryName === "AI" && "Core AI & Development Tools"}
                       {categoryName === "Design" && "Design & Visual Creation"}
                       {categoryName === "Creative" &&
