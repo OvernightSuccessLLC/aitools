@@ -76,6 +76,8 @@ export default function LandingPage() {
         />
       </div>
 
+      <UpsellBanner />
+
       {/* Form Card */}
       <div
         className="bg-black rounded-lg w-full max-w-md mx-4"
