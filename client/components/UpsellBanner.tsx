@@ -24,7 +24,7 @@ export function UpsellBanner({ className = "", style = {} }: UpsellBannerProps) 
           onMouseEnter={(e) => e.target.style.backgroundColor = '#333'}
           onMouseLeave={(e) => e.target.style.backgroundColor = 'rgba(0, 0, 0, 1)'}
         >
-          <p>LEVEL UP YOUR AI &amp; CREATIVE OVERNIGHT</p>
+          <p style={{ marginRight: '6px' }}>LEVEL UP YOUR AI &amp; CREATIVE OVERNIGHT</p>
         </button>
       </div>
 
