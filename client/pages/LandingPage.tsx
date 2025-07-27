@@ -78,8 +78,8 @@ export default function LandingPage() {
       {/* Form Card */}
       <div className="bg-black rounded-lg w-full max-w-md" style={{ padding: '24px 32px 32px' }}>
         <div className="text-center mb-6">
-          <h1 className="text-white text-2xl font-bold mb-2">Get Access</h1>
-          <p className="text-white/80 text-sm">
+          <h1 className="text-2xl font-bold mb-2" style={{ color: 'rgba(255, 255, 255, 1)' }}>Get Access</h1>
+          <p className="text-sm" style={{ color: 'rgba(255, 255, 255, 1)' }}>
             Enter your details to access the AI Playbook and Toolkit
           </p>
         </div>
