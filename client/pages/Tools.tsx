@@ -649,7 +649,6 @@ const aiTools = [
 ];
 
 export default function Tools() {
-
   const categories = {
     AI: {
       tools: aiTools.filter((tool) => tool.category === "AI"),
@@ -689,17 +688,24 @@ export default function Tools() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col" style={{ backgroundColor: '#fe1b06' }}>
+    <div
+      className="min-h-screen flex flex-col"
+      style={{ backgroundColor: "#fe1b06" }}
+    >
       <Header />
       <div className="text-center">
         <UpsellBanner />
       </div>
-      <main className="max-w-7xl mx-auto px-4" style={{ backgroundColor: '#fe1b06', padding: '12px 16px 20px' }}>
-
+      <main
+        className="max-w-7xl mx-auto px-4"
+        style={{ backgroundColor: "#fe1b06", padding: "12px 16px 20px" }}
+      >
         {Object.entries(categories)
           .filter(
             ([categoryName]) =>
-              categoryName !== "Sales" && categoryName !== "Other" && categoryName !== "Marketing",
+              categoryName !== "Sales" &&
+              categoryName !== "Other" &&
+              categoryName !== "Marketing",
           )
           .map(
             ([categoryName, { tools, color, icon }]) =>
@@ -712,10 +718,13 @@ export default function Tools() {
                       backgroundColor: "rgba(0, 0, 0, 1)",
                       padding: "16px 24px",
                       margin: "0 -16px 24px -16px",
-                      borderRadius: "8px"
+                      borderRadius: "8px",
                     }}
                   >
-                    <span className="text-lg sm:text-xl md:text-2xl" style={{ color: "rgba(255, 255, 255, 1)" }}>
+                    <span
+                      className="text-lg sm:text-xl md:text-2xl"
+                      style={{ color: "rgba(255, 255, 255, 1)" }}
+                    >
                       {categoryName === "AI" && "Core AI Tools"}
                       {categoryName === "Design" && "Design & Visual Creation"}
                       {categoryName === "Creative" &&
@@ -735,8 +744,6 @@ export default function Tools() {
               ),
           )}
       </main>
-
-
     </div>
   );
 }
